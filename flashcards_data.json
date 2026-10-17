@@ -1,6 +1,176 @@
 {
-  "updated_at": "2026-10-17T16:08:09Z",
+  "updated_at": "2026-10-17T16:51:39Z",
   "cards": [
+    {
+      "id": "3fc2aca8-b201-80ff-843b-caf56e88577e",
+      "question": "los residuos biologicos, deberán tratarse según su contexto como infecciosos o no infecciosos ",
+      "answer": "NO, todo residuo biologico es infeccioso a efectos de tratamiento",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-80ba-8901-c0061d78364c",
+      "question": "los trasvases deben realizarse lo mas rapido posibles evitando el uso de embudos ",
+      "answer": "falso, lo mas lento posible y con embudo ",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-8053-b517-ff547e7c4c67",
+      "question": "apagamos la campana extractura al manipular xylol, corrosivos, irritantes o toxicos",
+      "answer": "FALSO, la encendemos, que si no nos morimos",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-80f0-9e91-d05fd24905af",
+      "question": "¿debemos añadir el agua sobre el acido?",
+      "answer": "no, el acido sobre la base (falso) el sobre ella",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-80ea-9506-ec97130269f1",
+      "question": "las tapas de los reactivos abiertos deben colocarse boca abajo",
+      "answer": "FALSO, BOCARRIBA Y CERRANDOLOS INMEDIATAMENTE A SU USO",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-8070-b801-eb09d4224c23",
+      "question": "¿podemos poner una probeta o un matraz directamente en contacto con el fuego¿",
+      "answer": "nada de cristal debe tocar la llama directamente ",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-8049-88d9-fc88288f5d70",
+      "question": "donde tirariamos los restos de intervenciones quirurgicas (el trozo de teta o un bisturí con sangre )",
+      "answer": "sí es un bisturí, como residuo punzante, si es un trozo de una teta, se esteriliza y se tira como producto urbano o se incinera",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-80ba-9b92-d1d203822c8a",
+      "question": "¿hasta donde se llenan los recipientes?",
+      "answer": "nunca  compleot, hasta la linea marcada por el fabricante ",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-802f-a8f8-d899c823af80",
+      "question": "¿como podemos tratar los residuos biologicos?",
+      "answer": "podemos esterilizarlos para eliminarlos como urbanos o incinerarlos",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-80c5-bd9d-e527caef1ad5",
+      "question": "¿podemos trasvaasar residuos peligrosos de un envase a otro?",
+      "answer": "NUNCA SE DEBEN trasvasar residuos peligrosos de un envase a otro",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-8078-b83b-d8a85a3a9a90",
+      "question": "¿que incompatibilidades tienen los acidos fuertes?",
+      "answer": "los acidos fuertes  son incompatibles con el amoniaco NH3 y con el hidroxido sidico NAOH",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-8011-987c-e8758742580c",
+      "question": "¿que debemos conocer de las sustancias quimicas?",
+      "answer": "deben concoerse  las incompatibildades quimicas entre las sustancias utilizadas ",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-80d8-b9ea-ca93cca8fc37",
+      "question": "¿por donde NO debemos verter residuos peligrosos y aceites?",
+      "answer": "nunca se deben verter por el fregaero ",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-80f4-aebe-e66f2a20be7b",
+      "question": "¿cuantos litros maximo pueden tener las garrafas de liquidos peligrosos?",
+      "answer": "maximo 30L para facilitar su manejo",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-80dd-b1c3-db147058d16a",
+      "question": "FRASES p ",
+      "answer": "Frases P DE PRODUENCIA,  VAN SEGUIDAD de números , anteriormente frases S ",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-800e-9908-d44d487b2b71",
+      "question": "Frases H ",
+      "answer": "frases H, indican riesgo hazard en ingés, riesgos especificos de los productos peligrosos, van seguidos de un número (antes eran las frases R)",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-80ba-a4c4-d3e5d115a6f9",
+      "question": "NTP significado y que es",
+      "answer": "son las notas tecnicas de rpevención, elaboradas por organismos oficiales, para informar, promocionar y difundir, información importante sobre seguridad e higieen en el trabajo",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "status": "To Learn",
+      "image": null
+    },
     {
       "id": "3fc2aca8-b201-8009-9368-da3f8435b143",
       "question": "Identifica el pictograma (Riesgo biológico)",

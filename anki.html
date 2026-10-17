@@ -11,7 +11,10 @@
   .box { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:10px 12px; display:flex; flex-direction:column; gap:8px; }
   .top { display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; }
   .title { font-weight:800; font-size:13px; display:flex; align-items:center; gap:6px; }
+  .right-top { display:flex; align-items:center; gap:6px; }
   .badge { font-family:monospace; font-size:11px; padding:2px 7px; border-radius:99px; background:rgba(56,189,248,.15); color:var(--blue); border:1px solid rgba(56,189,248,.35); font-weight:700; }
+  .btn-icon { cursor:pointer; background:#141619; color:var(--muted); border:1px solid var(--border); border-radius:6px; padding:2px 7px; font-size:13px; font-weight:800; }
+  .btn-icon:hover { color:var(--txt); border-color:var(--blue); }
   .controls { display:grid; grid-template-columns:1.4fr .8fr 1fr; gap:6px; }
   @media (max-width:520px) { .controls { grid-template-columns:1fr; } }
   label { font-size:10px; text-transform:uppercase; color:var(--muted); font-weight:700; display:block; margin-bottom:2px; letter-spacing:.04em; }
@@ -31,7 +34,10 @@
 <div class="box">
   <div class="top">
     <div class="title">🗂️ Exportador Notion ➔ Anki <span style="color:var(--muted);font-weight:500;">(Submazos Asignatura::Tema)</span></div>
-    <span class="badge" id="counterBadge">Cargando...</span>
+    <div class="right-top">
+      <span class="badge" id="counterBadge">Cargando...</span>
+      <button class="btn-icon" id="btnRefresh" title="Recargar tarjetas ahora">↻</button>
+    </div>
   </div>
   <div class="controls">
     <div>
@@ -60,23 +66,42 @@
 
 <script>
 let allCards = [];
+let firstLoad = true;
 
-async function init() {
+async function loadCards(manual = false) {
+  const stEl = document.getElementById("status");
+  if (manual) stEl.textContent = "Actualizando...";
   try {
     const r = await fetch("flashcards_data.json?t=" + Date.now(), { cache: "no-store" });
     const d = await r.json();
     allCards = d.cards || [];
-    const courses = [...new Set(allCards.map(c => c.course))].sort();
-    const temas = [...new Set(allCards.map(c => c.tema))].sort();
     const sc = document.getElementById("selCourse");
     const st = document.getElementById("selTema");
+    const prevC = sc.value;
+    const prevT = st.value;
+
+    const courses = [...new Set(allCards.map(c => c.course))].sort();
+    const temas = [...new Set(allCards.map(c => c.tema))].sort();
+
+    sc.innerHTML = '<option value="ALL">Todas las asignaturas</option>';
+    st.innerHTML = '<option value="ALL">Todos los temas</option>';
     courses.forEach(c => sc.insertAdjacentHTML("beforeend", `<option value="${c}">${c}</option>`));
     temas.forEach(t => st.insertAdjacentHTML("beforeend", `<option value="${t}">${t}</option>`));
-    if (courses.includes("Procesamiento citológico y tisular")) sc.value = "Procesamiento citológico y tisular";
-    if (temas.includes("UD1")) st.value = "UD1";
+
+    if (firstLoad) {
+      if (courses.includes("Procesamiento citológico y tisular")) sc.value = "Procesamiento citológico y tisular";
+      if (temas.includes("UD1")) st.value = "UD1";
+      firstLoad = false;
+    } else {
+      if ([...sc.options].some(o => o.value === prevC)) sc.value = prevC;
+      if ([...st.options].some(o => o.value === prevT)) st.value = prevT;
+    }
+
+    document.getElementById("btnApkg").href = "https://gorkiwis.github.io/notion-widgets/Procesamiento_UD1.apkg?t=" + Date.now();
     updateFilter();
+    if (manual) stEl.textContent = `✓ Sincronizado (${allCards.length} total)`;
   } catch (e) {
-    document.getElementById("status").textContent = "Error leyendo JSON";
+    stEl.textContent = "Error leyendo JSON";
   }
 }
 
@@ -102,7 +127,8 @@ function updateFilter() {
   document.getElementById(id).addEventListener("change", updateFilter)
 );
 
-// Exportación TSV universal con cabeceras nativas de Anki 2.1.54+
+document.getElementById("btnRefresh").addEventListener("click", () => loadCards(true));
+
 document.getElementById("btnTsv").addEventListener("click", () => {
   const f = getFiltered();
   const c = document.getElementById("selCourse").value;
@@ -123,7 +149,6 @@ document.getElementById("btnTsv").addEventListener("click", () => {
   document.getElementById("status").textContent = `✓ TSV exportado (${f.length})`;
 });
 
-// Inyección directa por AnkiConnect (127.0.0.1:8765)
 async function ankiInvoke(action, params = {}) {
   const r = await fetch("http://127.0.0.1:8765", {
     method: "POST",
@@ -175,7 +200,8 @@ document.getElementById("btnSyncAnki").addEventListener("click", async () => {
   }
 });
 
-init();
+loadCards(false);
+setInterval(() => loadCards(false), 30000);
 </script>
 </body>
 </html>
