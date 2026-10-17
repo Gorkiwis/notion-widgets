@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T17:48:29.308Z",
+  "updated_at": "2026-10-17T18:38:30.138Z",
   "location": "Mediateka BBK — Azkuna Zentroa (Ubintia)",
   "account": "gorkaobiangolaso@gmail.com",
   "sender_filter": "no-reply@amiprojects.com",
@@ -292,6 +292,28 @@
       "email_timestamp": "2026-10-17T17:45:36.000Z"
     },
     {
+      "seat": 4,
+      "seat_label": "4.Ikaspostua",
+      "date": "18-10-2026",
+      "iso_date": "2026-10-18",
+      "start": "11:00",
+      "end": "12:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-17T18:36:16.000Z"
+    },
+    {
+      "seat": 4,
+      "seat_label": "4.Ikaspostua",
+      "date": "18-10-2026",
+      "iso_date": "2026-10-18",
+      "start": "12:00",
+      "end": "13:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-17T18:36:18.000Z"
+    },
+    {
       "seat": 10,
       "seat_label": "10.Ikaspostua",
       "date": "18-10-2026",
@@ -334,28 +356,6 @@
       "status": "active",
       "source_subject": "Erreserba berria",
       "email_timestamp": "2026-10-17T08:38:52.000Z"
-    },
-    {
-      "seat": 10,
-      "seat_label": "10.Ikaspostua",
-      "date": "18-10-2026",
-      "iso_date": "2026-10-18",
-      "start": "18:00",
-      "end": "19:00",
-      "status": "active",
-      "source_subject": "Erreserba berria",
-      "email_timestamp": "2026-10-17T08:38:52.000Z"
-    },
-    {
-      "seat": 10,
-      "seat_label": "10.Ikaspostua",
-      "date": "18-10-2026",
-      "iso_date": "2026-10-18",
-      "start": "19:00",
-      "end": "20:00",
-      "status": "active",
-      "source_subject": "Erreserba berria",
-      "email_timestamp": "2026-10-17T08:38:53.000Z"
     }
   ],
   "cancelled_or_expired": [
@@ -391,6 +391,28 @@
       "status": "cancelled",
       "source_subject": "Erreserba kendu da",
       "email_timestamp": "2026-10-12T09:29:09.000Z"
+    },
+    {
+      "seat": 10,
+      "seat_label": "10.Ikaspostua",
+      "date": "18-10-2026",
+      "iso_date": "2026-10-18",
+      "start": "19:00",
+      "end": "20:00",
+      "status": "cancelled",
+      "source_subject": "Erreserba kendu da",
+      "email_timestamp": "2026-10-17T18:33:47.000Z"
+    },
+    {
+      "seat": 10,
+      "seat_label": "10.Ikaspostua",
+      "date": "18-10-2026",
+      "iso_date": "2026-10-18",
+      "start": "18:00",
+      "end": "19:00",
+      "status": "cancelled",
+      "source_subject": "Erreserba kendu da",
+      "email_timestamp": "2026-10-17T18:34:59.000Z"
     }
   ]
 }
