@@ -1,0 +1,185 @@
+{
+  "updated_at": "2026-10-17T16:08:09Z",
+  "cards": [
+    {
+      "id": "3fc2aca8-b201-8009-9368-da3f8435b143",
+      "question": "Identifica el pictograma (Riesgo biológico)",
+      "answer": "PROVIENEN DE PERSONAS U ANIMALES AFECTADOS POR ENFERMEDADES ",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": "notion_3fc2aca8-b201-8009-9368-da3f8435b143.png"
+    },
+    {
+      "id": "3fc2aca8-b201-8044-a34f-fa65e2a95e98",
+      "question": "Identifica el pictograma (Peligroso para el medio ambiente)",
+      "answer": "NOCIVO PARA EL MEDIOAMBIENTE SI LAS LIBERAMOS SIN CONTROL",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": "notion_3fc2aca8-b201-8044-a34f-fa65e2a95e98.png"
+    },
+    {
+      "id": "3fc2aca8-b201-80c3-b973-ce8b1f1fc938",
+      "question": "Identifica el pictograma (Toxicidad aguda)",
+      "answer": "SUSTANCIAS TOXICAS:Producen trastornos de gravedad variable cuando entran\nen el organismo: mareos, vómitos, dificultad respiratoria\ne incluso la muerte.",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": "notion_3fc2aca8-b201-80c3-b973-ce8b1f1fc938.png"
+    },
+    {
+      "id": "3fc2aca8-b201-803c-ab14-d9bc58b7aa2b",
+      "question": "identifica pictograma",
+      "answer": "sustancias que a la exposición a chispas, calor u estrés mecanico, explotan",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": "notion_3fc2aca8-b201-803c-ab14-d9bc58b7aa2b.png"
+    },
+    {
+      "id": "3fc2aca8-b201-809e-bad1-fb3288f4e64d",
+      "question": "identifica el pictogeama",
+      "answer": "Sustancias corrosivas: tiene capacidad de destruir materiales biologicos, como artificiales al contacto con ellos.",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": "notion_3fc2aca8-b201-809e-bad1-fb3288f4e64d.png"
+    },
+    {
+      "id": "3fc2aca8-b201-80bd-a825-e6a28e94be92",
+      "question": "identifica el pictograma",
+      "answer": "sustancia inflamambla: algunos liquidos pueden arde a partir de los 21º ",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": "notion_3fc2aca8-b201-80bd-a825-e6a28e94be92.png"
+    },
+    {
+      "id": "3fc2aca8-b201-807b-8e44-fa2be02eabce",
+      "question": "identifica pictograma",
+      "answer": "sustancia nociva, produce efectos de menor importancia que los anteriores",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "Needs Review",
+      "image": "notion_3fc2aca8-b201-807b-8e44-fa2be02eabce.png"
+    },
+    {
+      "id": "3fc2aca8-b201-806f-9657-cf5715ab8c23",
+      "question": "identifica pictograma ",
+      "answer": "SUSTANCIA COMBURENTE:: AUMENTA LA COMBUTIÓN DE LAS INFLAMABLES",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": "notion_3fc2aca8-b201-806f-9657-cf5715ab8c23.png"
+    },
+    {
+      "id": "3fc2aca8-b201-80ea-b78e-c770e8491460",
+      "question": "Pipeta pasteur",
+      "answer": "para tomar pequeñas cantidades de liquido. [MATERIAL ESPECIFICO]",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-80d1-8e8f-f0718c886aaf",
+      "question": "espatula",
+      "answer": "para coger pequeñas cantidades de productos solidos ",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-8050-bfce-fc04ffe69f5d",
+      "question": "varilla agitadora",
+      "answer": "Varilla maciza de vidrio empleada para mezclar o agitar disoluciones y ayudar a decantar líquidos sin salpicaduras. (Material fungible reutilizable).",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-803f-a097-d7864a9e13a7",
+      "question": "matráz erlenmeyer",
+      "answer": "reduce la evaporación, ya que el cuello actua como condensador de vapores, se usa para mezclar y contener disoluciones [no se usa en evaporación nunca[",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-8010-9286-ccd42e0d3c38",
+      "question": "Vaso de precipitación",
+      "answer": "contiene liquidos y además realizamos agitaciones dentro \nlo podemos calentar al usarse en procesos de evaporación",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-80e1-8780-c530b9f53f3d",
+      "question": "pipeta",
+      "answer": "Material volumétrico graduado o aforado de alta precisión para medir y trasvasar pequeños volúmenes de líquido (con propipeta o émbolo). NUNCA calentar. (Fungible reutilizable si es de vidrio).",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-80c9-b0da-f4a5e552fabf",
+      "question": "Probeeta",
+      "answer": "para pedir cantidades variadas de volumenes, no se deben calentar, medimos volumenes poco precisos, mayores a 25ml \n\n¿queremos medir 2ml? \npues usas una puta pipeta",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-8061-9ded-d5261388896c",
+      "question": "Matraz aforado",
+      "answer": "material volumetrico, que sirve para contener volumenes especificos, preparar disoluciones o para diluir muestras hasta un volumen fijo",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "Clásica",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3fc2aca8-b201-8059-9a38-ce9faef12370",
+      "question": "que ventajas tienen los matarieales de cristal, respecto a los plasticos?",
+      "answer": "son materiales quimicamente mas estables, con mayor resistencia termica, mas transparentes, faciles de limpiar y esterilizables en el autoclave. ",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "status": "To Learn",
+      "image": null
+    },
+    {
+      "id": "3f42aca8-b201-804e-8455-fec43abf49cc",
+      "question": "¿Las probetas, matraces y vasos de precipitados son material inventariable o fungible? (Trampa de examen UD1)",
+      "answer": "✅ Son MATERIAL FUNGIBLE REUTILIZABLE (NO inventariable).\n[PREGUNTA TRAMPA, CONFUNDIR  FUNGIBLE, COMO DESECJABLE).\n• Fungible ≠ de un solo uso: significa que tiene vida útil limitada, se deteriora o rompe y se repone (no se repara).\n• Se divide en:\n  1) Fungible REUTILIZABLE (varios usos, vida limitada): probetas, vasos de precipitados, matraces Erlenmeyer/aforados, pipetas graduadas de vidrio, cubetas Coplin.\n  2) Fungible DESECHABLE (1 solo uso): guantes, puntas de micropipeta, pipetas Pasteur, casetes, portaobjetos, cuchillas.\n• Inventariable (No fungible): equipos/aparatos de larga duración con código patrimonial (microscopio, micrótomo, estufa, centrífuga, balanza).",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "status": "To Learn",
+      "image": null
+    }
+  ]
+}

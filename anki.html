@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Notion ➔ Anki Exporter</title>
+<style>
+  :root { --bg:#191919; --card:#22252a; --border:#333842; --txt:#f1f5f9; --muted:#94a3b8; --blue:#38bdf8; --green:#10b981; --amber:#f59e0b; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--txt); font:12.5px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; padding:8px; }
+  .box { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:10px 12px; display:flex; flex-direction:column; gap:8px; }
+  .top { display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; }
+  .title { font-weight:800; font-size:13px; display:flex; align-items:center; gap:6px; }
+  .badge { font-family:monospace; font-size:11px; padding:2px 7px; border-radius:99px; background:rgba(56,189,248,.15); color:var(--blue); border:1px solid rgba(56,189,248,.35); font-weight:700; }
+  .controls { display:grid; grid-template-columns:1.4fr .8fr 1fr; gap:6px; }
+  @media (max-width:520px) { .controls { grid-template-columns:1fr; } }
+  label { font-size:10px; text-transform:uppercase; color:var(--muted); font-weight:700; display:block; margin-bottom:2px; letter-spacing:.04em; }
+  select { width:100%; background:#141619; color:var(--txt); border:1px solid var(--border); border-radius:6px; padding:5px 7px; font-size:12px; font-weight:600; }
+  .actions { display:flex; gap:6px; flex-wrap:wrap; align-items:center; margin-top:2px; }
+  button, a.btn { cursor:pointer; border:1px solid var(--border); border-radius:6px; padding:6px 10px; font-size:12px; font-weight:700; text-decoration:none; display:inline-flex; align-items:center; gap:5px; transition:.15s; }
+  .btn-primary { background:rgba(16,185,129,.18); color:#6ee7b7; border-color:rgba(16,185,129,.45); }
+  .btn-primary:hover { background:rgba(16,185,129,.28); }
+  .btn-anki { background:rgba(56,189,248,.16); color:#7dd3fc; border-color:rgba(56,189,248,.45); }
+  .btn-anki:hover { background:rgba(56,189,248,.26); }
+  .btn-sec { background:#141619; color:var(--muted); }
+  .btn-sec:hover { color:var(--txt); border-color:var(--muted); }
+  #status { font-family:monospace; font-size:11px; color:var(--muted); margin-left:auto; }
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="top">
+    <div class="title">🗂️ Exportador Notion ➔ Anki <span style="color:var(--muted);font-weight:500;">(Submazos Asignatura::Tema)</span></div>
+    <span class="badge" id="counterBadge">Cargando...</span>
+  </div>
+  <div class="controls">
+    <div>
+      <label>Asignatura (Course)</label>
+      <select id="selCourse"><option value="ALL">Todas las asignaturas</option></select>
+    </div>
+    <div>
+      <label>Tema / Unidad</label>
+      <select id="selTema"><option value="ALL">Todos los temas</option></select>
+    </div>
+    <div>
+      <label>Filtro de Estado</label>
+      <select id="selStatus">
+        <option value="ALL">Todas las tarjetas</option>
+        <option value="PENDING">Solo pendientes (To Learn / Needs Review)</option>
+      </select>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn btn-primary" id="btnApkg" href="Procesamiento_UD1.apkg" download="Procesamiento_UD1.apkg">📦 Descargar .apkg (Con imágenes)</a>
+    <button class="btn-anki" id="btnSyncAnki" title="Inyecta el mazo directamente en tu Anki abierto vía AnkiConnect (127.0.0.1:8765)">⚡ Enviar directo a Anki Desktop</button>
+    <button class="btn-sec" id="btnTsv" title="Descarga archivo TSV importable en Anki con etiquetas Asignatura::Tema">📄 Exportar .txt/.tsv</button>
+    <span id="status">Listo</span>
+  </div>
+</div>
+
+<script>
+let allCards = [];
+
+async function init() {
+  try {
+    const r = await fetch("flashcards_data.json?t=" + Date.now(), { cache: "no-store" });
+    const d = await r.json();
+    allCards = d.cards || [];
+    const courses = [...new Set(allCards.map(c => c.course))].sort();
+    const temas = [...new Set(allCards.map(c => c.tema))].sort();
+    const sc = document.getElementById("selCourse");
+    const st = document.getElementById("selTema");
+    courses.forEach(c => sc.insertAdjacentHTML("beforeend", `<option value="${c}">${c}</option>`));
+    temas.forEach(t => st.insertAdjacentHTML("beforeend", `<option value="${t}">${t}</option>`));
+    if (courses.includes("Procesamiento citológico y tisular")) sc.value = "Procesamiento citológico y tisular";
+    if (temas.includes("UD1")) st.value = "UD1";
+    updateFilter();
+  } catch (e) {
+    document.getElementById("status").textContent = "Error leyendo JSON";
+  }
+}
+
+function getFiltered() {
+  const c = document.getElementById("selCourse").value;
+  const t = document.getElementById("selTema").value;
+  const s = document.getElementById("selStatus").value;
+  return allCards.filter(x =>
+    (c === "ALL" || x.course === c) &&
+    (t === "ALL" || x.tema === t) &&
+    (s === "ALL" || x.status !== "Learned")
+  );
+}
+
+function updateFilter() {
+  const f = getFiltered();
+  const imgs = f.filter(x => x.image).length;
+  const typ = f.filter(x => (x.plantilla || "").includes("Plantilla 1")).length;
+  document.getElementById("counterBadge").textContent = `${f.length} tarjetas (${imgs} img · ${typ} escribir)`;
+}
+
+["selCourse", "selTema", "selStatus"].forEach(id =>
+  document.getElementById(id).addEventListener("change", updateFilter)
+);
+
+// Exportación TSV universal con cabeceras nativas de Anki 2.1.54+
+document.getElementById("btnTsv").addEventListener("click", () => {
+  const f = getFiltered();
+  const c = document.getElementById("selCourse").value;
+  const t = document.getElementById("selTema").value;
+  const lines = ["#separator:tab", "#html:true", "#deck column:1", "#notetype column:2"];
+  for (const x of f) {
+    const deck = `${x.course}::${x.tema}`;
+    const noteType = (x.plantilla || "").includes("Plantilla 1") ? "Basic (type in the answer)" : "Basic";
+    const front = (x.question + (x.image ? `<br><img src="${x.image}">` : "")).replace(/[\t\r\n]+/g, " ");
+    const back = x.answer.replace(/\r?\n/g, "<br>").replace(/\t/g, " ");
+    lines.push(`${deck}\t${noteType}\t${front}\t${back}`);
+  }
+  const blob = new Blob([lines.join("\n")], { type: "text/tab-separated-values;charset=utf-8" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `Anki_${(c === "ALL" ? "Todas" : c).replace(/\s+/g, "_")}_${t}.txt`;
+  a.click();
+  document.getElementById("status").textContent = `✓ TSV exportado (${f.length})`;
+});
+
+// Inyección directa por AnkiConnect (127.0.0.1:8765)
+async function ankiInvoke(action, params = {}) {
+  const r = await fetch("http://127.0.0.1:8765", {
+    method: "POST",
+    body: JSON.stringify({ action, version: 6, params })
+  });
+  const j = await r.json();
+  if (j.error) throw new Error(j.error);
+  return j.result;
+}
+
+document.getElementById("btnSyncAnki").addEventListener("click", async () => {
+  const st = document.getElementById("status");
+  const f = getFiltered();
+  st.textContent = "Conectando con Anki (127.0.0.1:8765)...";
+  try {
+    await ankiInvoke("version");
+    const decks = [...new Set(f.map(x => `${x.course}::${x.tema}`))];
+    for (const d of decks) await ankiInvoke("createDeck", { deck: d });
+
+    let added = 0;
+    for (const x of f) {
+      if (x.image) {
+        await ankiInvoke("storeMediaFile", {
+          filename: x.image,
+          url: new URL("anki_media/" + x.image, location.href).href
+        });
+      }
+      const deckName = `${x.course}::${x.tema}`;
+      const front = x.question + (x.image ? `<br><br><img src="${x.image}" style="max-height:220px;">` : "");
+      const back = x.answer.replace(/\n/g, "<br>");
+      try {
+        await ankiInvoke("addNote", {
+          note: {
+            deckName,
+            modelName: "Basic",
+            fields: { Front: front, Back: back },
+            options: { allowDuplicate: false },
+            tags: ["notion_sync", x.tema]
+          }
+        });
+        added++;
+      } catch (_) {}
+    }
+    st.style.color = "#6ee7b7";
+    st.textContent = `✓ Sincronizado en Anki (${added} nuevas / ${f.length} total)`;
+  } catch (e) {
+    st.style.color = "#fcd34d";
+    st.textContent = "⚠️ Abre Anki Desktop o usa «📦 Descargar .apkg»";
+  }
+});
+
+init();
+</script>
+</body>
+</html>
