@@ -815,12 +815,11 @@
     function renderDaysList(now) {
       const container = document.getElementById("daysContainer");
       const todayIso = getLocalIsoDate(now);
+      const tmrw = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+      const tomorrowIso = getLocalIsoDate(tmrw);
 
-      // Filtrar días desde hoy en adelante (o mostrar todos si las reservas son de fechas específicas)
-      let relevant = mergedBlocks.filter(b => b.iso_date >= todayIso);
-      if (relevant.length === 0) {
-        relevant = mergedBlocks;
-      }
+      // Filtrar días desde hoy en adelante
+      const relevant = mergedBlocks.filter(b => b.iso_date >= todayIso);
 
       const byDate = {};
       for (const b of relevant) {
@@ -828,18 +827,38 @@
         byDate[b.iso_date].push(b);
       }
 
-      const dates = Object.keys(byDate).sort();
-      if (dates.length === 0) {
-        container.innerHTML = `<div class="day-card"><div style="color: var(--text-muted); text-align:center; padding: 8px;">No hay reservas activas registradas.</div></div>`;
-        return;
-      }
+      // Garantizar que HOY y MAÑANA aparezcan siempre en el panel (aunque tengan 0 reservas)
+      const datesSet = new Set([todayIso, tomorrowIso, ...Object.keys(byDate)]);
+      const dates = Array.from(datesSet).sort();
 
       let html = "";
       for (const isoDate of dates) {
-        const dayBlocks = byDate[isoDate];
+        const dayBlocks = byDate[isoDate] || [];
         const totalHours = dayBlocks.reduce((acc, b) => acc + b.hours, 0);
         const lbl = formatDayLabel(isoDate, now);
         const tagClass = lbl.isTomorrow ? "day-tag tomorrow" : "day-tag";
+
+        if (dayBlocks.length === 0) {
+          const emptyMsg = lbl.isToday
+            ? "⚪ Sin reservas registradas para hoy"
+            : (lbl.isTomorrow ? "⚠️ Sin reserva hecha para mañana" : "Sin reservas registradas");
+          const emptyColor = lbl.isTomorrow ? "#fcd34d" : "var(--text-muted)";
+          html += `
+            <div class="day-card" style="opacity: 0.9;">
+              <div class="day-header">
+                <div class="day-title">
+                  <span class="${tagClass}">${lbl.badge}</span>
+                  <span>${lbl.title.replace(/^(HOY|MAÑANA)\s*·\s*/, "")}</span>
+                </div>
+                <div class="day-total">0h</div>
+              </div>
+              <div style="color: ${emptyColor}; font-size: 11.5px; font-weight: 600; text-align: center; padding: 6px 4px; background: rgba(255,255,255,0.02); border-radius: 6px; border: 1px dashed #2e3440;">
+                ${emptyMsg}
+              </div>
+            </div>
+          `;
+          continue;
+        }
 
         html += `
           <div class="day-card">
