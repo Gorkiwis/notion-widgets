@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ubintia · Reservas Biblioteca (Azkuna Zentroa)</title>
+  <style>
+    :root {
+      --bg-root: #141619;
+      --bg-card: #1c1f24;
+      --bg-card-alt: #23272f;
+      --bg-chip: #2a2f3a;
+      --border: #2e3440;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --text-dim: #6b7280;
+      --accent-blue: #38bdf8;
+      --accent-green: #10b981;
+      --accent-green-bg: rgba(16, 185, 129, 0.14);
+      --accent-amber: #f59e0b;
+      --accent-amber-bg: rgba(245, 158, 11, 0.16);
+      --accent-red: #f43f5e;
+      --accent-red-bg: rgba(244, 63, 94, 0.18);
+      --accent-purple: #a855f7;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-root);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      line-height: 1.4;
+      padding: 10px;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .widget-container {
+      max-width: 440px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+
+    /* HEADER */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 11px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .brand-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent-green);
+      box-shadow: 0 0 8px var(--accent-green);
+      animation: pulseDot 2s infinite;
+    }
+
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.45; transform: scale(0.85); }
+    }
+
+    .brand-title {
+      font-weight: 700;
+      font-size: 12px;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+      color: var(--text-main);
+    }
+
+    .brand-sub {
+      font-size: 10.5px;
+      color: var(--text-muted);
+      display: block;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .live-clock {
+      font-family: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent-blue);
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      padding: 3px 7px;
+      border-radius: 6px;
+    }
+
+    .btn-refresh {
+      background: var(--bg-chip);
+      color: var(--text-main);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      width: 26px;
+      height: 26px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 13px;
+      transition: all 0.15s ease;
+    }
+
+    .btn-refresh:hover {
+      background: #353b49;
+      border-color: var(--accent-blue);
+      color: var(--accent-blue);
+    }
+
+    .btn-refresh.spinning {
+      animation: spin 0.7s linear infinite;
+    }
+
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+
+    /* CRITICAL QR BANNER */
+    .qr-alert {
+      background: linear-gradient(135deg, rgba(244, 63, 94, 0.22), rgba(225, 29, 72, 0.12));
+      border: 1.5px solid var(--accent-red);
+      border-radius: 10px;
+      padding: 9px 11px;
+      display: none;
+      flex-direction: column;
+      gap: 6px;
+      box-shadow: 0 0 14px rgba(244, 63, 94, 0.2);
+      animation: borderPulseRed 1.8s infinite;
+    }
+
+    .qr-alert.warn-upcoming {
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.18), rgba(217, 119, 6, 0.08));
+      border-color: var(--accent-amber);
+      box-shadow: none;
+      animation: none;
+    }
+
+    @keyframes borderPulseRed {
+      0%, 100% { border-color: #f43f5e; box-shadow: 0 0 12px rgba(244, 63, 94, 0.25); }
+      50% { border-color: #fda4af; box-shadow: 0 0 4px rgba(244, 63, 94, 0.1); }
+    }
+
+    .qr-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+    }
+
+    .qr-title {
+      font-weight: 800;
+      font-size: 12px;
+      color: #ffe4e6;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .qr-alert.warn-upcoming .qr-title {
+      color: #fef3c7;
+    }
+
+    .qr-timer-pill {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-weight: 800;
+      font-size: 11.5px;
+      background: rgba(0, 0, 0, 0.45);
+      color: #fda4af;
+      padding: 2px 7px;
+      border-radius: 5px;
+      border: 1px solid rgba(244, 63, 94, 0.4);
+      white-space: nowrap;
+    }
+
+    .qr-desc {
+      font-size: 11px;
+      color: #fecdd3;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .qr-alert.warn-upcoming .qr-desc {
+      color: #fde68a;
+    }
+
+    .btn-ack {
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 5px;
+      padding: 2px 7px;
+      font-size: 10.5px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .btn-ack:hover {
+      background: rgba(16, 185, 129, 0.35);
+      border-color: var(--accent-green);
+    }
+
+    /* SEAT CHANGE ALERT BANNER */
+    .seat-change-banner {
+      background: var(--accent-amber-bg);
+      border: 1.5px solid var(--accent-amber);
+      border-radius: 10px;
+      padding: 8px 11px;
+      display: none;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .seat-change-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: 800;
+      font-size: 12px;
+      color: #fde68a;
+    }
+
+    .seat-change-sub {
+      font-size: 11px;
+      color: #fcd34d;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    /* HERO ACTIVE TURN CARD */
+    .hero-card {
+      background: linear-gradient(180deg, #1f242d 0%, #191c22 100%);
+      border: 1px solid var(--border);
+      border-radius: 11px;
+      padding: 11px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-card.active-now {
+      border-color: rgba(16, 185, 129, 0.55);
+      box-shadow: 0 2px 14px rgba(16, 185, 129, 0.08);
+    }
+
+    .hero-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 10.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 3px 8px;
+      border-radius: 99px;
+      background: var(--accent-green-bg);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.4);
+    }
+
+    .status-badge.upcoming {
+      background: rgba(56, 189, 248, 0.14);
+      color: var(--accent-blue);
+      border-color: rgba(56, 189, 248, 0.35);
+    }
+
+    .status-badge.idle {
+      background: rgba(156, 163, 175, 0.14);
+      color: var(--text-muted);
+      border-color: rgba(156, 163, 175, 0.3);
+    }
+
+    .seat-pill-lg {
+      background: #262b36;
+      border: 1px solid #3b4252;
+      color: #fff;
+      font-weight: 800;
+      font-size: 13px;
+      padding: 3px 10px;
+      border-radius: 8px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .seat-pill-lg span.num {
+      color: var(--accent-green);
+      font-size: 15px;
+    }
+
+    .hero-main {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px;
+      margin-top: 2px;
+    }
+
+    .countdown-box {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .countdown-label {
+      font-size: 10.5px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      font-weight: 600;
+    }
+
+    .countdown-digits {
+      font-family: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 24px;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: -0.5px;
+      line-height: 1.15;
+    }
+
+    .hero-range-info {
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .hero-range-hours {
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--text-main);
+    }
+
+    .hero-slot-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    /* PROGRESS BAR */
+    .progress-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .progress-track {
+      width: 100%;
+      height: 8px;
+      background: #111317;
+      border-radius: 99px;
+      overflow: hidden;
+      border: 1px solid #2b303c;
+      position: relative;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #10b981 0%, #38bdf8 100%);
+      border-radius: 99px;
+      transition: width 0.5s ease;
+    }
+
+    .progress-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10.5px;
+      color: var(--text-muted);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+
+    /* DAY SECTIONS */
+    .day-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 9px 11px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .day-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+
+    .day-title {
+      font-weight: 800;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--text-main);
+    }
+
+    .day-tag {
+      font-size: 10px;
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-weight: 700;
+      background: rgba(56, 189, 248, 0.14);
+      color: var(--accent-blue);
+    }
+
+    .day-tag.tomorrow {
+      background: rgba(168, 85, 247, 0.16);
+      color: #c084fc;
+    }
+
+    .day-total {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+
+    /* MERGED BLOCK ITEM */
+    .block-item {
+      background: var(--bg-card-alt);
+      border: 1px solid #2e3440;
+      border-radius: 8px;
+      padding: 8px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: border-color 0.2s;
+    }
+
+    .block-item.is-current {
+      border-color: var(--accent-green);
+      background: linear-gradient(90deg, rgba(16, 185, 129, 0.09) 0%, var(--bg-card-alt) 100%);
+    }
+
+    .block-item.is-past {
+      opacity: 0.55;
+    }
+
+    .block-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+    }
+
+    .block-time {
+      font-weight: 800;
+      font-size: 12.5px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .block-dur {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--accent-blue);
+      background: rgba(56, 189, 248, 0.12);
+      padding: 1px 6px;
+      border-radius: 4px;
+    }
+
+    .block-seat {
+      font-weight: 800;
+      font-size: 12px;
+      color: #34d399;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 2px 8px;
+      border-radius: 6px;
+    }
+
+    .slots-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .slot-chip {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: var(--bg-chip);
+      color: var(--text-muted);
+      border: 1px solid #363c4a;
+    }
+
+    .slot-chip.slot-now {
+      background: rgba(16, 185, 129, 0.22);
+      color: #6ee7b7;
+      border-color: var(--accent-green);
+      font-weight: 700;
+    }
+
+    .slot-chip.slot-done {
+      color: var(--text-dim);
+      text-decoration: line-through;
+      opacity: 0.7;
+    }
+
+    /* TRANSITION CONNECTOR BETWEEN CONTIGUOUS BLOCKS */
+    .seat-transition-connector {
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px dashed var(--accent-amber);
+      border-radius: 7px;
+      padding: 5px 9px;
+      font-size: 11px;
+      font-weight: 700;
+      color: #fde68a;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+    }
+
+    /* FOOTER */
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 10px;
+      color: var(--text-dim);
+      padding: 2px 4px;
+    }
+
+    .footer a {
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      color: var(--accent-blue);
+    }
+  </style>
+</head>
+<body>
+  <div class="widget-container">
+    <!-- HEADER -->
+    <div class="header">
+      <div class="brand">
+        <div class="brand-dot" id="syncDot"></div>
+        <div>
+          <span class="brand-title">🏛️ Ubintia · Mediateka</span>
+          <span class="brand-sub" id="syncStatusText">Azkuna Zentroa · Auto-Sync</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="live-clock" id="liveClock">--:--:--</div>
+        <button class="btn-refresh" id="btnRefresh" title="Sincronizar ahora con Ubintia JSON">↻</button>
+      </div>
+    </div>
+
+    <!-- CRITICAL QR CHECK-IN ALERT (FIRST 30 MIN OR UPCOMING) -->
+    <div class="qr-alert" id="qrAlertBox">
+      <div class="qr-top">
+        <div class="qr-title" id="qrAlertTitle">📱 ESCANEA EL QR EN ENTRADA</div>
+        <div class="qr-timer-pill" id="qrAlertTimer">29:59</div>
+      </div>
+      <div class="qr-desc">
+        <span id="qrAlertDesc">Valida antes de 30 min para evitar "Erreserba iraungita".</span>
+        <button class="btn-ack" id="btnAckQr">✓ QR Validado</button>
+      </div>
+    </div>
+
+    <!-- SEAT CHANGE HIGHLIGHT ALERT -->
+    <div class="seat-change-banner" id="seatChangeBanner">
+      <div class="seat-change-header">
+        <span id="seatChangeTitle">⚠️ CAMBIO DE PUESTO a las 15:00: Puesto 33 ➔ Puesto 34</span>
+      </div>
+      <div class="seat-change-sub">
+        <span id="seatChangeSub">Recoge y valida el QR del nuevo puesto al cambiar</span>
+        <span id="seatChangeCountdown" style="font-family: monospace; font-weight: 800;"></span>
+      </div>
+    </div>
+
+    <!-- ACTIVE / NEXT TURN HERO CARD -->
+    <div class="hero-card" id="heroCard">
+      <div class="hero-top">
+        <div class="status-badge" id="heroBadge">🟢 EN CURSO</div>
+        <div class="seat-pill-lg" id="heroSeatPill">Puesto <span class="num" id="heroSeatNum">--</span></div>
+      </div>
+      <div class="hero-main">
+        <div class="countdown-box">
+          <span class="countdown-label" id="countdownLabel">Tiempo restante del bloque</span>
+          <span class="countdown-digits" id="countdownDigits">--:--:--</span>
+        </div>
+        <div class="hero-range-info">
+          <span class="hero-range-hours" id="heroRangeHours">--:-- – --:--</span>
+          <span class="hero-slot-sub" id="heroSlotSub">Tramo: --:-- - --:--</span>
+        </div>
+      </div>
+      <div class="progress-wrap">
+        <div class="progress-track">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="progress-meta">
+          <span id="progressLeftText">0% completado</span>
+          <span id="progressRightText">--</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- DYNAMIC DAYS CONTAINER (HOY & MAÑANA) -->
+    <div id="daysContainer" style="display: flex; flex-direction: column; gap: 8px;"></div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <span id="lastUpdatedFooter">Actualizado: --</span>
+      <span>no-reply@amiprojects.com · 24/7</span>
+    </div>
+  </div>
+
+  <script>
+    // Fallback instantáneo por si carga offline
+    const FALLBACK_DATA = {
+      updated_at: "2026-10-17T14:55:00+02:00",
+      gas_endpoint: "",
+      slots: [
+        { seat: 33, seat_label: "33.Ikaspostua", date: "17-10-2026", iso_date: "2026-10-17", start: "11:00", end: "12:00", status: "active" },
+        { seat: 33, seat_label: "33.Ikaspostua", date: "17-10-2026", iso_date: "2026-10-17", start: "12:00", end: "13:00", status: "active" },
+        { seat: 33, seat_label: "33.Ikaspostua", date: "17-10-2026", iso_date: "2026-10-17", start: "13:00", end: "14:00", status: "active" },
+        { seat: 33, seat_label: "33.Ikaspostua", date: "17-10-2026", iso_date: "2026-10-17", start: "14:00", end: "15:00", status: "active" },
+        { seat: 34, seat_label: "34.Ikaspostua", date: "17-10-2026", iso_date: "2026-10-17", start: "15:00", end: "16:00", status: "active" },
+        { seat: 34, seat_label: "34.Ikaspostua", date: "17-10-2026", iso_date: "2026-10-17", start: "16:00", end: "17:00", status: "active" },
+        { seat: 10, seat_label: "10.Ikaspostua", date: "18-10-2026", iso_date: "2026-10-18", start: "14:00", end: "15:00", status: "active" },
+        { seat: 10, seat_label: "10.Ikaspostua", date: "18-10-2026", iso_date: "2026-10-18", start: "15:00", end: "16:00", status: "active" },
+        { seat: 10, seat_label: "10.Ikaspostua", date: "18-10-2026", iso_date: "2026-10-18", start: "16:00", end: "17:00", status: "active" },
+        { seat: 10, seat_label: "10.Ikaspostua", date: "18-10-2026", iso_date: "2026-10-18", start: "17:00", end: "18:00", status: "active" },
+        { seat: 10, seat_label: "10.Ikaspostua", date: "18-10-2026", iso_date: "2026-10-18", start: "18:00", end: "19:00", status: "active" },
+        { seat: 10, seat_label: "10.Ikaspostua", date: "18-10-2026", iso_date: "2026-10-18", start: "19:00", end: "20:00", status: "active" }
+      ]
+    };
+
+    let rawData = FALLBACK_DATA;
+    let mergedBlocks = [];
+    let currentAckedBlockId = null;
+
+    function parseIsoDate(dmyOrIso) {
+      if (!dmyOrIso) return "";
+      if (/^\d{4}-\d{2}-\d{2}$/.test(dmyOrIso)) return dmyOrIso;
+      const m = dmyOrIso.match(/^(\d{2})-(\d{2})-(\d{4})$/);
+      if (m) return `${m[3]}-${m[2]}-${m[1]}`;
+      return dmyOrIso;
+    }
+
+    function makeDate(isoDate, hhmm) {
+      const [Y, M, D] = isoDate.split("-").map(Number);
+      const [h, m] = hhmm.split(":").map(Number);
+      return new Date(Y, M - 1, D, h, m, 0, 0);
+    }
+
+    function pad2(n) {
+      return String(Math.floor(Math.max(0, n))).padStart(2, "0");
+    }
+
+    function formatHMS(ms) {
+      const totalSec = Math.max(0, Math.floor(ms / 1000));
+      const h = Math.floor(totalSec / 3600);
+      const m = Math.floor((totalSec % 3600) / 60);
+      const s = totalSec % 60;
+      return `${pad2(h)}:${pad2(m)}:${pad2(s)}`;
+    }
+
+    function formatMS(ms) {
+      const totalSec = Math.max(0, Math.floor(ms / 1000));
+      const m = Math.floor(totalSec / 60);
+      const s = totalSec % 60;
+      return `${pad2(m)}:${pad2(s)}`;
+    }
+
+    function getLocalIsoDate(d) {
+      return `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
+    }
+
+    function formatDayLabel(isoDate, now) {
+      const todayIso = getLocalIsoDate(now);
+      const tmrw = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+      const tomorrowIso = getLocalIsoDate(tmrw);
+
+      const [Y, M, D] = isoDate.split("-").map(Number);
+      const dt = new Date(Y, M - 1, D);
+      const days = ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"];
+      const months = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"];
+      const human = `${days[dt.getDay()]} ${pad2(D)} ${months[M - 1]}`;
+
+      if (isoDate === todayIso) return { badge: "HOY", title: `HOY · ${human}`, isToday: true, isTomorrow: false };
+      if (isoDate === tomorrowIso) return { badge: "MAÑANA", title: `MAÑANA · ${human}`, isToday: false, isTomorrow: true };
+      return { badge: human, title: human, isToday: false, isTomorrow: false };
+    }
+
+    // Fusiona automáticamente horas consecutivas en el mismo asiento y fecha
+    function buildMergedBlocks(slots) {
+      const activeSlots = (slots || [])
+        .filter(s => !s.status || s.status === "active")
+        .map(s => {
+          const iso_date = s.iso_date || parseIsoDate(s.date);
+          const seatNum = Number(String(s.seat).replace(/\D+/g, "")) || s.seat;
+          return {
+            seat: seatNum,
+            seat_label: s.seat_label || `${seatNum}.Ikaspostua`,
+            iso_date,
+            date: s.date || iso_date.split("-").reverse().join("-"),
+            start: s.start,
+            end: s.end,
+            startDt: makeDate(iso_date, s.start),
+            endDt: makeDate(iso_date, s.end)
+          };
+        })
+        .sort((a, b) => a.startDt - b.startDt);
+
+      // Deduplicar por fecha+start+seat
+      const unique = [];
+      const seen = new Set();
+      for (const s of activeSlots) {
+        const k = `${s.iso_date}_${s.start}_${s.end}_${s.seat}`;
+        if (!seen.has(k)) {
+          seen.add(k);
+          unique.push(s);
+        }
+      }
+
+      const blocks = [];
+      for (const slot of unique) {
+        const last = blocks[blocks.length - 1];
+        if (
+          last &&
+          last.iso_date === slot.iso_date &&
+          String(last.seat) === String(slot.seat) &&
+          last.end === slot.start
+        ) {
+          last.end = slot.end;
+          last.endDt = slot.endDt;
+          last.slots.push(slot);
+          last.hours = Math.round((last.endDt - last.startDt) / 3600000 * 10) / 10;
+          last.id = `${last.iso_date}_${last.start}_${last.end}_${last.seat}`;
+        } else {
+          blocks.push({
+            id: `${slot.iso_date}_${slot.start}_${slot.end}_${slot.seat}`,
+            iso_date: slot.iso_date,
+            date: slot.date,
+            seat: slot.seat,
+            seat_label: slot.seat_label,
+            start: slot.start,
+            end: slot.end,
+            startDt: slot.startDt,
+            endDt: slot.endDt,
+            hours: Math.round((slot.endDt - slot.startDt) / 3600000 * 10) / 10,
+            slots: [slot]
+          });
+        }
+      }
+
+      // Marcar transiciones de cambio de puesto entre bloques contiguos del mismo día
+      for (let i = 0; i < blocks.length - 1; i++) {
+        const curr = blocks[i];
+        const next = blocks[i + 1];
+        if (curr.iso_date === next.iso_date && curr.end === next.start && String(curr.seat) !== String(next.seat)) {
+          curr.nextSeatChange = {
+            at: curr.end,
+            atDt: curr.endDt,
+            fromSeat: curr.seat,
+            toSeat: next.seat,
+            nextBlockId: next.id
+          };
+          next.prevSeatChange = curr.nextSeatChange;
+        }
+      }
+
+      return blocks;
+    }
+
+    function renderDaysList(now) {
+      const container = document.getElementById("daysContainer");
+      const todayIso = getLocalIsoDate(now);
+
+      // Filtrar días desde hoy en adelante (o mostrar todos si las reservas son de fechas específicas)
+      let relevant = mergedBlocks.filter(b => b.iso_date >= todayIso);
+      if (relevant.length === 0) {
+        relevant = mergedBlocks;
+      }
+
+      const byDate = {};
+      for (const b of relevant) {
+        if (!byDate[b.iso_date]) byDate[b.iso_date] = [];
+        byDate[b.iso_date].push(b);
+      }
+
+      const dates = Object.keys(byDate).sort();
+      if (dates.length === 0) {
+        container.innerHTML = `<div class="day-card"><div style="color: var(--text-muted); text-align:center; padding: 8px;">No hay reservas activas registradas.</div></div>`;
+        return;
+      }
+
+      let html = "";
+      for (const isoDate of dates) {
+        const dayBlocks = byDate[isoDate];
+        const totalHours = dayBlocks.reduce((acc, b) => acc + b.hours, 0);
+        const lbl = formatDayLabel(isoDate, now);
+        const tagClass = lbl.isTomorrow ? "day-tag tomorrow" : "day-tag";
+
+        html += `
+          <div class="day-card">
+            <div class="day-header">
+              <div class="day-title">
+                <span class="${tagClass}">${lbl.badge}</span>
+                <span>${lbl.title.replace(/^(HOY|MAÑANA)\s*·\s*/, "")}</span>
+              </div>
+              <div class="day-total">${totalHours}h totales (${dayBlocks.length} ${dayBlocks.length === 1 ? "bloque" : "bloques"})</div>
+            </div>
+        `;
+
+        for (let i = 0; i < dayBlocks.length; i++) {
+          const b = dayBlocks[i];
+          const isCurrent = now >= b.startDt && now < b.endDt;
+          const isPast = now >= b.endDt;
+          const itemClass = isCurrent ? "block-item is-current" : (isPast ? "block-item is-past" : "block-item");
+
+          const slotsHtml = b.slots.map(s => {
+            const sNow = now >= s.startDt && now < s.endDt;
+            const sDone = now >= s.endDt;
+            const c = sNow ? "slot-chip slot-now" : (sDone ? "slot-chip slot-done" : "slot-chip");
+            const prefix = sNow ? "● " : (sDone ? "✓ " : "");
+            return `<span class="${c}">${prefix}${s.start}–${s.end}</span>`;
+          }).join("");
+
+          html += `
+            <div class="${itemClass}">
+              <div class="block-top">
+                <div class="block-time">
+                  <span>${b.start} – ${b.end}</span>
+                  <span class="block-dur">${b.hours}h</span>
+                </div>
+                <div class="block-seat">🪑 Puesto ${b.seat} (${b.seat_label})</div>
+              </div>
+              <div class="slots-row">${slotsHtml}</div>
+            </div>
+          `;
+
+          if (b.nextSeatChange) {
+            html += `
+              <div class="seat-transition-connector">
+                <span>⚠️ CAMBIO DE PUESTO a las ${b.nextSeatChange.at}: Puesto ${b.nextSeatChange.fromSeat} ➔ Puesto ${b.nextSeatChange.toSeat}</span>
+                <span>📱 Validar QR</span>
+              </div>
+            `;
+          }
+        }
+
+        html += `</div>`;
+      }
+
+      container.innerHTML = html;
+    }
+
+    function updateLiveTick() {
+      const now = new Date();
+      document.getElementById("liveClock").textContent =
+        `${pad2(now.getHours())}:${pad2(now.getMinutes())}:${pad2(now.getSeconds())}`;
+
+      // Buscar bloque activo o próximo bloque
+      const activeBlock = mergedBlocks.find(b => now >= b.startDt && now < b.endDt);
+      const nextBlock = mergedBlocks.find(b => b.startDt > now);
+
+      const heroCard = document.getElementById("heroCard");
+      const heroBadge = document.getElementById("heroBadge");
+      const heroSeatNum = document.getElementById("heroSeatNum");
+      const countdownLabel = document.getElementById("countdownLabel");
+      const countdownDigits = document.getElementById("countdownDigits");
+      const heroRangeHours = document.getElementById("heroRangeHours");
+      const heroSlotSub = document.getElementById("heroSlotSub");
+      const progressFill = document.getElementById("progressFill");
+      const progressLeftText = document.getElementById("progressLeftText");
+      const progressRightText = document.getElementById("progressRightText");
+
+      if (activeBlock) {
+        heroCard.classList.add("active-now");
+        heroBadge.className = "status-badge";
+        heroBadge.textContent = "🟢 RESERVA EN CURSO";
+        heroSeatNum.textContent = activeBlock.seat;
+
+        const remainingMs = activeBlock.endDt - now;
+        const totalMs = activeBlock.endDt - activeBlock.startDt;
+        const elapsedMs = now - activeBlock.startDt;
+        const pct = Math.min(100, Math.max(0, (elapsedMs / totalMs) * 100));
+
+        const activeSlot = activeBlock.slots.find(s => now >= s.startDt && now < s.endDt) || activeBlock.slots[0];
+
+        if (activeBlock.nextSeatChange) {
+          countdownLabel.textContent = `Cambio a Puesto ${activeBlock.nextSeatChange.toSeat} en`;
+        } else {
+          countdownLabel.textContent = "Fin de bloque actual en";
+        }
+        countdownDigits.textContent = formatHMS(remainingMs);
+        heroRangeHours.textContent = `${activeBlock.start} – ${activeBlock.end} (${activeBlock.hours}h)`;
+        heroSlotSub.textContent = `Tramo actual: ${activeSlot.start} – ${activeSlot.end}`;
+
+        progressFill.style.width = `${pct.toFixed(1)}%`;
+        progressLeftText.textContent = `${pct.toFixed(1)}% del bloque (${activeBlock.seat_label})`;
+        progressRightText.textContent = activeBlock.nextSeatChange
+          ? `➔ ${activeBlock.end} Puesto ${activeBlock.nextSeatChange.toSeat}`
+          : `Fin ${activeBlock.end}`;
+      } else if (nextBlock) {
+        heroCard.classList.remove("active-now");
+        heroBadge.className = "status-badge upcoming";
+        const lbl = formatDayLabel(nextBlock.iso_date, now);
+        heroBadge.textContent = `⏳ PRÓXIMO TURNO (${lbl.badge})`;
+        heroSeatNum.textContent = nextBlock.seat;
+
+        const untilMs = nextBlock.startDt - now;
+        countdownLabel.textContent = "Comienza en";
+        countdownDigits.textContent = formatHMS(untilMs);
+        heroRangeHours.textContent = `${nextBlock.start} – ${nextBlock.end} (${nextBlock.hours}h)`;
+        heroSlotSub.textContent = `${nextBlock.seat_label} · ${nextBlock.date}`;
+        progressFill.style.width = "0%";
+        progressLeftText.textContent = "En espera de inicio";
+        progressRightText.textContent = `Check-in QR: ${nextBlock.start}`;
+      } else {
+        heroCard.classList.remove("active-now");
+        heroBadge.className = "status-badge idle";
+        heroBadge.textContent = "⚪ SIN TURNOS EN CURSO";
+        heroSeatNum.textContent = "--";
+        countdownLabel.textContent = "Estado";
+        countdownDigits.textContent = "00:00:00";
+        heroRangeHours.textContent = "Sin reservas pendientes";
+        heroSlotSub.textContent = "Ubintia Mediateka";
+        progressFill.style.width = "0%";
+        progressLeftText.textContent = "--";
+        progressRightText.textContent = "--";
+      }
+
+      // 1. GESTIÓN DE ALERTA CRÍTICA QR (Primeros 30 min de bloque o 15 min previos a cambio/inicio)
+      const qrAlertBox = document.getElementById("qrAlertBox");
+      const qrAlertTitle = document.getElementById("qrAlertTitle");
+      const qrAlertTimer = document.getElementById("qrAlertTimer");
+      const qrAlertDesc = document.getElementById("qrAlertDesc");
+      const btnAckQr = document.getElementById("btnAckQr");
+
+      let showQr = false;
+      if (activeBlock) {
+        const qrDeadline = new Date(activeBlock.startDt.getTime() + 30 * 60 * 1000);
+        const ackKey = `ubintia_qr_ack_${activeBlock.id}`;
+        const isAcked = localStorage.getItem(ackKey) === "1";
+
+        if (now >= activeBlock.startDt && now < qrDeadline && !isAcked) {
+          showQr = true;
+          currentAckedBlockId = activeBlock.id;
+          qrAlertBox.classList.remove("warn-upcoming");
+          qrAlertBox.style.display = "flex";
+          qrAlertTitle.textContent = `📱 ESCANEA EL QR EN ENTRADA (Puesto ${activeBlock.seat})`;
+          qrAlertTimer.textContent = `⏳ ${formatMS(qrDeadline - now)}`;
+          qrAlertDesc.textContent = `Límite 30 min (${activeBlock.start}–${pad2(qrDeadline.getHours())}:${pad2(qrDeadline.getMinutes())}) para evitar "Erreserba iraungita".`;
+          btnAckQr.style.display = "inline-block";
+        } else if (activeBlock.nextSeatChange && (activeBlock.endDt - now) <= 20 * 60 * 1000) {
+          // Aviso preventivo 20 min antes del cambio de asiento
+          showQr = true;
+          qrAlertBox.classList.add("warn-upcoming");
+          qrAlertBox.style.display = "flex";
+          qrAlertTitle.textContent = `📱 PREPÁRATE: QR PUESTO ${activeBlock.nextSeatChange.toSeat} A LAS ${activeBlock.end}`;
+          qrAlertTimer.textContent = `En ${formatMS(activeBlock.endDt - now)}`;
+          qrAlertDesc.textContent = `Al cambiar del Puesto ${activeBlock.seat} al ${activeBlock.nextSeatChange.toSeat} tendrás 30 min para validar el QR.`;
+          btnAckQr.style.display = "none";
+        }
+      } else if (nextBlock && (nextBlock.startDt - now) <= 30 * 60 * 1000) {
+        showQr = true;
+        qrAlertBox.classList.add("warn-upcoming");
+        qrAlertBox.style.display = "flex";
+        qrAlertTitle.textContent = `📱 ESCANEA EL QR AL ENTRAR (Puesto ${nextBlock.seat})`;
+        qrAlertTimer.textContent = `Abre en ${formatMS(nextBlock.startDt - now)}`;
+        qrAlertDesc.textContent = `Recuerda escanear el QR entre ${nextBlock.start} y +30 min para evitar caducidad.`;
+        btnAckQr.style.display = "none";
+      }
+
+      if (!showQr) {
+        qrAlertBox.style.display = "none";
+      }
+
+      // 2. GESTIÓN DE ALERTA DE CAMBIO DE PUESTO HOY
+      const seatChangeBanner = document.getElementById("seatChangeBanner");
+      const seatChangeTitle = document.getElementById("seatChangeTitle");
+      const seatChangeSub = document.getElementById("seatChangeSub");
+      const seatChangeCountdown = document.getElementById("seatChangeCountdown");
+
+      const todayIso = getLocalIsoDate(now);
+      const todayChangeBlock = mergedBlocks.find(
+        b => b.iso_date === todayIso && b.nextSeatChange && now < new Date(b.endDt.getTime() + 30 * 60 * 1000)
+      );
+
+      if (todayChangeBlock && todayChangeBlock.nextSeatChange) {
+        const chg = todayChangeBlock.nextSeatChange;
+        seatChangeBanner.style.display = "flex";
+        seatChangeTitle.textContent = `⚠️ CAMBIO DE PUESTO a las ${chg.at}: Puesto ${chg.fromSeat} ➔ Puesto ${chg.toSeat}`;
+        if (now < chg.atDt) {
+          seatChangeSub.textContent = `Cambio obligatorio de asiento al terminar el tramo de las ${chg.at}`;
+          seatChangeCountdown.textContent = `En ${formatHMS(chg.atDt - now)}`;
+        } else {
+          seatChangeSub.textContent = `¡CAMBIO ACTIVO! Pasa ahora al Puesto ${chg.toSeat} y escanea el QR`;
+          seatChangeCountdown.textContent = `ACTIVO AHORA`;
+        }
+      } else {
+        seatChangeBanner.style.display = "none";
+      }
+    }
+
+    document.getElementById("btnAckQr").addEventListener("click", () => {
+      if (currentAckedBlockId) {
+        localStorage.setItem(`ubintia_qr_ack_${currentAckedBlockId}`, "1");
+        updateLiveTick();
+      }
+    });
+
+    async function loadReservationData(manual = false) {
+      const btn = document.getElementById("btnRefresh");
+      if (manual) btn.classList.add("spinning");
+
+      try {
+        const res = await fetch(`ubintia_data.json?t=${Date.now()}`, { cache: "no-store" });
+        if (res.ok) {
+          const json = await res.json();
+          if (json && Array.isArray(json.slots)) {
+            rawData = json;
+          }
+        }
+
+        // Si hay un endpoint de Google Apps Script configurado, consultarlo en paralelo
+        const gasUrl = rawData.gas_endpoint || localStorage.getItem("ubintia_gas_url");
+        if (gasUrl && gasUrl.startsWith("https://")) {
+          try {
+            const gasRes = await fetch(`${gasUrl}${gasUrl.includes("?") ? "&" : "?"}t=${Date.now()}`);
+            if (gasRes.ok) {
+              const gasJson = await gasRes.json();
+              if (gasJson && Array.isArray(gasJson.slots)) {
+                rawData = gasJson;
+              }
+            }
+          } catch (_) {}
+        }
+      } catch (e) {
+        console.warn("Usando datos en caché local:", e);
+      } finally {
+        mergedBlocks = buildMergedBlocks(rawData.slots || []);
+        const now = new Date();
+        renderDaysList(now);
+        updateLiveTick();
+
+        if (rawData.updated_at) {
+          const d = new Date(rawData.updated_at);
+          if (!isNaN(d)) {
+            document.getElementById("lastUpdatedFooter").textContent =
+              `Sync: ${pad2(d.getDate())}/${pad2(d.getMonth() + 1)} ${pad2(d.getHours())}:${pad2(d.getMinutes())}`;
+          }
+        }
+        if (manual) {
+          setTimeout(() => btn.classList.remove("spinning"), 350);
+        }
+      }
+    }
+
+    document.getElementById("btnRefresh").addEventListener("click", () => loadReservationData(true));
+
+    // Inicialización inmediata
+    mergedBlocks = buildMergedBlocks(rawData.slots || []);
+    renderDaysList(new Date());
+    updateLiveTick();
+    loadReservationData(false);
+
+    // Tick cada segundo para cuentas atrás y cambio de tramo automático
+    setInterval(() => {
+      const now = new Date();
+      updateLiveTick();
+      if (now.getSeconds() === 0) {
+        renderDaysList(now);
+      }
+    }, 1000);
+
+    // Auto-refresco del JSON cada 60 segundos
+    setInterval(() => loadReservationData(false), 60000);
+  </script>
+</body>
+</html>
