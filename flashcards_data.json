@@ -1,7 +1,51 @@
 {
-  "updated_at": "2026-10-18T18:39:48Z",
-  "total": 107,
+  "updated_at": "2026-10-18T19:10:36Z",
+  "total": 111,
   "cards": [
+    {
+      "id": "3fd2aca8-b201-80ee-b60d-f3b48b83e38d",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿donde encontramos el tejido linfatico?",
+      "answer": "lo encontramos en organos linfaticos o en tejido linfoide asociado a mucosas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fd2aca8-b201-80e2-a3a6-ed1c1420a1a5",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿donde encontraremos el tejido hematopoyetico?",
+      "answer": "ubicado en ganglios linfaticos, bazo, timo y en la medula osea roja",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fd2aca8-b201-80ce-b410-f95135728fd3",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿que generan las celulas multipotenciales linfoides?",
+      "answer": "van a generar las celulas linfoides,",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fd2aca8-b201-801f-9ae6-e7e3720ce3a1",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿que celulas derivan de las celulas multipotenciales mieloides?",
+      "answer": "Eritrocitos, granulocitos, plaquetas y monocitos",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "3fd2aca8-b201-801f-93ec-f317bf371a1d",
       "course": "Fisiopatología General",
