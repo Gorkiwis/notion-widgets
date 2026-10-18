@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T18:09:09Z",
+  "updated_at": "2026-10-18T18:09:28Z",
   "total": 93,
   "cards": [
     {
@@ -611,7 +611,7 @@
       "id": "3fc2aca8-b201-8089-89ab-ecdc47d5020a",
       "course": "Fisiopatología General",
       "tema": "UD2",
-      "question": "¿donde encontramos el epitelio de revestimiento simple no ciliado?",
+      "question": "¿donde encontramos el epitelio de revestimiento monoestratificado no ciliado?",
       "answer": "en el tubo digestivo",
       "status": "To Learn",
       "plantilla": "Estándar",
