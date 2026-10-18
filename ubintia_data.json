@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T09:13:28.459Z",
+  "updated_at": "2026-10-18T14:33:48.701Z",
   "location": "Mediateka BBK — Azkuna Zentroa (Ubintia)",
   "account": "gorkaobiangolaso@gmail.com",
   "sender_filter": "no-reply@amiprojects.com",
@@ -334,6 +334,39 @@
       "status": "active",
       "source_subject": "Erreserba berria",
       "email_timestamp": "2026-10-17T08:38:51.000Z"
+    },
+    {
+      "seat": 37,
+      "seat_label": "37.Ikaspostua",
+      "date": "18-10-2026",
+      "iso_date": "2026-10-18",
+      "start": "17:00",
+      "end": "18:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-18T14:33:04.000Z"
+    },
+    {
+      "seat": 37,
+      "seat_label": "37.Ikaspostua",
+      "date": "18-10-2026",
+      "iso_date": "2026-10-18",
+      "start": "18:00",
+      "end": "19:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-18T14:33:05.000Z"
+    },
+    {
+      "seat": 37,
+      "seat_label": "37.Ikaspostua",
+      "date": "18-10-2026",
+      "iso_date": "2026-10-18",
+      "start": "19:00",
+      "end": "20:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-18T14:33:05.000Z"
     }
   ],
   "cancelled_or_expired": [
