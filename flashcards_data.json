@@ -1,355 +1,622 @@
 {
-  "updated_at": "2026-10-17T16:51:39Z",
+  "updated_at": "2026-10-18T13:00:00Z",
+  "total": 56,
   "cards": [
     {
-      "id": "3fc2aca8-b201-80ff-843b-caf56e88577e",
-      "question": "los residuos biologicos, deberán tratarse según su contexto como infecciosos o no infecciosos ",
-      "answer": "NO, todo residuo biologico es infeccioso a efectos de tratamiento",
+      "id": "3fd2aca8-b201-802a-b186-e12757234b59",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "¿que debe contener la ficha de datos de seguridad?",
+      "answer": "16 epigrafes: \ndonde se identifique el producto,\n propiedades fisico quimicas, \npeligros que puedan ocasionar su manipulación,\n consejos y medidas de protección. \nprimeros auxilios en caso de accidente,\n metodo de eliminación \ninformes toxicologia",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-80db-b9e2-d7ab207b8d97",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿que son las bandas i?",
+      "answer": "son filamentos de actina",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-80a1-be14-f0e9bfb41202",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿como se llama la capa que rodea los miocitos del tejido muscular esqueletico?",
+      "answer": "estas reciben el nombre de ENDOMISIO, es tejido conjuntivo",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-80ab-9a0a-db0e98012d5d",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿que morfologia tienen las celulas del tejido muscular esqueletico?",
+      "answer": "tienen morfoloogia alargada, alcanzando 25 centimetros de ancho, multinucleados, con nucleos por debajo de la membrana basal.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-803c-8c4c-c1c8fb374714",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿como se llama el citoplasma y la membrana celular de los miocitos?",
+      "answer": "el citoplasma recibe el nombre de sarcoplasma, y la membrana celular de sarcolema",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-8005-b7f0-cdc76be41727",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "glandulas sebaceas",
+      "answer": "secretan lipidos",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-8057-ab1f-e2433ee75aa4",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "glandulas mucosas",
+      "answer": "segregan mucina, celulas calciformes de la mucosa respiratoria y digestiva",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-80c5-b18f-d7c071591e7a",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "Glandulas serosas",
+      "answer": "producen secrección rica en encimas (acuosa). parotidas o lacrimales",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-8044-ba14-f2ab0d65872c",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "glandulas holocrinas",
+      "answer": "se destruye la celula al liberar su sustancia (glandulas sebaceas)",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-8034-a63b-f16414edbdd1",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "Glándulas merocrinas ecrinas",
+      "answer": "liberan por medio de exocitosis sin sufrir daño | la mayoria de glandulas sudoriparas funcionan asi",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-80e2-ab02-db7aa8cd9d15",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "glandulas apocrinas",
+      "answer": "Pierden parte de su citoplasma al liberar la sustancia, como pueden ser las glandulas mamarias o algunas sudoriparas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-80f8-9165-c2f7a32883e3",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿donde encontramos el epitelio de revestimiento cubico estratificado?",
+      "answer": "conjuntiva o uretra del pene",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-8075-bfe9-fe680c30acf4",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿donde encontramos epitelio cubico biestratificado?",
+      "answer": "canales de las glanddulas sudoriparas y en los canales de glandulas mamarias",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-80ce-b474-db7e1ebe619d",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿donde encontramos el epitelio de revestimiento queratinizado?",
+      "answer": "epidermis",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-8084-9432-cc89ac33e2c3",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿donde encontramos el epitelio de revestimiento estratificado plano no queratinizado?",
+      "answer": "lugares poco expuestos, esofago, boca, porción distal de la uretra y en la vagina",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-8048-97cb-e406a9f4ddd8",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿donde encontramos el epitelio de revestimiento pseudoestratificado (cilindrico) ciliado",
+      "answer": "tráquea, bronquios principales, trompas de eustaquio",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-8069-9c10-c69668ab9931",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿donde encontramos el epitelio de revestimiendo pseudoestratificado (cilindrico)  no ciliado ?",
+      "answer": "lo encontramos en los conductos secretores de las glandulas parotidas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-807d-9215-ff3484512594",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿donde encontramos el epitelio de revestimiento simple ciliado?",
+      "answer": "bronquios,, senos paranasales, trompas de falopio",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-8089-89ab-ecdc47d5020a",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿donde encontramos el epitelio de revestimiento simple no ciliado?",
+      "answer": "en el tubo digestivo",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-80fe-b441-cbfd0349eb99",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿donde encontramos el epiteli de revestimiento cubico?",
+      "answer": "conductos secretores de glandulas, red de haller, foliculos tiroideos, plexos coroideos, epitelio germinal del ovario",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-8070-8b71-f9fbca9cfc86",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿donde encontramos epitelio de revestimiento simple plano?",
+      "answer": "se encuentra en los alveolos pulmonares, mesoteleos  y endoteleos",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fc2aca8-b201-80ff-843b-caf56e88577e",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD1",
+      "question": "los residuos biologicos, deberán tratarse según su contexto como infecciosos o no infecciosos",
+      "answer": "NO, todo residuo biologico es infeccioso a efectos de tratamiento",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-80ba-8901-c0061d78364c",
-      "question": "los trasvases deben realizarse lo mas rapido posibles evitando el uso de embudos ",
-      "answer": "falso, lo mas lento posible y con embudo ",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "los trasvases deben realizarse lo mas rapido posibles evitando el uso de embudos",
+      "answer": "falso, lo mas lento posible y con embudo",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-8053-b517-ff547e7c4c67",
-      "question": "apagamos la campana extractura al manipular xylol, corrosivos, irritantes o toxicos",
-      "answer": "FALSO, la encendemos, que si no nos morimos",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "apagamos la campana extractura al manipular xylol, corrosivos, irritantes o toxicos",
+      "answer": "FALSO, la encendemos, que si no nos morimos",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-80f0-9e91-d05fd24905af",
-      "question": "¿debemos añadir el agua sobre el acido?",
-      "answer": "no, el acido sobre la base (falso) el sobre ella",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "¿debemos añadir el agua sobre el acido?",
+      "answer": "no, el acido sobre la base (falso) el sobre ella",
       "status": "To Learn",
-      "image": null
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-80ea-9506-ec97130269f1",
-      "question": "las tapas de los reactivos abiertos deben colocarse boca abajo",
-      "answer": "FALSO, BOCARRIBA Y CERRANDOLOS INMEDIATAMENTE A SU USO",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "las tapas de los reactivos abiertos deben colocarse boca abajo",
+      "answer": "FALSO, BOCARRIBA Y CERRANDOLOS INMEDIATAMENTE A SU USO",
       "status": "To Learn",
-      "image": null
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-8070-b801-eb09d4224c23",
-      "question": "¿podemos poner una probeta o un matraz directamente en contacto con el fuego¿",
-      "answer": "nada de cristal debe tocar la llama directamente ",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "question": "¿podemos poner una probeta o un matraz directamente en contacto con el fuego¿",
+      "answer": "nada de cristal debe tocar la llama directamente",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-8049-88d9-fc88288f5d70",
-      "question": "donde tirariamos los restos de intervenciones quirurgicas (el trozo de teta o un bisturí con sangre )",
-      "answer": "sí es un bisturí, como residuo punzante, si es un trozo de una teta, se esteriliza y se tira como producto urbano o se incinera",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "question": "donde tirariamos los restos de intervenciones quirurgicas (el trozo de teta o un bisturí con sangre )",
+      "answer": "sí es un bisturí, como residuo punzante, si es un trozo de una teta, se esteriliza y se tira como producto urbano o se incinera",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-80ba-9b92-d1d203822c8a",
-      "question": "¿hasta donde se llenan los recipientes?",
-      "answer": "nunca  compleot, hasta la linea marcada por el fabricante ",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "¿hasta donde se llenan los recipientes?",
+      "answer": "nunca  compleot, hasta la linea marcada por el fabricante",
       "status": "To Learn",
-      "image": null
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-802f-a8f8-d899c823af80",
-      "question": "¿como podemos tratar los residuos biologicos?",
-      "answer": "podemos esterilizarlos para eliminarlos como urbanos o incinerarlos",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "¿como podemos tratar los residuos biologicos?",
+      "answer": "podemos esterilizarlos para eliminarlos como urbanos o incinerarlos",
       "status": "To Learn",
-      "image": null
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-80c5-bd9d-e527caef1ad5",
-      "question": "¿podemos trasvaasar residuos peligrosos de un envase a otro?",
-      "answer": "NUNCA SE DEBEN trasvasar residuos peligrosos de un envase a otro",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "¿podemos trasvaasar residuos peligrosos de un envase a otro?",
+      "answer": "NUNCA SE DEBEN trasvasar residuos peligrosos de un envase a otro",
       "status": "To Learn",
-      "image": null
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-8078-b83b-d8a85a3a9a90",
-      "question": "¿que incompatibilidades tienen los acidos fuertes?",
-      "answer": "los acidos fuertes  son incompatibles con el amoniaco NH3 y con el hidroxido sidico NAOH",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "¿que incompatibilidades tienen los acidos fuertes?",
+      "answer": "los acidos fuertes son incompatibles con el amoniaco NH3 y con el hidroxido sodico NaOH",
       "status": "To Learn",
-      "image": null
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-8011-987c-e8758742580c",
-      "question": "¿que debemos conocer de las sustancias quimicas?",
-      "answer": "deben concoerse  las incompatibildades quimicas entre las sustancias utilizadas ",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "question": "¿que debemos conocer de las sustancias quimicas?",
+      "answer": "deben concoerse  las incompatibildades quimicas entre las sustancias utilizadas",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-80d8-b9ea-ca93cca8fc37",
-      "question": "¿por donde NO debemos verter residuos peligrosos y aceites?",
-      "answer": "nunca se deben verter por el fregaero ",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "question": "¿por donde NO debemos verter residuos peligrosos y aceites?",
+      "answer": "nunca se deben verter por el fregaero",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-80f4-aebe-e66f2a20be7b",
-      "question": "¿cuantos litros maximo pueden tener las garrafas de liquidos peligrosos?",
-      "answer": "maximo 30L para facilitar su manejo",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "question": "¿cuantos litros maximo pueden tener las garrafas de liquidos peligrosos?",
+      "answer": "maximo 30L para facilitar su manejo",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-80dd-b1c3-db147058d16a",
-      "question": "FRASES p ",
-      "answer": "Frases P DE PRODUENCIA,  VAN SEGUIDAD de números , anteriormente frases S ",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "question": "FRASES p",
+      "answer": "Frases P DE PRODUENCIA,  VAN SEGUIDAD de números , anteriormente frases S",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-800e-9908-d44d487b2b71",
-      "question": "Frases H ",
-      "answer": "frases H, indican riesgo hazard en ingés, riesgos especificos de los productos peligrosos, van seguidos de un número (antes eran las frases R)",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "question": "Frases H",
+      "answer": "frases H, indican riesgo hazard en ingés, riesgos especificos de los productos peligrosos, van seguidos de un número (antes eran las frases R)",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-80ba-a4c4-d3e5d115a6f9",
-      "question": "NTP significado y que es",
-      "answer": "son las notas tecnicas de rpevención, elaboradas por organismos oficiales, para informar, promocionar y difundir, información importante sobre seguridad e higieen en el trabajo",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "question": "NTP significado y que es",
+      "answer": "son las notas tecnicas de rpevención, elaboradas por organismos oficiales, para informar, promocionar y difundir, información importante sobre seguridad e higieen en el trabajo",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-8009-9368-da3f8435b143",
-      "question": "Identifica el pictograma (Riesgo biológico)",
-      "answer": "PROVIENEN DE PERSONAS U ANIMALES AFECTADOS POR ENFERMEDADES ",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "Identifica el pictograma",
+      "answer": "PROVIENEN DE PERSONAS U ANIMALES AFECTADOS POR ENFERMEDADES",
       "status": "To Learn",
-      "image": "notion_3fc2aca8-b201-8009-9368-da3f8435b143.png"
+      "plantilla": "Estándar",
+      "image": "anki_media/notion_3fc2aca8-b201-8009-9368-da3f8435b143.png",
+      "image_filename": "notion_3fc2aca8-b201-8009-9368-da3f8435b143.png"
     },
     {
       "id": "3fc2aca8-b201-8044-a34f-fa65e2a95e98",
-      "question": "Identifica el pictograma (Peligroso para el medio ambiente)",
-      "answer": "NOCIVO PARA EL MEDIOAMBIENTE SI LAS LIBERAMOS SIN CONTROL",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "Identifica el pictograma",
+      "answer": "NOCIVO PARA EL MEDIOAMBIENTE SI LAS LIBERAMOS SIN CONTROL",
       "status": "To Learn",
-      "image": "notion_3fc2aca8-b201-8044-a34f-fa65e2a95e98.png"
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "anki_media/notion_3fc2aca8-b201-8044-a34f-fa65e2a95e98.png",
+      "image_filename": "notion_3fc2aca8-b201-8044-a34f-fa65e2a95e98.png"
     },
     {
       "id": "3fc2aca8-b201-80c3-b973-ce8b1f1fc938",
-      "question": "Identifica el pictograma (Toxicidad aguda)",
-      "answer": "SUSTANCIAS TOXICAS:Producen trastornos de gravedad variable cuando entran\nen el organismo: mareos, vómitos, dificultad respiratoria\ne incluso la muerte.",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "Identifica el pictograma",
+      "answer": "SUSTANCIAS TOXICAS:Producen trastornos de gravedad variable cuando entran\nen el organismo: mareos, vómitos, dificultad respiratoria\ne incluso la muerte.",
       "status": "To Learn",
-      "image": "notion_3fc2aca8-b201-80c3-b973-ce8b1f1fc938.png"
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "anki_media/notion_3fc2aca8-b201-80c3-b973-ce8b1f1fc938.png",
+      "image_filename": "notion_3fc2aca8-b201-80c3-b973-ce8b1f1fc938.png"
     },
     {
       "id": "3fc2aca8-b201-803c-ab14-d9bc58b7aa2b",
-      "question": "identifica pictograma",
-      "answer": "sustancias que a la exposición a chispas, calor u estrés mecanico, explotan",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "identifica pictograma",
+      "answer": "sustancias que a la exposición a chispas, calor u estrés mecanico, explotan",
       "status": "To Learn",
-      "image": "notion_3fc2aca8-b201-803c-ab14-d9bc58b7aa2b.png"
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "anki_media/notion_3fc2aca8-b201-803c-ab14-d9bc58b7aa2b.png",
+      "image_filename": "notion_3fc2aca8-b201-803c-ab14-d9bc58b7aa2b.png"
     },
     {
       "id": "3fc2aca8-b201-809e-bad1-fb3288f4e64d",
-      "question": "identifica el pictogeama",
-      "answer": "Sustancias corrosivas: tiene capacidad de destruir materiales biologicos, como artificiales al contacto con ellos.",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "identifica el pictogeama",
+      "answer": "Sustancias corrosivas: tiene capacidad de destruir materiales biologicos, como artificiales al contacto con ellos.",
       "status": "To Learn",
-      "image": "notion_3fc2aca8-b201-809e-bad1-fb3288f4e64d.png"
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "anki_media/notion_3fc2aca8-b201-809e-bad1-fb3288f4e64d.png",
+      "image_filename": "notion_3fc2aca8-b201-809e-bad1-fb3288f4e64d.png"
     },
     {
       "id": "3fc2aca8-b201-80bd-a825-e6a28e94be92",
-      "question": "identifica el pictograma",
-      "answer": "sustancia inflamambla: algunos liquidos pueden arde a partir de los 21º ",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "identifica el pictograma",
+      "answer": "sustancia inflamambla: algunos liquidos pueden arde a partir de los 21º",
       "status": "To Learn",
-      "image": "notion_3fc2aca8-b201-80bd-a825-e6a28e94be92.png"
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "anki_media/notion_3fc2aca8-b201-80bd-a825-e6a28e94be92.png",
+      "image_filename": "notion_3fc2aca8-b201-80bd-a825-e6a28e94be92.png"
     },
     {
       "id": "3fc2aca8-b201-807b-8e44-fa2be02eabce",
-      "question": "identifica pictograma",
-      "answer": "sustancia nociva, produce efectos de menor importancia que los anteriores",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
-      "status": "Needs Review",
-      "image": "notion_3fc2aca8-b201-807b-8e44-fa2be02eabce.png"
+      "question": "identifica pictograma",
+      "answer": "sustancia nociva, produce efectos de menor importancia que los anteriores",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "anki_media/notion_3fc2aca8-b201-807b-8e44-fa2be02eabce.png",
+      "image_filename": "notion_3fc2aca8-b201-807b-8e44-fa2be02eabce.png"
     },
     {
       "id": "3fc2aca8-b201-806f-9657-cf5715ab8c23",
-      "question": "identifica pictograma ",
-      "answer": "SUSTANCIA COMBURENTE:: AUMENTA LA COMBUTIÓN DE LAS INFLAMABLES",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "identifica pictograma",
+      "answer": "SUSTANCIA COMBURENTE:: AUMENTA LA COMBUTIÓN DE LAS INFLAMABLES",
       "status": "To Learn",
-      "image": "notion_3fc2aca8-b201-806f-9657-cf5715ab8c23.png"
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "anki_media/notion_3fc2aca8-b201-806f-9657-cf5715ab8c23.png",
+      "image_filename": "notion_3fc2aca8-b201-806f-9657-cf5715ab8c23.png"
     },
     {
       "id": "3fc2aca8-b201-80ea-b78e-c770e8491460",
-      "question": "Pipeta pasteur",
-      "answer": "para tomar pequeñas cantidades de liquido. [MATERIAL ESPECIFICO]",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "Pipeta pasteur",
+      "answer": "para tomar pequeñas cantidades de liquido. [MATERIAL ESPECIFICO]",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-80d1-8e8f-f0718c886aaf",
-      "question": "espatula",
-      "answer": "para coger pequeñas cantidades de productos solidos ",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "espatula",
+      "answer": "para coger pequeñas cantidades de productos solidos",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-8050-bfce-fc04ffe69f5d",
-      "question": "varilla agitadora",
-      "answer": "Varilla maciza de vidrio empleada para mezclar o agitar disoluciones y ayudar a decantar líquidos sin salpicaduras. (Material fungible reutilizable).",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "varilla agitadora",
+      "answer": "Varilla maciza de vidrio empleada para mezclar o agitar disoluciones y ayudar a decantar líquidos sin salpicaduras. (Material fungible reutilizable).",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-803f-a097-d7864a9e13a7",
-      "question": "matráz erlenmeyer",
-      "answer": "reduce la evaporación, ya que el cuello actua como condensador de vapores, se usa para mezclar y contener disoluciones [no se usa en evaporación nunca[",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "matráz erlenmeyer",
+      "answer": "reduce la evaporación, ya que el cuello actua como condensador de vapores, se usa para mezclar y contener disoluciones [no se usa en evaporación nunca[",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-8010-9286-ccd42e0d3c38",
-      "question": "Vaso de precipitación",
-      "answer": "contiene liquidos y además realizamos agitaciones dentro \nlo podemos calentar al usarse en procesos de evaporación",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "Vaso de precipitación",
+      "answer": "contiene liquidos y además realizamos agitaciones dentro \nlo podemos calentar al usarse en procesos de evaporación",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-80e1-8780-c530b9f53f3d",
-      "question": "pipeta",
-      "answer": "Material volumétrico graduado o aforado de alta precisión para medir y trasvasar pequeños volúmenes de líquido (con propipeta o émbolo). NUNCA calentar. (Fungible reutilizable si es de vidrio).",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "pipeta",
+      "answer": "Material volumétrico graduado o aforado de alta precisión para medir y trasvasar pequeños volúmenes de líquido (con propipeta o émbolo). NUNCA calentar. (Fungible reutilizable si es de vidrio).",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-80c9-b0da-f4a5e552fabf",
-      "question": "Probeeta",
-      "answer": "para pedir cantidades variadas de volumenes, no se deben calentar, medimos volumenes poco precisos, mayores a 25ml \n\n¿queremos medir 2ml? \npues usas una puta pipeta",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "Probeeta",
+      "answer": "para pedir cantidades variadas de volumenes, no se deben calentar, medimos volumenes poco precisos, mayores a 25ml \n\n¿queremos medir 2ml? \npues usas una puta pipeta",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-8061-9ded-d5261388896c",
-      "question": "Matraz aforado",
-      "answer": "material volumetrico, que sirve para contener volumenes especificos, preparar disoluciones o para diluir muestras hasta un volumen fijo",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "Clásica",
+      "question": "Matraz aforado",
+      "answer": "material volumetrico, que sirve para contener volumenes especificos, preparar disoluciones o para diluir muestras hasta un volumen fijo",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3fc2aca8-b201-8059-9a38-ce9faef12370",
-      "question": "que ventajas tienen los matarieales de cristal, respecto a los plasticos?",
-      "answer": "son materiales quimicamente mas estables, con mayor resistencia termica, mas transparentes, faciles de limpiar y esterilizables en el autoclave. ",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "question": "que ventajas tienen los matarieales de cristal, respecto a los plasticos?",
+      "answer": "son materiales quimicamente mas estables, con mayor resistencia termica, mas transparentes, faciles de limpiar y esterilizables en el autoclave.",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     },
     {
       "id": "3f42aca8-b201-804e-8455-fec43abf49cc",
-      "question": "¿Las probetas, matraces y vasos de precipitados son material inventariable o fungible? (Trampa de examen UD1)",
-      "answer": "✅ Son MATERIAL FUNGIBLE REUTILIZABLE (NO inventariable).\n[PREGUNTA TRAMPA, CONFUNDIR  FUNGIBLE, COMO DESECJABLE).\n• Fungible ≠ de un solo uso: significa que tiene vida útil limitada, se deteriora o rompe y se repone (no se repara).\n• Se divide en:\n  1) Fungible REUTILIZABLE (varios usos, vida limitada): probetas, vasos de precipitados, matraces Erlenmeyer/aforados, pipetas graduadas de vidrio, cubetas Coplin.\n  2) Fungible DESECHABLE (1 solo uso): guantes, puntas de micropipeta, pipetas Pasteur, casetes, portaobjetos, cuchillas.\n• Inventariable (No fungible): equipos/aparatos de larga duración con código patrimonial (microscopio, micrótomo, estufa, centrífuga, balanza).",
       "course": "Procesamiento citológico y tisular",
       "tema": "UD1",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "question": "¿Las probetas, matraces y vasos de precipitados son material inventariable o fungible? (Trampa de examen UD1)",
+      "answer": "✅ Son MATERIAL FUNGIBLE REUTILIZABLE (NO inventariable).\n[PREGUNTA TRAMPA, CONFUNDIR  FUNGIBLE, COMO DESECJABLE).\n• Fungible ≠ de un solo uso: significa que tiene vida útil limitada, se deteriora o rompe y se repone (no se repara).\n• Se divide en:\n  1) Fungible REUTILIZABLE (varios usos, vida limitada): probetas, vasos de precipitados, matraces Erlenmeyer/aforados, pipetas graduadas de vidrio, cubetas Coplin.\n  2) Fungible DESECHABLE (1 solo uso): guantes, puntas de micropipeta, pipetas Pasteur, casetes, portaobjetos, cuchillas.\n• Inventariable (No fungible): equipos/aparatos de larga duración con código patrimonial (microscopio, micrótomo, estufa, centrífuga, balanza).",
       "status": "To Learn",
-      "image": null
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
     }
   ]
 }

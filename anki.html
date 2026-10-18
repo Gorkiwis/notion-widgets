@@ -89,19 +89,37 @@ async function loadCards(manual = false) {
     temas.forEach(t => st.insertAdjacentHTML("beforeend", `<option value="${t}">${t}</option>`));
 
     if (firstLoad) {
-      if (courses.includes("Procesamiento citológico y tisular")) sc.value = "Procesamiento citológico y tisular";
-      if (temas.includes("UD1")) st.value = "UD1";
+      sc.value = "ALL";
+      st.value = "ALL";
       firstLoad = false;
     } else {
       if ([...sc.options].some(o => o.value === prevC)) sc.value = prevC;
       if ([...st.options].some(o => o.value === prevT)) st.value = prevT;
     }
 
-    document.getElementById("btnApkg").href = "https://gorkiwis.github.io/notion-widgets/Procesamiento_UD1.apkg?t=" + Date.now();
+    updateTemaOptions();
     updateFilter();
     if (manual) stEl.textContent = `✓ Sincronizado (${allCards.length} total)`;
   } catch (e) {
     stEl.textContent = "Error leyendo JSON";
+  }
+}
+
+function updateTemaOptions() {
+  const sc = document.getElementById("selCourse");
+  const st = document.getElementById("selTema");
+  const selectedCourse = sc.value;
+  const currentTema = st.value;
+  
+  const relevantCards = selectedCourse === "ALL" ? allCards : allCards.filter(c => c.course === selectedCourse);
+  const temas = [...new Set(relevantCards.map(c => c.tema))].sort();
+  
+  st.innerHTML = '<option value="ALL">Todos los temas</option>';
+  temas.forEach(t => st.insertAdjacentHTML("beforeend", `<option value="${t}">${t}</option>`));
+  if (temas.includes(currentTema)) {
+    st.value = currentTema;
+  } else {
+    st.value = "ALL";
   }
 }
 
@@ -118,14 +136,32 @@ function getFiltered() {
 
 function updateFilter() {
   const f = getFiltered();
+  const c = document.getElementById("selCourse").value;
   const imgs = f.filter(x => x.image).length;
   const typ = f.filter(x => (x.plantilla || "").includes("Plantilla 1")).length;
   document.getElementById("counterBadge").textContent = `${f.length} tarjetas (${imgs} img · ${typ} escribir)`;
+
+  const btnApkg = document.getElementById("btnApkg");
+  let apkgFile = "Anki_Flashcards_Completo.apkg";
+  let apkgLabel = `📦 Descargar .apkg Completo (${allCards.length} tarj.)`;
+  if (c === "Procesamiento citológico y tisular") {
+    apkgFile = "Procesamiento_UD1.apkg";
+    apkgLabel = `📦 Descargar Procesamiento_UD1.apkg (${f.length} tarj.)`;
+  } else if (c === "Fisiopatología General") {
+    apkgFile = "Fisiopatologia_UD2.apkg";
+    apkgLabel = `📦 Descargar Fisiopatologia_UD2.apkg (${f.length} tarj.)`;
+  }
+  btnApkg.href = `https://gorkiwis.github.io/notion-widgets/${apkgFile}?t=` + Date.now();
+  btnApkg.download = apkgFile;
+  btnApkg.textContent = apkgLabel;
 }
 
-["selCourse", "selTema", "selStatus"].forEach(id =>
-  document.getElementById(id).addEventListener("change", updateFilter)
-);
+document.getElementById("selCourse").addEventListener("change", () => {
+  updateTemaOptions();
+  updateFilter();
+});
+document.getElementById("selTema").addEventListener("change", updateFilter);
+document.getElementById("selStatus").addEventListener("change", updateFilter);
 
 document.getElementById("btnRefresh").addEventListener("click", () => loadCards(true));
 
