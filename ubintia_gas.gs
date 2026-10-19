@@ -5,7 +5,8 @@
  *  - "Erreserba kendu da" -> Elimina reserva cancelada
  *  - "Erreserba iraungita" -> Elimina reserva caducada por no validar QR en 30 min
  *
- * Expone JSON en tiempo real vía doGet() y sincroniza con GitHub Pages (Gorkiwis/notion-widgets).
+ * Corre cada 5 minutos en la nube de Google (24/7, incluso con el PC apagado)
+ * y actualiza GitHub Pages (Gorkiwis/notion-widgets/ubintia_data.json) cuando hay cambios.
  */
 
 const UBINTIA_REGEX = /(\d+)\.Ikaspostua\s*(\d{2}-\d{2}-\d{4})\s*(\d{2}:\d{2})\s*-\s*(\d{2}:\d{2})/gi;
@@ -17,10 +18,17 @@ function parseUbintiaEmails() {
   for (const thread of threads) {
     const msgs = thread.getMessages();
     for (const msg of msgs) {
+      const rawHtml = (msg.getBody() || '') + ' ' + (msg.getPlainBody() || '');
+      const cleanText = rawHtml
+        .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/&nbsp;/gi, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
       messages.push({
         date: msg.getDate(),
         subject: (msg.getSubject() || '').trim(),
-        body: (msg.getPlainBody() || msg.getBody() || '')
+        body: cleanText
       });
     }
   }
@@ -47,13 +55,13 @@ function parseUbintiaEmails() {
       const start = match[3];
       const end = match[4];
       const parts = dmy.split('-');
-      const isoDate = `${parts[2]}-${parts[1]}-${parts[0]}`;
-      const key = `${isoDate}_${start}_${end}_${seat}`;
+      const isoDate = parts[2] + '-' + parts[1] + '-' + parts[0];
+      const key = isoDate + '_' + start + '_' + end + '_' + seat;
 
       if (isNew) {
         activeMap[key] = {
           seat: seat,
-          seat_label: `${seat}.Ikaspostua`,
+          seat_label: seat + '.Ikaspostua',
           date: dmy,
           iso_date: isoDate,
           start: start,
@@ -68,7 +76,7 @@ function parseUbintiaEmails() {
         }
         cancelledList.push({
           seat: seat,
-          seat_label: `${seat}.Ikaspostua`,
+          seat_label: seat + '.Ikaspostua',
           date: dmy,
           iso_date: isoDate,
           start: start,
@@ -87,31 +95,36 @@ function parseUbintiaEmails() {
     return a.start.localeCompare(b.start);
   });
 
-  return {
+  const resultPayload = {
     updated_at: new Date().toISOString(),
     location: 'Mediateka BBK — Azkuna Zentroa (Ubintia)',
     account: Session.getActiveUser().getEmail() || 'gorkaobiangolaso@gmail.com',
     sender_filter: 'no-reply@amiprojects.com',
+    cloud_verified: true,
     slots: slots,
     cancelled_or_expired: cancelledList.slice(-20)
   };
-}
 
-function doGet(e) {
-  const payload = parseUbintiaEmails();
-  return ContentService
-    .createTextOutput(JSON.stringify(payload, null, 2))
-    .setMimeType(ContentService.MimeType.JSON);
-}
-
-function syncUbintiaToGitHub() {
-  const payload = parseUbintiaEmails();
-  const ghToken = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
-  if (!ghToken) {
-    Logger.log('Parsed slots: ' + payload.slots.length);
-    return payload;
+  try {
+    const props = PropertiesService.getScriptProperties();
+    const triggers = ScriptApp.getProjectTriggers();
+    if (!triggers.some(t => t.getHandlerFunction() === 'parseUbintiaEmails')) {
+      ScriptApp.newTrigger('parseUbintiaEmails').timeBased().everyMinutes(5).create();
+      Logger.log('Trigger de 5 minutos (parseUbintiaEmails) instalado.');
+    }
+    pushPayloadToGitHub_(resultPayload, props.getProperty('GITHUB_TOKEN'));
+  } catch (err) {
+    Logger.log('Sync warning: ' + err);
   }
 
+  return resultPayload;
+}
+
+function pushPayloadToGitHub_(payload, ghToken) {
+  if (!ghToken) {
+    Logger.log('No GITHUB_TOKEN found in ScriptProperties');
+    return;
+  }
   const apiUrl = 'https://api.github.com/repos/Gorkiwis/notion-widgets/contents/ubintia_data.json';
   const getResp = UrlFetchApp.fetch(apiUrl, {
     method: 'get',
@@ -126,15 +139,22 @@ function syncUbintiaToGitHub() {
   if (getResp.getResponseCode() === 200) {
     const existing = JSON.parse(getResp.getContentText());
     sha = existing.sha;
+    try {
+      const oldJson = JSON.parse(Utilities.newBlob(Utilities.base64Decode(existing.content)).getDataAsString());
+      if (JSON.stringify(oldJson.slots) === JSON.stringify(payload.slots) && oldJson.cloud_verified === true) {
+        Logger.log('Sin cambios en slots (' + payload.slots.length + '). No se requiere commit.');
+        return;
+      }
+    } catch (e) {}
   }
 
   const body = {
-    message: 'Auto-sync Ubintia reservations (' + payload.updated_at + ')',
+    message: 'Cloud 24/7 Auto-sync Ubintia (' + payload.updated_at + ')',
     content: Utilities.base64Encode(Utilities.newBlob(JSON.stringify(payload, null, 2)).getBytes())
   };
   if (sha) body.sha = sha;
 
-  UrlFetchApp.fetch(apiUrl, {
+  const putResp = UrlFetchApp.fetch(apiUrl, {
     method: 'put',
     contentType: 'application/json',
     headers: {
@@ -144,6 +164,12 @@ function syncUbintiaToGitHub() {
     payload: JSON.stringify(body),
     muteHttpExceptions: true
   });
+  Logger.log('GitHub PUT status: ' + putResp.getResponseCode());
+}
 
-  return payload;
+function doGet(e) {
+  const payload = parseUbintiaEmails();
+  return ContentService
+    .createTextOutput(JSON.stringify(payload, null, 2))
+    .setMimeType(ContentService.MimeType.JSON);
 }
