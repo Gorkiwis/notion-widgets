@@ -172,7 +172,7 @@ document.getElementById("btnTsv").addEventListener("click", () => {
   const lines = ["#separator:tab", "#html:true", "#deck column:1", "#notetype column:2"];
   for (const x of f) {
     const deck = `${x.course}::${x.tema}`;
-    const noteType = (x.plantilla || "").includes("Plantilla 1") ? "Basic (type in the answer)" : "Basic";
+    const noteType = (x.plantilla || "").includes("Plantilla 1") ? "Notion TypeIn FP" : "Basic";
     const front = (x.question + (x.image ? `<br><img src="${x.image}">` : "")).replace(/[\t\r\n]+/g, " ");
     const back = x.answer.replace(/\r?\n/g, "<br>").replace(/\t/g, " ");
     lines.push(`${deck}\t${noteType}\t${front}\t${back}`);
