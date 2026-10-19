@@ -1,13 +1,35 @@
 {
-  "updated_at": "2026-10-19 19:31:28",
+  "updated_at": "2026-10-19 19:37:49",
   "total": 206,
   "cards": [
     {
-      "id": "3fe2aca8-b201-818a-9525-ebd9bbe10d81",
+      "id": "3fe2aca8-b201-819b-bafa-fb791d3b8ada",
       "course": "Fisiopatología General",
       "tema": "UD1",
-      "question": "📖 [TEORÍA] ¿En qué se diferencia la APOPTOSIS de la NECROSIS celular?",
-      "answer": "- APOPTOSIS: muerte celular programada fisiológica, genéticamente regulada, activa (consume ATP). La célula se contrae, la cromatina se fragmenta, se forman cuerpos apoptóticos intactos que son fagocitados SIN provocar respuesta inflamatoria.\n- NECROSIS: muerte celular accidental y pasiva causada por un daño lesivo agudo (isquemia, tóxicos, trauma). Hay tumefacción celular, pérdida de permeabilidad de membrana, lisis con vertido del contenido intracelular al tejido y PROVOCA una intensa REACCIÓN INFLAMATORIA.",
+      "question": "📖 [TEORÍA] ¿Cómo define el libro el METABOLISMO CELULAR y qué relación tiene con las funciones vitales?",
+      "answer": "Es el conjunto de reacciones químicas y procesos fisiológicos que ocurren en la célula (principalmente en el citoplasma) que le permiten captar y utilizar nutrientes y oxígeno para atender sus necesidades vitales y eliminar productos de desecho.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fe2aca8-b201-81aa-b18f-d1d47ffeead3",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "📖 [TEORÍA] ¿Cómo define el libro de texto la RESPIRACIÓN CELULAR a nivel fisiológico?",
+      "answer": "Es la vía metabólica mediante la cual la célula utiliza el oxígeno para oxidar nutrientes y obtener energía química aprovechable (ATP) para realizar todas sus funciones vitales, eliminando CO2 como desecho.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fe2aca8-b201-8106-980c-e69b2852991e",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "📖 [TEORÍA] ¿Qué diferencia existe entre Cariocinesis y Citocinesis durante la división celular?",
+      "answer": "Aunque se solapan en el tiempo durante la fase M, son dos procesos distintos:\n- CARIOCINESIS: es el proceso específico de división del NÚCLEO celular (reparto exacto de los cromosomas).\n- CITOCINESIS: es el proceso específico de división y estrangulamiento del CITOPLASMA para dar lugar a las dos células hijas independientes.",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
@@ -19,28 +41,6 @@
       "tema": "UD1",
       "question": "📖 [TEORÍA] ¿Qué es el PUNTO DE CONTROL G1/S (punto de restricción) del ciclo celular y qué proteína antioncogénica lo vigila?",
       "answer": "Es el punto de no retorno más crítico en la interfase celular (en G1 tardío). Comprueba que la célula haya alcanzado el tamaño adecuado, tenga suficientes nutrientes y que NO exista daño en el ADN antes de autorizar la replicación. Está vigilado por la proteína p53 ('el guardián del genoma') y regulado por complejos Ciclina-CDK.",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
-      "id": "3fe2aca8-b201-8182-ac3c-c4e4573d9ce6",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "📖 [TEORÍA] Ciclo de Krebs: ¿Dónde ocurre y cuál es su principal objetivo en la respiración celular?",
-      "answer": "Ocurre en la MATRIZ MITOCONDRIAL. Su objetivo es la oxidación completa del Acetil-CoA derivado de los nutrientes (glúcidos, lípidos, aminoácidos) liberando CO2 y produciendo transportadores de electrones reducidos de alta energía (NADH y FADH2) y 1 GTP/ATP por vuelta.",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
-      "id": "3fe2aca8-b201-818e-b7f1-dbceee622d4b",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "📖 [TEORÍA] Glucólisis: ¿En qué compartimento celular tiene lugar, requiere oxígeno y qué produce a partir de 1 glucosa?",
-      "answer": "Tiene lugar en el CITOSOL (citoplasma celular). Es una vía anaerobia (NO requiere O2). A partir de 1 molécula de glucosa produce: 2 moléculas de PIRUVATO, 2 ATP netos (por fosforilación a nivel de sustrato) y 2 NADH.",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
