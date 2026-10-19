@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-10-19T08:37:39Z",
-  "total": 111,
+  "updated_at": "2026-10-19T10:46:23Z",
+  "total": 112,
   "cards": [
+    {
+      "id": "3fe2aca8-b201-8024-b298-f246c38d75ff",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "question": "¿que forma el tejid",
+      "answer": "",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "3fd2aca8-b201-80ee-b60d-f3b48b83e38d",
       "course": "Fisiopatología General",
