@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-10-19 19:37:49",
-  "total": 206,
+  "updated_at": "2026-10-19 19:42:49",
+  "total": 205,
   "cards": [
+    {
+      "id": "3fe2aca8-b201-815e-a268-f42e2aa2e2d8",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "📖 [TEORÍA] ¿Qué función tienen los Cilios y los Flagelos en las células humanas?",
+      "answer": "Son prolongaciones citoplasmáticas móviles sostenidas por microtúbulos:\n- Cilios: son cortos y numerosos; su batido coordinado desplaza fluidos y partículas sobre la superficie de los epitelios (ej. epitelio respiratorio para expulsar mucosidad).\n- Flagelos: son largos y únicos; impulsan a la célula permitiendo su desplazamiento autónomo (el único ejemplo en el ser humano es el espermatozoide).",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "3fe2aca8-b201-819b-bafa-fb791d3b8ada",
       "course": "Fisiopatología General",
@@ -36,33 +47,11 @@
       "image_filename": ""
     },
     {
-      "id": "3fe2aca8-b201-8114-bd3d-c4c3d09b73ad",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "📖 [TEORÍA] ¿Qué es el PUNTO DE CONTROL G1/S (punto de restricción) del ciclo celular y qué proteína antioncogénica lo vigila?",
-      "answer": "Es el punto de no retorno más crítico en la interfase celular (en G1 tardío). Comprueba que la célula haya alcanzado el tamaño adecuado, tenga suficientes nutrientes y que NO exista daño en el ADN antes de autorizar la replicación. Está vigilado por la proteína p53 ('el guardián del genoma') y regulado por complejos Ciclina-CDK.",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
       "id": "3fe2aca8-b201-8167-a4e1-d601b71e05ea",
       "course": "Fisiopatología General",
       "tema": "UD1",
       "question": "📖 [TEORÍA] Eucromatina vs Heterocromatina: ¿En qué se diferencian funcional y visualmente?",
       "answer": "- Eucromatina: cromatina poco condensada (desespirilada), de tinción clara al microscopio y transcripcionalmente ACTIVA (sus genes se leen y transcriben activamente a ARN).\n- Heterocromatina: cromatina densamente empaquetada, de tinción oscura/electrodenso y transcripcionalmente INACTIVA o silenciada (constitutiva como en centrómeros/telómeros o facultativa).",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
-      "id": "3fe2aca8-b201-81ee-b746-cfa23c9a5e38",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "📖 [TEORÍA] Cilios y Flagelos: ¿Cómo se organiza el AXONEMA y qué proteína motora genera su movimiento?",
-      "answer": "El axonema tiene una estructura interna de 9 dobletes de microtúbulos periféricos rodeando a 1 par de microtúbulos centrales (patrón 9x2+2). El movimiento ondulatorio o batido activo lo producen los brazos de DINEÍNA ciliar (proteína motora con actividad ATPasa).",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
