@@ -1,7 +1,40 @@
 {
-  "updated_at": "2026-10-19T13:39:40Z",
-  "total": 122,
+  "updated_at": "2026-10-19T14:09:42Z",
+  "total": 125,
   "cards": [
+    {
+      "id": "3fe2aca8-b201-803d-a41b-f0c60efd0010",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿cuales son las delimitaciones del abdomen?",
+      "answer": "es anterocaudal al tronco. formado por una capa muscular que delimita",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fe2aca8-b201-803b-9289-c32cb87668f8",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿que encontramos en el nterior de la cavidad  toracica?",
+      "answer": "encontramos la cavidad pleural (izquierda y derecha) , con membranas serosas, llamadas pleuras\ny el mediastino\n * el corazón, \n  • grandes vasos, * esofago, \n  • traquea\n  • el conducto toracico linfatico",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "3fe2aca8-b201-8056-ae3f-d3db0348cc30",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿cuales son las delimitacioens de la cavidad toracica?",
+      "answer": "delimita posteriormente por las  costillas, anteriormente por la pared toracica y ventralmente por el diafragma",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "3fe2aca8-b201-8053-970a-c62a7e5103bc",
       "course": "Fisiopatología General",
