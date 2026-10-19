@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-10-19T15:30:34Z",
-  "total": 126,
+  "updated_at": "2026-10-19T18:57:22Z",
+  "total": 127,
   "cards": [
+    {
+      "id": "3fe2aca8-b201-81fe-ad6f-d06198072193",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Cómo se define la posición anatómica de referencia estándar?",
+      "answer": "Es la posición de referencia anatómica universal: sujeto en bipedestación (de pie), tronco erguido, cabeza y mirada al frente, miembros superiores pegados al cuerpo con las palmas de las manos hacia adelante (en supinación) y pies juntos dirigidos hacia adelante.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "3fe2aca8-b201-80e7-8aac-fa864d72a4b8",
       "course": "Fisiopatología General",
