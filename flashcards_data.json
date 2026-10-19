@@ -1,13 +1,24 @@
 {
-  "updated_at": "2026-10-19T14:09:42Z",
-  "total": 125,
+  "updated_at": "2026-10-19T15:30:34Z",
+  "total": 126,
   "cards": [
+    {
+      "id": "3fe2aca8-b201-80e7-8aac-fa864d72a4b8",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿en que dos cavidades dividimos el abdomen?",
+      "answer": "cavidad abdominal: cranealmente con diafragma , caudalmente con cintura pelvica \ncavidad pelvica: que va de la cintura pelvica, incluyendo utero, vejiga, colon, recto, prostata",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "3fe2aca8-b201-803d-a41b-f0c60efd0010",
       "course": "Fisiopatología General",
       "tema": "UD1",
-      "question": "¿cuales son las delimitaciones del abdomen?",
-      "answer": "es anterocaudal al tronco. formado por una capa muscular que delimita",
+      "question": "¿donde se encuentra, que forma, y que recubre el abdomen?",
+      "answer": "es anterocaudal al tronco. formado por una capa muscular que delimita  la cavidad abdominal e interiormente recubierta por el periotoneo",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
