@@ -1,13 +1,24 @@
 {
-  "updated_at": "2026-10-23T17:26:04Z",
-  "total": 257,
+  "updated_at": "2026-10-23T17:56:05Z",
+  "total": 258,
   "cards": [
+    {
+      "id": "4022aca8-b201-8009-9bad-e5308eba354b",
+      "course": "Necropsias",
+      "tema": "UD2",
+      "question": "¿que información contiene el informe definitivo?",
+      "answer": "se obtiene la causa basica de la muerte, la causa intemerdia, los procesos que contribuyeron al desenlace y comentarios clínicos y patológicos, incluyendo la bibliografía",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "4022aca8-b201-804f-87ce-fad937c6747f",
       "course": "Necropsias",
       "tema": "UD2",
       "question": "¿en que plazo debe presentarse el informe definitivo? ¿y con que finalidad?",
-      "answer": "se presentará como maximo en 60 días, aunque recomendablemente en 30 días, teniendo como plazo recomendado los 30 dias, la finalidad es extender el certificado",
+      "answer": "se presentará como maximo en 60 días, aunque recomendablemente en 30 días, teniendo como plazo recomendado los 30 dias, la finalidad es extender el certificado medico de fallecimiento y aclarar  la causa de la muerte",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
