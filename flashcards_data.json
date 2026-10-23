@@ -1,13 +1,46 @@
 {
-  "updated_at": "2026-10-23T13:11:42Z",
-  "total": 243,
+  "updated_at": "2026-10-23T16:24:09Z",
+  "total": 246,
   "cards": [
+    {
+      "id": "4022aca8-b201-8007-b0fb-c8eb090367cb",
+      "course": "Necropsias",
+      "tema": "UD2",
+      "question": "¿que real decreto regula los institutos médicos legales?",
+      "answer": "viene regulado por el real decreto 386/1996 del 1 de marzo, además de la recomendación nº (99) del consejo de ministros de los estados miembros.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4022aca8-b201-80a5-9513-e9c1dc67a87f",
+      "course": "Necropsias",
+      "tema": "UD1",
+      "question": "¿como debemos gestionar  los encefalos que puedan tener priones?",
+      "answer": "debenrá realizarse el estudio en una sala especializada, con personal e intrumentos destinados unicamente a dicho estudio. \n\npuede derivar en enfermedades, encefalopatías espongiformes, que destruyen el tejido nervioso",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4022aca8-b201-8066-9452-fec18451e404",
+      "course": "Necropsias",
+      "tema": "UD1",
+      "question": "¿que riesgos infecciosos tienen las autopsias neuropatologicas?",
+      "answer": "debemos prestar atención puesto que puede haber priones, los cuales son enfermedades altamente contagiosas",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "4022aca8-b201-8075-a338-d59199d10719",
       "course": "Necropsias",
       "tema": "UD1",
-      "question": "¿por que debemos realizar rapido el procedimiento",
-      "answer": "",
+      "question": "¿por que debemos realizar rapido el procedimiento con el encéfalo?",
+      "answer": "debido a que es un tejido delicado, que sufre autolisis en las primeras 24 horas.",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
