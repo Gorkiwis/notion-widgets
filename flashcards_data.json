@@ -1,7 +1,29 @@
 {
-  "updated_at": "2026-10-23T16:24:09Z",
-  "total": 246,
+  "updated_at": "2026-10-23T16:55:05Z",
+  "total": 248,
   "cards": [
+    {
+      "id": "4022aca8-b201-8064-87fb-d5ebe085c45b",
+      "course": "Necropsias",
+      "tema": "UD2",
+      "question": "¿que documentación es",
+      "answer": "",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4022aca8-b201-8029-ba6b-e77f281a43a6",
+      "course": "Necropsias",
+      "tema": "UD2",
+      "question": "¿que documentación es necesaria aportar para Autopsia judicial?",
+      "answer": "se deberá  aportar orden judicial, siempre",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "4022aca8-b201-8007-b0fb-c8eb090367cb",
       "course": "Necropsias",
