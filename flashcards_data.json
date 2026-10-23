@@ -1,7 +1,73 @@
 {
-  "updated_at": "2026-10-23T11:32:00Z",
-  "total": 228,
+  "updated_at": "2026-10-23T12:40:40Z",
+  "total": 234,
   "cards": [
+    {
+      "id": "4022aca8-b201-8057-b24a-c161f8515465",
+      "course": "Necropsias",
+      "tema": "UD1",
+      "question": "¿como calificamos una necropsia realizada en el producto de una gestación de 0 a 14 semanas?",
+      "answer": "sí,  son consideradas biopsias.",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4022aca8-b201-80cf-bedd-fa0bfd13ed7a",
+      "course": "Necropsias",
+      "tema": "UD1",
+      "question": "¿cuando y quien solicita una autopsia medico legal?",
+      "answer": "está solicitada por el juez. cuando la muerte no ha sido natural o se ha producido fuera de un entorno clinico. \nson sospechosas de criminalidad o han ocurrido en entornos de privación de libertad",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4022aca8-b201-80b4-bed9-c65b3dc9feaa",
+      "course": "Necropsias",
+      "tema": "UD1",
+      "question": "¿que es una autopsia medicolegal o judicial?",
+      "answer": "esclarecer la causa de la muerte, cuando esta ha sido violenta, sospechosa de criminalidad o muerte no natural. dando igual el tiempo que haya transcurrido",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4022aca8-b201-80a2-97ef-c89392eac2df",
+      "course": "Necropsias",
+      "tema": "UD1",
+      "question": "¿cuando y donde se realizan las autopsias clinicas?",
+      "answer": "se practican inmediatemente despues del fallecimiento, en los servicios de anatoomía patologica y salas de autopsias. ocasionalmente, por razones de salud publica podrán realizarse en otros ssitio",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4022aca8-b201-80a4-aa3d-c0e611a1013e",
+      "course": "Necropsias",
+      "tema": "UD1",
+      "question": "¿quien solicita las autopsias clinicas?",
+      "answer": "están solicitadas por personal médico, familiares del paciente.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4022aca8-b201-8030-9ac9-e12d1aba90c2",
+      "course": "Necropsias",
+      "tema": "UD1",
+      "question": "¿En que consiste una autopsia clínica?",
+      "answer": "procedimiento para la obtención de información sobre la naturaleza, extensión, complicaciones de la enfermedad que sufrio el paciente antes de su muerte o así como las alteraciones secundarias y derivadas de ellas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "4022aca8-b201-81b0-851a-fdff07fb82e4",
       "course": "Fisiopatología General",
