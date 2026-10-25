@@ -1,13 +1,24 @@
 {
-  "updated_at": "2026-10-25T16:21:11Z",
-  "total": 270,
+  "updated_at": "2026-10-25T16:52:13Z",
+  "total": 271,
   "cards": [
+    {
+      "id": "4042aca8-b201-801a-bab8-e6449e42898c",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "hallazgos en fondos coloides",
+      "answer": "aparece en muestras de origen tiroidem con apariencia azulada y como aceitosa",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "4042aca8-b201-80e0-b7de-dfd50df5bee5",
       "course": "Citología General",
       "tema": "UD1",
       "question": "estructuras y hallazgos evidenciables en fondos mucinosos",
-      "answer": "en citologías donde eviidenciamos un fondo mucinoso, podremos observar la presencia de “mucina”, hallazgo que se presentará en frotis procedentes del aparato respiratorio, mama, salivares. verem",
+      "answer": "en citologías donde eviidenciamos un fondo mucinoso, podremos observar la presencia de “mucina”, hallazgo que se presentará en frotis procedentes del aparato respiratorio, mama, salivares. veremos estructuras  filamentosas con aspecto algodonoso,",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
