@@ -1,15 +1,48 @@
 {
-  "updated_at": "2026-10-25T15:50:11Z",
-  "total": 267,
+  "updated_at": "2026-10-25T16:21:11Z",
+  "total": 270,
   "cards": [
+    {
+      "id": "4042aca8-b201-80e0-b7de-dfd50df5bee5",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "estructuras y hallazgos evidenciables en fondos mucinosos",
+      "answer": "en citologías donde eviidenciamos un fondo mucinoso, podremos observar la presencia de “mucina”, hallazgo que se presentará en frotis procedentes del aparato respiratorio, mama, salivares. verem",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4042aca8-b201-8029-acf0-d112ff2ddb5c",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "¿que evidenciamos en los fondos inflamatorios crónicos?",
+      "answer": "evidenciareos la presenncia de macrofagos y linficitos",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4042aca8-b201-800c-a519-cf2ebbca62c9",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "¿que caracteristicas evidenciamos en los fondos inflamatorios agudos?",
+      "answer": "en los fondos inflamatorios agudos, evidenciamos  la presencia de neutrofilos polimorfonucleares, junto a macrofagos.",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "4042aca8-b201-80a9-989f-f1bdd281125c",
       "course": "Citología General",
       "tema": "UD1",
       "question": "¿Que es un cuerpo linfoglandular?",
-      "answer": "Estructuras que evidenciamos en las citologías",
+      "answer": "Estructuras que evidenciamos en las citologías, con aspecto basofílo, que procede del citoplasma de las celulas linfoides.inmaduras. originado por el cizallamiento de las celulas linfoides inmaduras",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
