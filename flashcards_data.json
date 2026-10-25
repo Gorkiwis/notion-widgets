@@ -1,7 +1,62 @@
 {
-  "updated_at": "2026-10-25T13:09:08Z",
-  "total": 260,
+  "updated_at": "2026-10-25T13:39:50Z",
+  "total": 265,
   "cards": [
+    {
+      "id": "4042aca8-b201-8027-919e-d3ad6b0c271e",
+      "course": "Necropsias",
+      "tema": "UD2",
+      "question": "¿que caracteristicas tienen los filtros HEPA?",
+      "answer": "deben sacar el aire",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4042aca8-b201-804d-bf94-e8a53969579b",
+      "course": "Necropsias",
+      "tema": "UD2",
+      "question": "que norma establece las caracteristicas de los guantes de protección?",
+      "answer": "viene establecido por la norma 374 - 2 , deben estar constituidos por latex y nitrilo",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4042aca8-b201-8016-9d34-df5d6bb8e803",
+      "course": "Necropsias",
+      "tema": "UD2",
+      "question": "¿que tasa de perforación y de contagio hay al hacer uso de un guante doble como EPI?",
+      "answer": "la tasa de perforación es del 5.5% y la tasa de contagio se reduce en el 70%",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4042aca8-b201-8090-ab7b-dcc568065245",
+      "course": "Necropsias",
+      "tema": "UD2",
+      "question": "¿que tasa de perforación y de contagio hay al hacer uso de un guante simple como EPI?",
+      "answer": "la tasa de perforación por objeto punzocortante es del 17.5% y la tasa de contagio se reduce en el 50%",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4042aca8-b201-802e-acb4-c75fa83fa5a5",
+      "course": "Necropsias",
+      "tema": "UD2",
+      "question": "¿que riesgos puede suponer la manipulación de un cadaver?",
+      "answer": "• posibiligad de contención de elementos corto punzantes en el interior del mismo\n  • presencia de liquidos a presión que puedan salir disparados \n  • presencia de dispositivos electronicos\n  • riesgos biologicos",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "4042aca8-b201-809a-a7ac-e423d9d693aa",
       "course": "Necropsias",
