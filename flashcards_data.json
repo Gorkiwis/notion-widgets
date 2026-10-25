@@ -1,7 +1,51 @@
 {
-  "updated_at": "2026-10-25T16:52:13Z",
-  "total": 271,
+  "updated_at": "2026-10-25T17:56:14Z",
+  "total": 275,
   "cards": [
+    {
+      "id": "4042aca8-b201-806f-ab7a-cc96bdaa9c06",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "¿en una citología, como podemos discernir la morfologia cilindrica de las celulas, si están agrupadas?",
+      "answer": "veremos como las celulas adquieren una forma empalizada, con los cuerpos celulares dispuestos",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4042aca8-b201-8038-aaf0-ce3ad88386cf",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "¿Que caracteristicas tienen las agrupaciones en Lamina, y a que origen celular están asociados?",
+      "answer": "provienen de epitelios de revestimiento, teniendo 3 tipos\nsabana: laminas muy grandes\npanal: lasminas con dispoción celular regular y bordes definidos?",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4042aca8-b201-802a-9f68-c073f739e805",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "¿Que morfologia tiene una agrupación tipo acino? y en que tipos celulares están presentes",
+      "answer": "observaremos celulas con nucleo bien definidos, dispuestas rodeando a una luz central, muy tipico en elementos glandulares",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4042aca8-b201-8077-8744-ed29b9a93f75",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "¿que morfologia tiene una morula?",
+      "answer": "son agrupaciones de un numero reducido de celulas las celulas, son de aspecto cubico, se agrupan en forma de mora",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "4042aca8-b201-801a-bab8-e6449e42898c",
       "course": "Citología General",
