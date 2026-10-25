@@ -1097,6 +1097,30 @@
           }
         }
 
+        // Cargar slots secundarios / extras (cuentas adicionales que Apps Script no ve)
+        try {
+          let extraJson = null;
+          try {
+            const extraRes = await fetch(`https://raw.githubusercontent.com/Gorkiwis/notion-widgets/main/ubintia_extra.json?t=${Date.now()}`, { cache: "no-store" });
+            if (extraRes.ok) extraJson = await extraRes.json();
+          } catch (_) {}
+          if (!extraJson) {
+            const extraResLocal = await fetch(`ubintia_extra.json?t=${Date.now()}`, { cache: "no-store" });
+            if (extraResLocal.ok) extraJson = await extraResLocal.json();
+          }
+          if (extraJson && Array.isArray(extraJson.slots)) {
+            if (!Array.isArray(rawData.slots)) rawData.slots = [];
+            const existingKeys = new Set(rawData.slots.map(s => `${s.date || s.iso_date}_${s.start}_${s.end}_${s.seat}`));
+            for (const es of extraJson.slots) {
+              const k = `${es.date || es.iso_date}_${es.start}_${es.end}_${es.seat}`;
+              if (!existingKeys.has(k)) {
+                rawData.slots.push(es);
+                existingKeys.add(k);
+              }
+            }
+          }
+        } catch (_) {}
+
         // Si hay un endpoint de Google Apps Script configurado, consultarlo en paralelo
         const gasUrl = rawData.gas_endpoint || localStorage.getItem("ubintia_gas_url");
         if (gasUrl && gasUrl.startsWith("https://")) {

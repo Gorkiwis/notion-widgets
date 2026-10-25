@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-10-25T16:16:00.000Z",
+  "slots": [
+    {
+      "seat": 19,
+      "seat_label": "19.Ikaspostua",
+      "date": "25-10-2026",
+      "iso_date": "2026-10-25",
+      "start": "18:00",
+      "end": "19:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-25T16:07:14.000Z",
+      "holder": "Aitor Goikoetxea"
+    },
+    {
+      "seat": 19,
+      "seat_label": "19.Ikaspostua",
+      "date": "25-10-2026",
+      "iso_date": "2026-10-25",
+      "start": "19:00",
+      "end": "20:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-25T16:07:15.000Z",
+      "holder": "Aitor Goikoetxea"
+    },
+    {
+      "seat": 19,
+      "seat_label": "19.Ikaspostua",
+      "date": "25-10-2026",
+      "iso_date": "2026-10-25",
+      "start": "20:00",
+      "end": "21:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-25T16:07:15.000Z",
+      "holder": "Aitor Goikoetxea"
+    }
+  ]
+}
