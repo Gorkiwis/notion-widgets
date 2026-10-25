@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T09:33:29.409Z",
+  "updated_at": "2026-10-25T08:48:29.309Z",
   "location": "Mediateka BBK — Azkuna Zentroa (Ubintia)",
   "account": "gorkaobiangolaso@gmail.com",
   "sender_filter": "no-reply@amiprojects.com",
@@ -433,6 +433,72 @@
       "status": "active",
       "source_subject": "Erreserba berria",
       "email_timestamp": "2026-10-19T12:44:13.000Z"
+    },
+    {
+      "seat": 35,
+      "seat_label": "35.Ikaspostua",
+      "date": "25-10-2026",
+      "iso_date": "2026-10-25",
+      "start": "11:00",
+      "end": "12:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-25T08:47:56.000Z"
+    },
+    {
+      "seat": 35,
+      "seat_label": "35.Ikaspostua",
+      "date": "25-10-2026",
+      "iso_date": "2026-10-25",
+      "start": "12:00",
+      "end": "13:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-25T08:47:57.000Z"
+    },
+    {
+      "seat": 35,
+      "seat_label": "35.Ikaspostua",
+      "date": "25-10-2026",
+      "iso_date": "2026-10-25",
+      "start": "13:00",
+      "end": "14:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-25T08:47:57.000Z"
+    },
+    {
+      "seat": 29,
+      "seat_label": "29.Ikaspostua",
+      "date": "25-10-2026",
+      "iso_date": "2026-10-25",
+      "start": "14:00",
+      "end": "15:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-25T08:47:57.000Z"
+    },
+    {
+      "seat": 29,
+      "seat_label": "29.Ikaspostua",
+      "date": "25-10-2026",
+      "iso_date": "2026-10-25",
+      "start": "15:00",
+      "end": "16:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-25T08:47:58.000Z"
+    },
+    {
+      "seat": 29,
+      "seat_label": "29.Ikaspostua",
+      "date": "25-10-2026",
+      "iso_date": "2026-10-25",
+      "start": "16:00",
+      "end": "17:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-25T08:47:58.000Z"
     }
   ],
   "cancelled_or_expired": [
