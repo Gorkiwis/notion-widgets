@@ -1075,11 +1075,25 @@
       if (manual) btn.classList.add("spinning");
 
       try {
-        const res = await fetch(`ubintia_data.json?t=${Date.now()}`, { cache: "no-store" });
-        if (res.ok) {
-          const json = await res.json();
-          if (json && Array.isArray(json.slots)) {
-            rawData = json;
+        let loaded = false;
+        try {
+          const rawRes = await fetch(`https://raw.githubusercontent.com/Gorkiwis/notion-widgets/main/ubintia_data.json?t=${Date.now()}`, { cache: "no-store" });
+          if (rawRes.ok) {
+            const rawJson = await rawRes.json();
+            if (rawJson && Array.isArray(rawJson.slots)) {
+              rawData = rawJson;
+              loaded = true;
+            }
+          }
+        } catch (e) {}
+
+        if (!loaded) {
+          const res = await fetch(`ubintia_data.json?t=${Date.now()}`, { cache: "no-store" });
+          if (res.ok) {
+            const json = await res.json();
+            if (json && Array.isArray(json.slots)) {
+              rawData = json;
+            }
           }
         }
 
