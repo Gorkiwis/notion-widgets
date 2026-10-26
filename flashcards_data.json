@@ -1,7 +1,51 @@
 {
-  "updated_at": "2026-10-26T19:41:32Z",
-  "total": 292,
+  "updated_at": "2026-10-26T20:12:39Z",
+  "total": 296,
   "cards": [
+    {
+      "id": "4052aca8-b201-802c-bf04-d98aaef4252e",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "¿que caracteristicas tiene el nucleolo?",
+      "answer": "• muy visible en ciertas estirpes celulares\n  • en algunas celulas aumenta de tamaño con la actividad celular\n  • el aspecto irregular, del mismo es signo de malignidad",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-80ad-9723-e805ceea4a82",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "En condiciones patológicas, ¿qué alteraciones presenta la eucromatina (o paracromatina)?",
+      "answer": "Aclaramiento (espacios claros/blancos entre los grumos).Otorga al núcleo un aspecto vesiculoso (como lleno de vesículas o burbujas).",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-8016-b665-c4e76cdb57fe",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "En condiciones patológicas (neoplasias/atipias), ¿qué alteraciones presenta la heterocromatina?",
+      "answer": "Formación de grumos irregulares (dispersos y en zonas marginales).Aparente engrosamiento de la membrana nuclear (por acúmulo de pegotes oscuros en el borde).",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-801b-ab90-e91243f71b73",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "En condiciones normales, ¿cómo se observa la eucromatina (o paracromatina) en el núcleo?",
+      "answer": "REVERSO:\n  \n  \n• Áreas más claras.\n• Dispersa de forma uniforme por el interior del núcleo.",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "4052aca8-b201-80e8-94bc-caa200ecadc9",
       "course": "Citología General",
@@ -289,17 +333,6 @@
       "image_filename": ""
     },
     {
-      "id": "4042aca8-b201-80b9-a124-f73dccbebd1f",
-      "course": "Citología General",
-      "tema": "UD1",
-      "question": "¿que estructura/agrupaciónn es esta?",
-      "answer": "corresponde a una agrupación de cel",
-      "status": "To Learn",
-      "plantilla": "Estándar",
-      "image": "",
-      "image_filename": ""
-    },
-    {
       "id": "4042aca8-b201-806f-ab7a-cc96bdaa9c06",
       "course": "Citología General",
       "tema": "UD1",
@@ -337,7 +370,18 @@
       "course": "Citología General",
       "tema": "UD1",
       "question": "¿que morfologia tiene una morula?",
-      "answer": "son agrupaciones de un numero reducido de celulas las celulas, son de aspecto cubico, se agrupan en forma de mora",
+      "answer": "son agrupaciones de un numero reducido de celulas, las celulas, son de aspecto cubico, se agrupan en forma de mora",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4042aca8-b201-8013-8fd6-c2680d8c186c",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "En condiciones normales, ¿cómo se observa la heterocromatina en el núcleo?",
+      "answer": "Áreas más oscuras con aspecto granular.Disposición homogénea en la periferia del núcleo (pegada a la membrana).",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
