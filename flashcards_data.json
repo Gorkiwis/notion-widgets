@@ -1,7 +1,205 @@
 {
-  "updated_at": "2026-10-26T08:47:34Z",
-  "total": 276,
+  "updated_at": "2026-10-26T09:25:06Z",
+  "total": 286,
   "cards": [
+    {
+      "id": "4052aca8-b201-810e-91a3-fda63727ae6d",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué diferencias existen en las tres funciones vitales al compararlas a nivel celular frente a nivel organismo vivo?",
+      "answer": "Comparativa fisiológica según Altamar (Pág. 8):\n\n1. Relación:\n• Celular: Detecta estímulos químicos/físicos limitados (pH, temperatura, concentración de solutos) con respuestas sencillas (movimiento, secreción).\n• Organismo vivo: Detecta estímulos internos y externos muy complejos mediante receptores sensoriales y elabora respuestas integradas por el sistema nervioso y endocrino.\n\n2. Nutrición:\n• Celular: Incorpora nutrientes y oxígeno directamente por transporte a través de su membrana para su propio metabolismo.\n• Organismo vivo: Requiere aparatos especializados (digestivo, respiratorio, circulatorio y excretor) para captar, procesar, distribuir nutrientes a billones de células y eliminar desechos.\n\n3. Reproducción:\n• Celular: Reproducción asexual mediante mitosis/división celular, originando dos células con carga genética idéntica.\n• Organismo vivo: Reproducción sexual mediante gametos (meiosis), originando un nuevo ser vivo con una dotación genética nueva y recombinada.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-81b6-8121-dc862fd8b013",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué diferencia a las moléculas inorgánicas de las orgánicas en el nivel molecular?",
+      "answer": "En el nivel molecular del organismo humano se distinguen dos grupos según su base química (Pág. 7 Altamar):\n\n1. Moléculas inorgánicas: No tienen el carbono como elemento fundamental. Destacan de forma primordial el agua (H₂O) y las sales minerales (fosfatos, bicarbonatos, cloruros).\n2. Moléculas orgánicas: Tienen el carbono (C) como elemento vertebral indispensable formando enlaces covalentes. Incluyen glúcidos, lípidos, proteínas y vitaminas.\n\n(Ambos grupos son abióticos y sirven de sillares químicos para construir el nivel celular).",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-8152-81b6-ec419f27ffae",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿A partir de qué nivel de organización se considera que existe vida y por qué?",
+      "answer": "A partir del NIVEL CELULAR (Pág. 7 Altamar).\n\nJustificación anatómica:\n• Los niveles atómico y molecular están formados por sustancias químicas abióticas que NO tienen funciones vitales (no reaccionan de forma autónoma a su entorno, no se nutren ni se reproducen).\n• El nivel celular es la estructura más pequeña del organismo humano capaz de realizar de forma autónoma las tres funciones vitales: relación, nutrición y reproducción. Por ello, la célula es la unidad básica de la vida.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-8130-a029-d49eb81dd02d",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Cuáles son los cinco niveles de organización del cuerpo humano según Wang (1992)?",
+      "answer": "En 1992, Yongzhong Wang y colaboradores establecieron que los componentes del ser humano se organizan en 5 niveles jerárquicos (Pág. 7 Altamar):\n\n1. Nivel atómico: Unidad básica de la materia (C, H, O, N, Ca, Na, Fe...). Microscópico, sin funciones vitales.\n2. Nivel molecular: Combinación de átomos en moléculas inorgánicas (agua, sales) y orgánicas (glúcidos, lípidos, proteínas, vitaminas). Microscópico, sin funciones vitales.\n3. Nivel celular: Células y matriz extracelular (MEC). Primer nivel microscópico que TIENE VIDA (funciones vitales).\n4. Nivel anatómico: Conjunto de células identificables visualmente/macroscópicamente: tejidos, órganos, aparatos y sistemas.\n5. Nivel organismo vivo: El ser humano en su conjunto con todas sus funciones complejas coordinadas.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-81be-881a-e4a1452efd6b",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué es el núcleo celular y qué tres partes distingue el libro?",
+      "answer": "Estructura celular prominente delimitada por membrana que alberga y custodia el material genético (ADN) codificado en la célula eucariota.\n\nEstructura y partes según Altamar (Pág. 18):\n1. Envoltura nuclear: Doble membrana que separa el nucleoplasma del citoplasma, perforada por poros nucleares que regulan el paso selectivo de moléculas (como la salida de ARNm y entrada de proteínas).\n2. Cromatina: Conjunto de ADN asociado a proteínas (histonas). En células en división se condensa formando cromosomas. Se distingue eucromatina (activa/descondensada) y heterocromatina (inactiva/condensada).\n3. Nucléolo: Región esférica densa sin membrana donde se transcribe el ARNr y se ensamblan las subunidades de los ribosomas.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-8158-8625-c8421b02691e",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué es el citoesqueleto y qué tres filamentos lo forman?",
+      "answer": "Red tridimensional de tubos y filamentos proteicos que proporciona soporte estructural a la célula, determina su forma, organiza la distribución interna de los orgánulos y participa en el transporte y división celular.\n\nLos tres filamentos según Altamar (Pág. 16-17):\n1. Microfilamentos: Formados por actina; participan en la motilidad celular, contracción muscular y formación del anillo contráctil en la citocinesis.\n2. Filamentos intermedios: Formados por proteínas fibrosas; permiten a las células soportar tensiones mecánicas y anclan la célula a la MEC o a células vecinas (desmosomas).\n3. Microtúbulos: Tubos cilíndricos formados por dímeros de tubulina; sirven de vías de transporte intracelular, forman el huso mitótico y la estructura de cilios y flagelos.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-810e-9252-d61f42613eba",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué son las mitocondrias y qué particularidad genética tienen?",
+      "answer": "Orgánulos de doble membrana encargados de la respiración celular aeróbica para la obtención de energía en forma de ATP.\n\nEstructura y particularidad genética (Pág. 15-16 Altamar):\n• Doble membrana: Externa lisa y permeable; interna plegada en crestas con los complejos respiratorios y ATP sintasa; espacio intermembrana y matriz mitocondrial interna.\n• Particularidad genética: Contienen su propio ADN mitocondrial (ADN circular cerrado) y ribosomas de tipo bacteriano.\n• Herencia: El ADN mitocondrial se transmite directamente por vía materna (a través del óvulo).",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-8124-8c32-d1b69dc95c1a",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué son los peroxisomas (o microcuerpos)?",
+      "answer": "Orgánulos esféricos delimitados por membrana simple parecidos a los lisosomas, que se originan a partir de otros peroxisomas preexistentes (por división o gemación).\n\nContenido enzimático y función según Altamar (Pág. 15):\n1. Enzimas oxidativos (oxidasas): Oxidan sustratos (como ácidos grasos de cadena muy larga) utilizando oxígeno y generando peróxido de hidrógeno (H₂O₂).\n2. Catalasa: Enzima que descompone de inmediato el H₂O₂ (que es altamente tóxico para la célula) en agua y oxígeno.\n(Muy abundantes en hepatocitos para detoxificación de alcohol y xenobióticos).",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-8199-9d5a-fca500a142ef",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué son los lisosomas y cuál es su origen?",
+      "answer": "Vesículas membranosas que se originan a partir de la cara trans del aparato de Golgi y que contienen enzimas digestivos (hidrolasas ácidas activas a pH ácido).\n\nFunción según Altamar (Pág. 14):\nDigestión intracelular de distintos tipos de partículas:\n1. Partículas exógenas que entran a la célula por endocitosis o fagocitosis (heterofagia).\n2. Orgánulos o proteínas de la matriz citoplasmática deteriorados o envejecidos (autofagia).",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-81ab-bfc7-caf4f1162358",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué son los ribosomas?",
+      "answer": "Orgánulos no membranosos formados por ARN ribosómico (ARNr) y proteínas.\n\nFunción según Altamar (Pág. 13):\nTraducir la información codificada en el ARN mensajero (ARNm) procedente del núcleo para sintetizar la cadena de aminoácidos de las proteínas. \nPueden encontrarse libres en el citosol (síntesis de proteínas citosólicas internas) o adheridos a la membrana del RER (proteínas de exportación o lisosomales).",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-81c0-9002-d2eb5736dea8",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué es el aparato de Golgi y qué zonas distingue el libro?",
+      "answer": "Orgánulo formado por sáculos y cisternas aplanadas interconectadas estrechamente con el retículo endoplasmático y la membrana plasmática.\n\nZonas funcionales según Altamar (Pág. 14):\n1. Cara cis (o de formación): Próxima al núcleo y RER; recibe proteínas recién sintetizadas mediante fusión de vesículas del RER.\n2. Región intermedia: Zona de transición donde se producen modificaciones químicas en las proteínas y su preparación para el transporte.\n3. Cara trans (o de maduración): Próxima a la membrana plasmática; emite vesículas secretoras hacia la membrana plasmática (exocitosis) o hacia los lisosomas.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-81bd-b261-ea833e76516c",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué es el retículo endoplasmático liso (REL) y qué funciones tiene?",
+      "answer": "Sistema membranoso de estructura tubular que NO tiene ribosomas unidos a sus membranas. Aparece más desarrollado en células que sintetizan hormonas lipídicas y colesterol.\n\nFunciones según Altamar (Pág. 13):\n1. Síntesis y almacenamiento de lípidos (colesterol, fosfolípidos y hormonas esteroideas).\n2. Detoxificación de sustancias tóxicas y fármacos liposolubles.\n3. Almacenamiento y liberación de calcio intracelular.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-81e8-8892-dc639a01eea8",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué es el retículo endoplasmático rugoso (RER) y cuál es su proteína de anclaje?",
+      "answer": "Sistema membranoso de sáculos y cisternas aplanadas interconectadas que tiene ribosomas unidos a sus membranas mediante una proteína específica llamada riboforina.\n\nFunciones según Altamar (Pág. 13):\n1. Síntesis y glucosilación de proteínas.\n2. Destino de sus proteínas: Almacenadas, secretadas al exterior celular o incorporadas a los lisosomas.\n(Muy desarrollado en células secretoras de proteínas como células plasmáticas o acinos pancreáticos).",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-8110-af6a-d298ceb42b03",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué es el citosol o hialoplasma?",
+      "answer": "Es la matriz citoplasmática o parte líquida del citoplasma que constituye el medio interno de la célula, en la cual se encuentran suspendidos los orgánulos y el citoesqueleto.\n\nEs una solución acuosa coloidal que contiene iones, metabolitos y enzimas donde se desarrollan rutas metabólicas intermediarias fundamentales como la glucólisis.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-815d-8cca-c7132f24a355",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué es el glucocálix y cuáles son sus funciones?",
+      "answer": "Cubierta periférica situada en la superficie externa de la membrana plasmática, formada por las cadenas de oligosacáridos unidas a los glucolípidos y a las glucoproteínas.\n\nFunciones según Altamar (Pág. 12):\n1. Proteger a la célula de daños químicos y mecánicos.\n2. Reconocimiento y adhesión celular.\n3. Proporcionar carga negativa a la superficie celular.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-8131-8b1b-cbf4bd991285",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué lípidos y proteínas componen la membrana plasmática?",
+      "answer": "Lípidos (Pág. 11 Altamar):\n• Fosfolípidos: Principal componente estructural anfipático que forma la bicapa.\n• Glucolípidos: Situados casi exclusivamente en la cara externa de la membrana.\n• Colesterol: Representa casi la cuarta parte de los lípidos de membrana y regula su fluidez.\n\nProteínas (según grado de asociación):\n• Integrales o transmembranales: Poseen regiones hidrófobas en el interior de la bicapa y regiones hidrófilas externas (la mayoría glucoproteínas).\n• Periféricas: Sin zona hidrófoba, situadas principalmente en la cara interna.\n\n(Regla general: en peso, las proteínas superan a los lípidos, excepto en la vaina de mielina).",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-81e9-9489-e92d36db54c3",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué es la membrana plasmática y qué modelo sigue?",
+      "answer": "Capa delgada con una anchura de unos 75 Å (10⁻¹⁰ m) que define la extensión de la célula, mantiene las diferencias entre el medio interno y externo y actúa como un filtro altamente selectivo.\n\nSigue el Modelo de Mosaico Fluido (Singer y Nicolson, 1972): bicapa lipídica fluida con proteínas intercaladas que se desplazan por difusión lateral y con estructura asimétrica en sus componentes.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-8157-9df3-d32749b1454d",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "question": "¿Qué es la matriz extracelular (MEC)?",
+      "answer": "Es el medio que hay entre las células y que las envuelve dentro del nivel celular; clave para que los distintos grupos celulares desempeñen sus funciones.\n\nComponentes básicos (Pág. 10 Altamar):\n1. Sustancia fundamental: Consistencia de gel, formada por agua y proteoglucanos (95% glucosaminoglucanos -GAG- con carga negativa para retener agua y sodio, y 5% proteínas).\n2. Proteínas fibrosas:\n• Estructurales: Colágeno (25% de la proteína corporal, resistencia) y Elastina (componente de fibras elásticas, elasticidad en arterias, pulmones y dermis).\n• Adhesivas: Fibronectina (une la MEC con las células) y Laminina (forma la membrana basal que separa epitelio de conjuntivo).",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "4042aca8-b201-808d-bde7-fbdfa06ae919",
       "course": "Citología General",
@@ -1224,17 +1422,6 @@
       "image_filename": ""
     },
     {
-      "id": "3fe2aca8-b201-8164-9969-eb061b80fc29",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "¿qué tres filamentos forman el citoesqueleto?",
-      "answer": "1. Microfilamentos (actina).\n2. Filamentos intermedios.\n3. Microtúbulos (tubulina).",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
       "id": "3fe2aca8-b201-8183-ae33-e9c132cdcd02",
       "course": "Fisiopatología General",
       "tema": "UD1",
@@ -1323,17 +1510,6 @@
       "image_filename": ""
     },
     {
-      "id": "3fe2aca8-b201-815b-b6ff-cd63c86d0476",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "¿qué son los lisosomas y qué enzimas contienen?",
-      "answer": "Vesículas digestivas ácidas que contienen hidrolasas ácidas para degradar macromoléculas y restos celulares.",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
       "id": "3fe2aca8-b201-8131-b1f7-ff622e2c02ca",
       "course": "Fisiopatología General",
       "tema": "UD1",
@@ -1356,55 +1532,11 @@
       "image_filename": ""
     },
     {
-      "id": "3fe2aca8-b201-8154-b4af-f8db48b1b41c",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "funciones del retículo endoplasmático liso (REL)",
-      "answer": "1. Síntesis de lípidos (fosfolípidos, colesterol, esteroides).\n2. Detoxificación de fármacos y toxinas.\n3. Almacén y liberación de calcio intracelular.",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
-      "id": "3fe2aca8-b201-818b-a9b1-d338c5765e48",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "¿qué es el retículo endoplasmático rugoso (RER) y cuál es su función?",
-      "answer": "Red de cisternas aplanadas con ribosomas adosados; interviene en la síntesis, plegamiento y modificación inicial de proteínas.",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
       "id": "3fe2aca8-b201-815e-b683-feddfc8e5579",
       "course": "Fisiopatología General",
       "tema": "UD1",
       "question": "¿qué diferencia el destino de las proteínas de los ribosomas libres frente a los adheridos al RER?",
       "answer": "Los ribosomas libres fabrican proteínas para uso interno del citosol; los adheridos al RER fabrican proteínas de membrana o de exportación.",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
-      "id": "3fe2aca8-b201-81e0-8c83-def87756fc60",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "¿qué son los ribosomas y cuál es su función?",
-      "answer": "Complejos de ARN ribosómico y proteínas formados por dos subunidades encargados de sintetizar proteínas.",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
-      "id": "3fe2aca8-b201-8131-a613-edc1ae2ee0a4",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "¿qué es el citosol o hialoplasma?",
-      "answer": "Medio líquido intracelular acuoso que constituye el medio interno de la célula donde flotan los orgánulos.",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
@@ -1422,33 +1554,11 @@
       "image_filename": ""
     },
     {
-      "id": "3fe2aca8-b201-81de-b388-e4ca562c4fad",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "cita 3 funciones del glucocálix",
-      "answer": "1. Protección mecánica y química.\n2. Dar carga negativa a la superficie celular y unir calcio.\n3. Reconocimiento celular y anclaje de enzimas.",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
       "id": "3fe2aca8-b201-8140-8519-c70f19216911",
       "course": "Fisiopatología General",
       "tema": "UD1",
       "question": "cita 3 funciones de la membrana plasmática",
       "answer": "1. Separar citoplasma del medio externo.\n2. Regular el transporte selectivo de sustancias.\n3. Controlar gradientes electroquímicos y transmitir señales.",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
-      "id": "3fe2aca8-b201-81f3-8982-ddf7f03df88a",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "¿qué es el glucocálix?",
-      "answer": "Cubierta externa de la célula formada por las cadenas de oligosacáridos de los glucolípidos y glucoproteínas de la monocapa externa.",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
