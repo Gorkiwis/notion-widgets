@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-10-26T19:10:32Z",
-  "total": 291,
+  "updated_at": "2026-10-26T19:41:32Z",
+  "total": 292,
   "cards": [
+    {
+      "id": "4052aca8-b201-80e8-94bc-caa200ecadc9",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "¿Qué diferencia a la heterocromatina de la eucromatina a nivel funcional y de tinción microscópica?",
+      "answer": "Heterocromatina: ADN condensado e inactivo (apagado). Se tiñe OSCURO / Hipercromático (grumos densos).Eucromatina: ADN descondensado y activo (en transcripción). Se tiñe PÁLIDO / Claro / Vesiculoso.",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "4052aca8-b201-80b6-b131-e46da47ad1d1",
       "course": "Citología General",
