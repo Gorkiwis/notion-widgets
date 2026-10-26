@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-10-26T09:25:06Z",
-  "total": 286,
+  "updated_at": "2026-10-26T18:39:34Z",
+  "total": 287,
   "cards": [
+    {
+      "id": "4052aca8-b201-80b0-84f2-ece620a8b18a",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "Granulomas",
+      "answer": "son, agregados laxos de histiocitos",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "4052aca8-b201-810e-91a3-fda63727ae6d",
       "course": "Fisiopatología General",
@@ -204,8 +215,8 @@
       "id": "4042aca8-b201-808d-bde7-fbdfa06ae919",
       "course": "Citología General",
       "tema": "UD1",
-      "question": "¿que son las estructuras celulares tridimensionales y que evidencian¿",
-      "answer": "",
+      "question": "¿que son las estructuras celulares tridimensionales, que caracteristicas tienen y que evidencian?",
+      "answer": "• ¿Qué son?\n\n  Agrupaciones celulares multicapa (en relieve/volumen) donde las células crecen trepadas unas sobre otras en varios planos de enfoque.\n• Características clave:\n    ◦ Baja cohesión celular (poco pegamento entre ellas).\n    ◦ Disposición desorganizada (pérdida de polaridad).\n    ◦ Células amontonadas y núcleos solapados (crowding).\n    ◦ Desprendimiento en los extremos (células que se caen en los bordes).\n• ¿Qué evidencian?\nMALIGNIDAD (Carcinoma). Demuestran que las células han perdido la inhibición por contacto (crecen sin freno) y las uniones de adherencia (potencial de invadir y metastatizar).",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
