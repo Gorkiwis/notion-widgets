@@ -1,13 +1,57 @@
 {
-  "updated_at": "2026-10-26T18:39:34Z",
-  "total": 287,
+  "updated_at": "2026-10-26T19:10:32Z",
+  "total": 291,
   "cards": [
+    {
+      "id": "4052aca8-b201-80b6-b131-e46da47ad1d1",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "¿que es el cromatismo nuclear?",
+      "answer": "es el Grado de coloración del nucleo, va asociado l tipo celular\n→ Hipercromatismos: como los linfocitos\n—> hipocromaticos: celulas hepaticas.",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-8075-8847-e11a87187e58",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "¿que factores afectan a la morfología nuclear=",
+      "answer": "• la estirpe celular\n  • el estado funcional de la misma \n  • la presencia de alteraciones patológica",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-80ab-a9a4-d9e603de1c16",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "¿que caracteristicas observamos en solapamientos nucleares en agrupaciones?",
+      "answer": "observaremos nucleos superopuestos, lo cual es indicativo de perdida de cohesión",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4052aca8-b201-8054-8a0c-f04436be8389",
+      "course": "Citología General",
+      "tema": "UD1",
+      "question": "¿en que consiste el amoldamiento nuclear, en las agrupaciones celulares?",
+      "answer": "los nucleos se comprimen uno sobre otro, como consecuencia de una perdida o debilidad del citoplasma",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
     {
       "id": "4052aca8-b201-80b0-84f2-ece620a8b18a",
       "course": "Citología General",
       "tema": "UD1",
       "question": "Granulomas",
-      "answer": "son, agregados laxos de histiocitos",
+      "answer": "agrupaciones de Histiocitos (macrofagos), asociado a procesos inflamatorios o procesos necroticos",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
