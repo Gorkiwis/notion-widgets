@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-25T18:26:39Z",
-  "total": 278,
+  "updated_at": "2026-10-26T08:47:34Z",
+  "total": 276,
   "cards": [
     {
       "id": "4042aca8-b201-808d-bde7-fbdfa06ae919",
@@ -927,17 +927,6 @@
       "image_filename": ""
     },
     {
-      "id": "3fe2aca8-b201-81b1-8d5b-ceafc266fd4c",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "diferencia entre catabolismo y anabolismo",
-      "answer": "Catabolismo: rutas de degradación oxidativa que descomponen moléculas complejas liberando ATP. Anabolismo: síntesis de moléculas complejas con consumo de ATP.",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
       "id": "3fe2aca8-b201-81f5-8c73-cb0d207de010",
       "course": "Fisiopatología General",
       "tema": "UD1",
@@ -1625,17 +1614,6 @@
       "tema": "UD1",
       "question": "¿cuál es el grosor aproximado de la membrana plasmática?",
       "answer": "Aproximadamente 75 Å (ángstroms), equivalente a 7,5 nanómetros o 75x10⁻¹⁰ metros.",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
-      "id": "3fe2aca8-b201-81e9-b5a2-fe803fa5cce8",
-      "course": "Fisiopatología General",
-      "tema": "UD1",
-      "question": "¿qué es la laminina y dónde se sitúa?",
-      "answer": "Proteína adhesiva que forma parte de la membrana basal, separando el tejido epitelial del conjuntivo subyacente.",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
