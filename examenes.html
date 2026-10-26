@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Reloj TVE — Cuenta Atrás Exámenes 1º AP (2026-2027)</title>
+<style>
+  :root {
+    --bg-dark: #090b10;
+    --bg-panel: #111520;
+    --bg-card: #161b2a;
+    --tve-amber: #ffb000;
+    --tve-cyan: #00e5ff;
+    --tve-red: #ff3b30;
+    --tve-green: #32d74b;
+    --text-main: #f4f6fb;
+    --text-dim: #8a94ad;
+    --border-col: rgba(255, 176, 0, 0.28);
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: radial-gradient(circle at 50% 15%, #182036 0%, #090b10 75%);
+    color: var(--text-main);
+    font-family: 'Courier New', Courier, monospace, system-ui;
+    min-height: 100vh;
+    padding: 12px;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  /* Efecto sutil de líneas de escaneo CRT */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0px,
+      rgba(255, 255, 255, 0) 2px,
+      rgba(0, 0, 0, 0.18) 3px,
+      rgba(0, 0, 0, 0.18) 4px
+    );
+    pointer-events: none;
+    z-index: 99;
+  }
+
+  .container {
+    max-width: 920px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Cabecera estilo Control Central TVE 1978 */
+  .tve-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: linear-gradient(180deg, #1a2133 0%, #101420 100%);
+    border: 1px solid var(--border-col);
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6), inset 0 0 12px rgba(255, 176, 0, 0.08);
+  }
+
+  .brand-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .tve-badge {
+    background: var(--tve-amber);
+    color: #000;
+    font-weight: 900;
+    font-size: 0.85rem;
+    padding: 3px 8px;
+    border-radius: 4px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(255, 176, 0, 0.6);
+  }
+
+  .on-air {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    color: var(--tve-red);
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: rgba(255, 59, 48, 0.12);
+    border: 1px solid rgba(255, 59, 48, 0.4);
+    padding: 3px 8px;
+    border-radius: 4px;
+  }
+
+  .on-air-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--tve-red);
+    box-shadow: 0 0 8px var(--tve-red);
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.25; }
+  }
+
+  .audio-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .btn-music {
+    cursor: pointer;
+    background: rgba(255, 176, 0, 0.15);
+    color: var(--tve-amber);
+    border: 1px solid var(--tve-amber);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 0.8rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+    text-shadow: 0 0 6px rgba(255, 176, 0, 0.4);
+  }
+
+  .btn-music:hover {
+    background: rgba(255, 176, 0, 0.28);
+    box-shadow: 0 0 14px rgba(255, 176, 0, 0.45);
+  }
+
+  .btn-music.playing {
+    background: var(--tve-amber);
+    color: #080a0f;
+    box-shadow: 0 0 18px rgba(255, 176, 0, 0.8);
+    text-shadow: none;
+  }
+
+  .vol-slider {
+    width: 72px;
+    accent-color: var(--tve-amber);
+    cursor: pointer;
+  }
+
+  /* Panel Central: Reloj TVE + Cuenta Atrás Activa */
+  .hero-stage {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 16px;
+    background: linear-gradient(145deg, #121828 0%, #0b0e17 100%);
+    border: 1px solid var(--border-col);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 14px;
+    align-items: center;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.65);
+  }
+
+  @media (max-width: 640px) {
+    .hero-stage {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      text-align: center;
+    }
+  }
+
+  .clock-wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #tveClockCanvas {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #141c30 0%, #070a12 85%);
+    box-shadow: 0 0 24px rgba(0, 229, 255, 0.18), inset 0 0 18px rgba(255, 176, 0, 0.18);
+  }
+
+  .hero-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-tag-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .hero-eval-pill {
+    font-size: 0.72rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: rgba(0, 229, 255, 0.14);
+    border: 1px solid rgba(0, 229, 255, 0.4);
+    color: var(--tve-cyan);
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .hero-docente {
+    font-size: 0.78rem;
+    color: var(--text-dim);
+  }
+
+  .hero-title {
+    font-size: 1.35rem;
+    font-weight: 900;
+    color: var(--tve-amber);
+    text-shadow: 0 0 12px rgba(255, 176, 0, 0.45);
+    letter-spacing: 0.5px;
+  }
+
+  .hero-datetime {
+    font-size: 0.88rem;
+    color: #d5deef;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 5px 10px;
+    border-left: 3px solid var(--tve-amber);
+    border-radius: 4px;
+    display: inline-block;
+    width: fit-content;
+  }
+
+  /* Contador digital estilo teletexto / emisión TVE */
+  .countdown-digits {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-top: 4px;
+  }
+
+  .digit-box {
+    background: #06080d;
+    border: 1px solid rgba(255, 176, 0, 0.38);
+    border-radius: 8px;
+    padding: 8px 6px;
+    text-align: center;
+    box-shadow: inset 0 0 12px rgba(255, 176, 0, 0.12);
+  }
+
+  .digit-val {
+    font-size: 1.65rem;
+    font-weight: 900;
+    color: var(--tve-amber);
+    text-shadow: 0 0 10px rgba(255, 176, 0, 0.65);
+    line-height: 1.1;
+  }
+
+  .digit-label {
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    letter-spacing: 1.2px;
+    margin-top: 3px;
+    text-transform: uppercase;
+  }
+
+  /* Barra de ecualizador / onda cuando suena la sintonía */
+  .eq-bar-wrap {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 14px;
+  }
+
+  .eq-bar {
+    width: 3px;
+    background: var(--tve-amber);
+    height: 3px;
+    border-radius: 1px;
+    transition: height 0.1s ease;
+  }
+
+  .playing .eq-bar {
+    background: #080a0f;
+  }
+
+  /* Parrilla de los 6 exámenes */
+  .section-label {
+    font-size: 0.76rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .exams-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    gap: 10px;
+  }
+
+  .exam-card {
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 9px;
+    padding: 11px 13px;
+    cursor: pointer;
+    transition: all 0.18s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .exam-card:hover {
+    border-color: rgba(255, 176, 0, 0.55);
+    transform: translateY(-1px);
+  }
+
+  .exam-card.active {
+    border: 1.5px solid var(--tve-amber);
+    background: linear-gradient(145deg, #1d2438 0%, #131826 100%);
+    box-shadow: 0 0 16px rgba(255, 176, 0, 0.22);
+  }
+
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+
+  .card-subject {
+    font-weight: 800;
+    font-size: 0.95rem;
+    color: #fff;
+  }
+
+  .card-badge {
+    font-size: 0.68rem;
+    font-weight: 800;
+    padding: 2px 6px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+
+  .card-meta {
+    font-size: 0.74rem;
+    color: var(--text-dim);
+    margin-bottom: 8px;
+    line-height: 1.35;
+  }
+
+  .card-countdown {
+    font-size: 0.92rem;
+    font-weight: 800;
+    color: var(--tve-cyan);
+    background: rgba(0, 0, 0, 0.4);
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0, 229, 255, 0.2);
+  }
+
+  .card-play-mini {
+    background: rgba(255, 176, 0, 0.18);
+    border: 1px solid rgba(255, 176, 0, 0.5);
+    color: var(--tve-amber);
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 0.7rem;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .card-play-mini:hover {
+    background: var(--tve-amber);
+    color: #000;
+  }
+
+  .footer-note {
+    margin-top: 10px;
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    text-align: center;
+    opacity: 0.8;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <!-- Cabecera TVE -->
+  <div class="tve-header">
+    <div class="brand-left">
+      <span class="tve-badge">RTVE · 1º AP</span>
+      <span class="on-air"><span class="on-air-dot"></span>CARTA DE AJUSTE · 1ª EVALUACIÓN</span>
+    </div>
+    <div class="audio-controls">
+      <button id="btnMusic" class="btn-music" onclick="toggleMusic()">
+        <span id="musicIcon">🔊</span>
+        <span id="musicLabel">SINTONÍA RELOJ TVE</span>
+        <div class="eq-bar-wrap" id="eqWrap">
+          <div class="eq-bar"></div>
+          <div class="eq-bar"></div>
+          <div class="eq-bar"></div>
+          <div class="eq-bar"></div>
+        </div>
+      </button>
+      <input id="volSlider" class="vol-slider" type="range" min="0" max="1" step="0.05" value="0.75" title="Volumen sintonía TVE" oninput="updateVolume(this.value)" />
+    </div>
+  </div>
+
+  <!-- Reloj Analógico/Digital TVE 70s-80s + Examen Seleccionado -->
+  <div class="hero-stage">
+    <div class="clock-wrapper">
+      <canvas id="tveClockCanvas" width="400" height="400"></canvas>
+    </div>
+    <div class="hero-info">
+      <div class="hero-tag-row">
+        <span class="hero-eval-pill" id="heroOrderPill">PRÓXIMO EXAMEN</span>
+        <span class="hero-docente" id="heroDocente">Docente: —</span>
+      </div>
+      <div class="hero-title" id="heroTitle">Cargando examen...</div>
+      <div class="hero-datetime" id="heroDateTime">—</div>
+
+      <div class="countdown-digits">
+        <div class="digit-box">
+          <div class="digit-val" id="dDays">00</div>
+          <div class="digit-label">Días</div>
+        </div>
+        <div class="digit-box">
+          <div class="digit-val" id="dHours">00</div>
+          <div class="digit-label">Horas</div>
+        </div>
+        <div class="digit-box">
+          <div class="digit-val" id="dMins">00</div>
+          <div class="digit-label">Minutos</div>
+        </div>
+        <div class="digit-box">
+          <div class="digit-val" id="dSecs">00</div>
+          <div class="digit-label">Segundos</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Parrilla con los 6 exámenes oficiales -->
+  <div class="section-label">
+    <span>📡 PARRILLA OFICIAL DE EMISIÓN — 1ª EVALUACIÓN (PULSA UNO PARA ENFOCAR Y SONAR)</span>
+    <span id="liveClockStr">--:--:--</span>
+  </div>
+  <div class="exams-grid" id="examsGrid"></div>
+
+  <div class="footer-note">
+    Sintonía original: Cortinilla sinfín Reloj TVE años 70/80 · Calendario Oficial 1º Anatomía Patológica (Arangoya 2026-2027)
+  </div>
+</div>
+
+<!-- Audio nativo en bucle (extraído de https://www.youtube.com/watch?v=iaR38VaKGg8) -->
+<audio id="tveAudio" src="tve_reloj.mp3" loop preload="auto"></audio>
+
+<script>
+const EXAMS = [
+  {
+    id: "citologia",
+    subject: "Citología General",
+    docente: "Lucía Pernas",
+    dateStr: "Viernes 6 de noviembre de 2026",
+    timeStr: "10:20 – 11:15 (Hora en aula)",
+    startIso: "2026-11-06T10:20:00+01:00",
+    endIso: "2026-11-06T11:15:00+01:00",
+    color: "#ff2d55"
+  },
+  {
+    id: "digitalizacion",
+    subject: "Digitalización Aplicada",
+    docente: "Cecilia Baztán",
+    dateStr: "Lunes 9 de noviembre de 2026",
+    timeStr: "09:30 – 11:00",
+    startIso: "2026-11-09T09:30:00+01:00",
+    endIso: "2026-11-09T11:00:00+01:00",
+    color: "#af52de"
+  },
+  {
+    id: "procesamiento",
+    subject: "Procesamiento Citológico y Tisular",
+    docente: "Laura Ocabo",
+    dateStr: "Lunes 9 de noviembre de 2026",
+    timeStr: "11:30 – 13:00",
+    startIso: "2026-11-09T11:30:00+01:00",
+    endIso: "2026-11-09T13:00:00+01:00",
+    color: "#0a84ff"
+  },
+  {
+    id: "necropsias",
+    subject: "Necropsias",
+    docente: "Iker Antón",
+    dateStr: "Martes 10 de noviembre de 2026",
+    timeStr: "09:30 – 11:00",
+    startIso: "2026-11-10T09:30:00+01:00",
+    endIso: "2026-11-10T11:00:00+01:00",
+    color: "#ff9f0a"
+  },
+  {
+    id: "fisiopatologia",
+    subject: "Fisiopatología General",
+    docente: "Sofía Rodríguez",
+    dateStr: "Jueves 12 de noviembre de 2026",
+    timeStr: "09:30 – 11:00",
+    startIso: "2026-11-12T09:30:00+01:00",
+    endIso: "2026-11-12T11:00:00+01:00",
+    color: "#ff453a"
+  },
+  {
+    id: "gestion",
+    subject: "Gestión de Muestras Biológicas",
+    docente: "Dpto. Anatomía Patológica",
+    dateStr: "Viernes 13 de noviembre de 2026",
+    timeStr: "09:30 – 11:00",
+    startIso: "2026-11-13T09:30:00+01:00",
+    endIso: "2026-11-13T11:00:00+01:00",
+    color: "#30d158"
+  }
+];
+
+let selectedExamId = null;
+let isPlaying = false;
+let synthInterval = null;
+let audioCtx = null;
+
+// Comprobar si viene ?id=... o ?examen=... por URL
+const params = new URLSearchParams(window.location.search);
+const requestedId = (params.get("id") || params.get("examen") || "").toLowerCase().trim();
+if (requestedId && EXAMS.some(e => e.id === requestedId)) {
+  selectedExamId = requestedId;
+}
+
+function getDefaultExamId() {
+  const now = Date.now();
+  for (const ex of EXAMS) {
+    if (new Date(ex.endIso).getTime() > now) {
+      return ex.id;
+    }
+  }
+  return EXAMS[0].id;
+}
+
+if (!selectedExamId) {
+  selectedExamId = getDefaultExamId();
+}
+
+function pad2(n) {
+  return String(Math.max(0, Math.floor(n))).padStart(2, "0");
+}
+
+function formatDiff(ms) {
+  if (ms <= 0) {
+    return { days: 0, hours: 0, mins: 0, secs: 0, text: "¡EN CURSO / FINALIZADO!" };
+  }
+  const totalSecs = Math.floor(ms / 1000);
+  const days = Math.floor(totalSecs / 86400);
+  const hours = Math.floor((totalSecs % 86400) / 3600);
+  const mins = Math.floor((totalSecs % 3600) / 60);
+  const secs = totalSecs % 60;
+  return {
+    days,
+    hours,
+    mins,
+    secs,
+    text: `${days}d ${pad2(hours)}h ${pad2(mins)}m ${pad2(secs)}s`
+  };
+}
+
+function selectExam(id, playOnSelect = false) {
+  selectedExamId = id;
+  renderCards();
+  updateCountdowns();
+  if (playOnSelect && !isPlaying) {
+    toggleMusic();
+  }
+}
+
+function renderCards() {
+  const grid = document.getElementById("examsGrid");
+  grid.innerHTML = "";
+  const now = Date.now();
+
+  EXAMS.forEach((ex, idx) => {
+    const startMs = new Date(ex.startIso).getTime();
+    const diff = startMs - now;
+    const f = formatDiff(diff);
+
+    const card = document.createElement("div");
+    card.className = "exam-card" + (ex.id === selectedExamId ? " active" : "");
+    card.onclick = () => selectExam(ex.id, false);
+
+    let urgencyText = `EXAMEN #${idx + 1}`;
+    let badgeBg = "rgba(255, 176, 0, 0.16)";
+    let badgeCol = "#ffb000";
+    if (diff > 0 && diff < 7 * 86400 * 1000) {
+      urgencyText = "⚠️ < 7 DÍAS";
+      badgeBg = "rgba(255, 59, 48, 0.22)";
+      badgeCol = "#ff453a";
+    } else if (diff <= 0) {
+      urgencyText = "COMPLETADO";
+      badgeBg = "rgba(48, 209, 88, 0.2)";
+      badgeCol = "#30d158";
+    }
+
+    card.innerHTML = `
+      <div class="card-top">
+        <div class="card-subject" style="color:${ex.color}">${ex.subject}</div>
+        <span class="card-badge" style="background:${badgeBg};color:${badgeCol}">${urgencyText}</span>
+      </div>
+      <div class="card-meta">
+        📅 ${ex.dateStr}<br/>
+        🕘 ${ex.timeStr} · 👤 ${ex.docente}
+      </div>
+      <div class="card-countdown">
+        <span id="cd-${ex.id}">⏱️ ${f.text}</span>
+        <button class="card-play-mini" onclick="event.stopPropagation(); selectExam('${ex.id}', true);" title="Enfocar y activar sintonía TVE">
+          🎵 TVE
+        </button>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+function updateCountdowns() {
+  const now = new Date();
+  const nowMs = now.getTime();
+  document.getElementById("liveClockStr").textContent =
+    "HORA OFICIAL CET: " + now.toLocaleTimeString("es-ES", { hour12: false });
+
+  const activeExam = EXAMS.find(e => e.id === selectedExamId) || EXAMS[0];
+  const targetMs = new Date(activeExam.startIso).getTime();
+  const f = formatDiff(targetMs - nowMs);
+
+  document.getElementById("heroOrderPill").textContent =
+    `SINTONIZADO: ${activeExam.subject.toUpperCase()}`;
+  document.getElementById("heroDocente").textContent = `Docente: ${activeExam.docente}`;
+  document.getElementById("heroTitle").textContent = `🎓 ${activeExam.subject}`;
+  document.getElementById("heroTitle").style.color = activeExam.color;
+  document.getElementById("heroDateTime").textContent =
+    `📅 ${activeExam.dateStr}  |  🕘 ${activeExam.timeStr}`;
+
+  document.getElementById("dDays").textContent = pad2(f.days);
+  document.getElementById("dHours").textContent = pad2(f.hours);
+  document.getElementById("dMins").textContent = pad2(f.mins);
+  document.getElementById("dSecs").textContent = pad2(f.secs);
+
+  EXAMS.forEach(ex => {
+    const el = document.getElementById(`cd-${ex.id}`);
+    if (el) {
+      const df = formatDiff(new Date(ex.startIso).getTime() - nowMs);
+      el.textContent = `⏱️ ${df.text}`;
+    }
+  });
+
+  // Animar ecualizador si está sonando
+  const bars = document.querySelectorAll("#eqWrap .eq-bar");
+  bars.forEach(b => {
+    if (isPlaying) {
+      b.style.height = (3 + Math.floor(Math.random() * 11)) + "px";
+    } else {
+      b.style.height = "3px";
+    }
+  });
+}
+
+/* Dibujo del mítico Reloj de TVE años 70/80 en Canvas */
+function drawTveClock() {
+  const canvas = document.getElementById("tveClockCanvas");
+  const ctx = canvas.getContext("2d");
+  const w = canvas.width;
+  const h = canvas.height;
+  const cx = w / 2;
+  const cy = h / 2;
+
+  ctx.clearRect(0, 0, w, h);
+
+  const now = new Date();
+  const sec = now.getSeconds();
+  const ms = now.getMilliseconds();
+  const smoothSec = sec + ms / 1000;
+  const min = now.getMinutes() + smoothSec / 60;
+  const hr = (now.getHours() % 12) + min / 60;
+
+  // Aro exterior clásico TVE
+  ctx.beginPath();
+  ctx.arc(cx, cy, 184, 0, Math.PI * 2);
+  ctx.strokeStyle = "rgba(255, 176, 0, 0.35)";
+  ctx.lineWidth = 3;
+  ctx.stroke();
+
+  // Corona de 60 puntos luminosos (se encienden progresivamente hasta el segundo actual)
+  for (let i = 0; i < 60; i++) {
+    const angle = (i * 6 - 90) * (Math.PI / 180);
+    const r = 166;
+    const x = cx + Math.cos(angle) * r;
+    const y = cy + Math.sin(angle) * r;
+
+    const isLit = i <= sec;
+    const isFive = i % 5 === 0;
+
+    ctx.beginPath();
+    ctx.arc(x, y, isFive ? 5.2 : 3.2, 0, Math.PI * 2);
+    if (isLit) {
+      ctx.fillStyle = isFive ? "#00e5ff" : "#ffb000";
+      ctx.shadowColor = isFive ? "#00e5ff" : "#ffb000";
+      ctx.shadowBlur = 8;
+    } else {
+      ctx.fillStyle = "rgba(255, 255, 255, 0.14)";
+      ctx.shadowBlur = 0;
+    }
+    ctx.fill();
+  }
+  ctx.shadowBlur = 0;
+
+  // Marcas horarias rectangulares internas estilo TVE 1978
+  for (let i = 0; i < 12; i++) {
+    const angle = (i * 30 - 90) * (Math.PI / 180);
+    ctx.save();
+    ctx.translate(cx, cy);
+    ctx.rotate(angle);
+    ctx.fillStyle = "rgba(244, 246, 251, 0.85)";
+    ctx.fillRect(128, -3, 18, 6);
+    ctx.restore();
+  }
+
+  // Leyenda central TVE
+  ctx.fillStyle = "#ffb000";
+  ctx.font = "900 26px 'Courier New', monospace";
+  ctx.textAlign = "center";
+  ctx.fillText("TVE · 1ºAP", cx, cy - 42);
+
+  // Pantalla digital interna con cuenta atrás rápida (Días:Horas:Min:Seg)
+  const activeExam = EXAMS.find(e => e.id === selectedExamId) || EXAMS[0];
+  const diff = new Date(activeExam.startIso).getTime() - now.getTime();
+  const f = formatDiff(diff);
+  ctx.fillStyle = "#00e5ff";
+  ctx.font = "bold 18px 'Courier New', monospace";
+  ctx.fillText(`-${pad2(f.days)}d ${pad2(f.hours)}:${pad2(f.mins)}:${pad2(f.secs)}`, cx, cy + 62);
+
+  // Aguja de Horas
+  const hrAngle = (hr * 30 - 90) * (Math.PI / 180);
+  ctx.save();
+  ctx.translate(cx, cy);
+  ctx.rotate(hrAngle);
+  ctx.strokeStyle = "#ffffff";
+  ctx.lineWidth = 8;
+  ctx.lineCap = "round";
+  ctx.beginPath();
+  ctx.moveTo(-18, 0);
+  ctx.lineTo(92, 0);
+  ctx.stroke();
+  ctx.restore();
+
+  // Aguja de Minutos
+  const minAngle = (min * 6 - 90) * (Math.PI / 180);
+  ctx.save();
+  ctx.translate(cx, cy);
+  ctx.rotate(minAngle);
+  ctx.strokeStyle = "#ffb000";
+  ctx.lineWidth = 5.5;
+  ctx.lineCap = "round";
+  ctx.beginPath();
+  ctx.moveTo(-24, 0);
+  ctx.lineTo(132, 0);
+  ctx.stroke();
+  ctx.restore();
+
+  // Segundero continuo rojo/ámbar TVE
+  const secAngle = (smoothSec * 6 - 90) * (Math.PI / 180);
+  ctx.save();
+  ctx.translate(cx, cy);
+  ctx.rotate(secAngle);
+  ctx.strokeStyle = "#ff3b30";
+  ctx.lineWidth = 2.5;
+  ctx.beginPath();
+  ctx.moveTo(-30, 0);
+  ctx.lineTo(152, 0);
+  ctx.stroke();
+  ctx.restore();
+
+  // Eje central
+  ctx.beginPath();
+  ctx.arc(cx, cy, 8, 0, Math.PI * 2);
+  ctx.fillStyle = "#ff3b30";
+  ctx.fill();
+
+  requestAnimationFrame(drawTveClock);
+}
+
+/* Sintetizador de respaldo por si el archivo MP3 aún está cargando */
+function startFallbackSynth() {
+  if (!audioCtx) {
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+  if (audioCtx.state === "suspended") {
+    audioCtx.resume();
+  }
+  const notes = [523.25, 659.25, 783.99, 659.25, 587.33, 698.46, 880.0, 698.46];
+  let step = 0;
+  synthInterval = setInterval(() => {
+    if (!isPlaying) return;
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.type = "triangle";
+    osc.frequency.value = notes[step % notes.length];
+    const vol = parseFloat(document.getElementById("volSlider").value || "0.75");
+    gain.gain.setValueAtTime(0.18 * vol, audioCtx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.22);
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+    osc.start();
+    osc.stop(audioCtx.currentTime + 0.23);
+    step++;
+  }, 250);
+}
+
+function stopFallbackSynth() {
+  if (synthInterval) {
+    clearInterval(synthInterval);
+    synthInterval = null;
+  }
+}
+
+function toggleMusic() {
+  const audio = document.getElementById("tveAudio");
+  const btn = document.getElementById("btnMusic");
+  const label = document.getElementById("musicLabel");
+  const icon = document.getElementById("musicIcon");
+
+  if (!isPlaying) {
+    audio.volume = parseFloat(document.getElementById("volSlider").value || "0.75");
+    audio.play().then(() => {
+      isPlaying = true;
+      btn.classList.add("playing");
+      icon.textContent = "⏸️";
+      label.textContent = "SONANDO CORTINILLA TVE";
+    }).catch(() => {
+      // Si el MP3 no está disponible, usar sintetizador analógico TVE
+      isPlaying = true;
+      btn.classList.add("playing");
+      icon.textContent = "⏸️";
+      label.textContent = "SONANDO SINTONÍA TVE";
+      startFallbackSynth();
+    });
+  } else {
+    audio.pause();
+    stopFallbackSynth();
+    isPlaying = false;
+    btn.classList.remove("playing");
+    icon.textContent = "🔊";
+    label.textContent = "SINTONÍA RELOJ TVE";
+  }
+}
+
+function updateVolume(val) {
+  const audio = document.getElementById("tveAudio");
+  audio.volume = parseFloat(val);
+}
+
+renderCards();
+updateCountdowns();
+setInterval(updateCountdowns, 250);
+requestAnimationFrame(drawTveClock);
+</script>
+</body>
+</html>
