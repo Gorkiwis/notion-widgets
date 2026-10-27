@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-27T19:44:01Z",
-  "total": 338,
+  "updated_at": "2026-10-27T19:49:41Z",
+  "total": 339,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4070,7 +4070,19 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿que factores afectan a la fluidez de la membrana plasmaticaa?",
-      "answer": "la fluidez de la membrana plasmatica se ve afectada por \nla temperatura (Directamente proporcional)",
+      "answer": "la fluidez de la membrana plasmatica se ve afectada por \nla temperatura (Directamente proporcional)\ntamaño de los lipidos:  (inversamente proporcional)\ninsaturación acidos grasos:  directamente proporcional\ncolesterol: inversamente proporcional",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4062aca8-b201-804d-a840-c731ab4d43c8",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
