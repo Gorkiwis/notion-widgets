@@ -66,6 +66,7 @@
 
 <script>
 let allCards = [];
+let apkgMap = { ALL: "Anki_Flashcards_Completo.apkg", courses: {}, units: {} };
 let firstLoad = true;
 
 async function loadCards(manual = false) {
@@ -75,6 +76,7 @@ async function loadCards(manual = false) {
     const r = await fetch("flashcards_data.json?t=" + Date.now(), { cache: "no-store" });
     const d = await r.json();
     allCards = d.cards || [];
+    if (d.apkg_map) apkgMap = d.apkg_map;
     const sc = document.getElementById("selCourse");
     const st = document.getElementById("selTema");
     const prevC = sc.value;
@@ -114,7 +116,7 @@ function updateTemaOptions() {
   const relevantCards = selectedCourse === "ALL" ? allCards : allCards.filter(c => c.course === selectedCourse);
   const temas = [...new Set(relevantCards.map(c => c.tema))].sort();
   
-  st.innerHTML = '<option value="ALL">Todos los temas</option>';
+  st.innerHTML = '<option value="ALL">Todos los temas (Submazos UD separados)</option>';
   temas.forEach(t => st.insertAdjacentHTML("beforeend", `<option value="${t}">${t}</option>`));
   if (temas.includes(currentTema)) {
     st.value = currentTema;
@@ -137,20 +139,29 @@ function getFiltered() {
 function updateFilter() {
   const f = getFiltered();
   const c = document.getElementById("selCourse").value;
+  const t = document.getElementById("selTema").value;
   const imgs = f.filter(x => x.image).length;
   const typ = f.filter(x => (x.plantilla || "").includes("Plantilla 1")).length;
-  document.getElementById("counterBadge").textContent = `${f.length} tarjetas (${imgs} img · ${typ} escribir)`;
+  const subdecksCount = new Set(f.map(x => `${x.course}::${x.tema}`)).size;
+  document.getElementById("counterBadge").textContent = `${f.length} tarj. · ${subdecksCount} submazo(s) (${imgs} img · ${typ} escribir)`;
 
   const btnApkg = document.getElementById("btnApkg");
-  let apkgFile = "Anki_Flashcards_Completo.apkg";
-  let apkgLabel = `📦 Descargar .apkg Completo (${allCards.length} tarj.)`;
-  if (c === "Procesamiento citológico y tisular") {
-    apkgFile = "Procesamiento_UD1.apkg";
-    apkgLabel = `📦 Descargar Procesamiento_UD1.apkg (${f.length} tarj.)`;
-  } else if (c === "Fisiopatología General") {
-    apkgFile = "Fisiopatologia_UD2.apkg";
-    apkgLabel = `📦 Descargar Fisiopatologia_UD2.apkg (${f.length} tarj.)`;
+  let apkgFile = (apkgMap && apkgMap.ALL) || "Anki_Flashcards_Completo.apkg";
+  let apkgLabel = `📦 Descargar Todo (${f.length} tarj. · ${subdecksCount} submazos UD)`;
+
+  if (c !== "ALL" && t === "ALL") {
+    if (apkgMap && apkgMap.courses && apkgMap.courses[c]) {
+      apkgFile = apkgMap.courses[c];
+    }
+    apkgLabel = `📦 Descargar ${c} (${f.length} tarj. · UD1/UD2 separadas)`;
+  } else if (c !== "ALL" && t !== "ALL") {
+    const unitKey = `${c}::${t}`;
+    if (apkgMap && apkgMap.units && apkgMap.units[unitKey]) {
+      apkgFile = apkgMap.units[unitKey];
+    }
+    apkgLabel = `📦 Descargar ${c}::${t} (${f.length} tarj.)`;
   }
+
   btnApkg.href = `https://gorkiwis.github.io/notion-widgets/${apkgFile}?t=` + Date.now();
   btnApkg.download = apkgFile;
   btnApkg.textContent = apkgLabel;
@@ -173,7 +184,8 @@ document.getElementById("btnTsv").addEventListener("click", () => {
   for (const x of f) {
     const deck = `${x.course}::${x.tema}`;
     const noteType = (x.plantilla || "").includes("Plantilla 1") ? "Notion TypeIn FP" : "Basic";
-    const front = (x.question + (x.image ? `<br><img src="${x.image}">` : "")).replace(/[\t\r\n]+/g, " ");
+    const imgName = x.image_filename || (x.image ? x.image.split("/").pop() : "");
+    const front = (x.question + (imgName ? `<br><img src="${imgName}">` : "")).replace(/[\t\r\n]+/g, " ");
     const back = x.answer.replace(/\r?\n/g, "<br>").replace(/\t/g, " ");
     lines.push(`${deck}\t${noteType}\t${front}\t${back}`);
   }
@@ -206,14 +218,15 @@ document.getElementById("btnSyncAnki").addEventListener("click", async () => {
 
     let added = 0;
     for (const x of f) {
-      if (x.image) {
+      const imgFile = x.image_filename || (x.image ? x.image.split("/").pop() : "");
+      if (x.image && imgFile) {
         await ankiInvoke("storeMediaFile", {
-          filename: x.image,
-          url: new URL("anki_media/" + x.image, location.href).href
+          filename: imgFile,
+          url: new URL(x.image, location.href).href
         });
       }
       const deckName = `${x.course}::${x.tema}`;
-      const front = x.question + (x.image ? `<br><br><img src="${x.image}" style="max-height:220px;">` : "");
+      const front = x.question + (imgFile ? `<br><br><img src="${imgFile}" style="max-height:220px;">` : "");
       const back = x.answer.replace(/\n/g, "<br>");
       try {
         await ankiInvoke("addNote", {
@@ -229,7 +242,7 @@ document.getElementById("btnSyncAnki").addEventListener("click", async () => {
       } catch (_) {}
     }
     st.style.color = "#6ee7b7";
-    st.textContent = `✓ Sincronizado en Anki (${added} nuevas / ${f.length} total)`;
+    st.textContent = `✓ Sincronizado en Anki (${added} nuevas / ${f.length} total en ${decks.length} submazos)`;
   } catch (e) {
     st.style.color = "#fcd34d";
     st.textContent = "⚠️ Abre Anki Desktop o usa «📦 Descargar .apkg»";

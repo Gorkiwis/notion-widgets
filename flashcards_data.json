@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-27T16:53:24Z",
+  "updated_at": "2026-10-27T17:10:38Z",
   "total": 336,
+  "apkg_map": {
+    "ALL": "Anki_Flashcards_Completo.apkg",
+    "courses": {
+      "Citología General": "Anki_Citologia_General.apkg",
+      "Fisiopatología General": "Anki_Fisiopatologia_General.apkg",
+      "Necropsias": "Anki_Necropsias.apkg",
+      "Procesamiento citológico y tisular": "Anki_Procesamiento_citologico_y_tisular.apkg"
+    },
+    "units": {
+      "Citología General::UD1": "Anki_Citologia_General_UD1.apkg",
+      "Citología General::UD2": "Anki_Citologia_General_UD2.apkg",
+      "Fisiopatología General::UD1": "Anki_Fisiopatologia_General_UD1.apkg",
+      "Necropsias::UD2": "Anki_Necropsias_UD2.apkg",
+      "Necropsias::UD1": "Anki_Necropsias_UD1.apkg",
+      "Fisiopatología General::UD2": "Anki_Fisiopatologia_General_UD2.apkg",
+      "Procesamiento citológico y tisular::UD1": "Anki_Procesamiento_citologico_y_tisular_UD1.apkg"
+    }
+  },
   "cards": [
     {
       "id": "4062aca8-b201-8141-968e-d1bf81ba5a82",
