@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T19:26:58Z",
+  "updated_at": "2026-10-27T19:32:43Z",
   "total": 336,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
@@ -3115,7 +3115,7 @@
       "id": "4052aca8-b201-81be-881a-e4a1452efd6b",
       "course": "Fisiopatología General",
       "tema": "UD1",
-      "question": "¿Qué es el núcleo celular y qué tres partes distingue el libro?",
+      "question": "Definición nucleo celular y funciones",
       "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
