@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-28T18:32:35Z",
-  "total": 349,
+  "updated_at": "2026-10-28T18:37:38Z",
+  "total": 350,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4202,7 +4202,19 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿que función desempeña el glucocalix?",
-      "answer": "dar protección a la celula de daños quimicos y mecanicos\ndar carga negativa a la superficie celular\n\nfacilitar el movimiento y la división celular\nalclar y orientar proteinas de la matriz",
+      "answer": "dar protección a la celula de daños quimicos y mecanicos\ndar carga negativa a la superficie celular\n\nfacilitar el movimiento y la división celular\nalclar y orientar proteinas de la matriz\npermitir el reconocimiento celularr y el emplazamiento de enzimas ,  puesto que algunas actuan como marcadores",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4072aca8-b201-80da-a3f1-dd62334a55f7",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que funciones desempeña la membrana plasmatica?",
+      "answer": "• separa el citoplasma del medio externo\n  • regular el transpore y el intercambio de sustancias del interior al exterior\n  • produce/controla gradientes electroquimicos \n  • detectar y  transmitir señales de y hacia el medio externo\n  • PARTICIPA en el control de la división celular \n  • facilita la adhsesión intercelular",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
