@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-28T18:04:34Z",
-  "total": 343,
+  "updated_at": "2026-10-28T18:10:37Z",
+  "total": 346,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4130,7 +4130,43 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿que es la difusión lateral?",
-      "answer": "movimiento en el que los fosfolipido",
+      "answer": "movimiento en el que los fosfolipidos se mueven lateralmente,  cuanto mas difusión lateral, mas fluida será lla membrana",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4072aca8-b201-80ec-9d63-c17255e3e432",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es el movimiento de rotación?",
+      "answer": "es el movimiento mas frecuente, la molecula gira alrededor de su eje longitudinal (gira sobre si misma)",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4072aca8-b201-8042-b041-c0ed9510ed72",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "que es el movimient ode flexión en los acidos grasos de la bicapa",
+      "answer": "la cadena de acidos grasos, se flexiona",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4072aca8-b201-80c6-817e-e56b5453f8bb",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es un movimiento de FLI",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
