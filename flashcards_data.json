@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-28T18:26:34Z",
-  "total": 347,
+  "updated_at": "2026-10-28T18:32:35Z",
+  "total": 349,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4178,7 +4178,31 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿por que consideramos que la membrana plasmatica es asimetrica?",
-      "answer": "las monnocapas internas y externas, tienen distinta composición, distribución fosfolipidos y colesterol.",
+      "answer": "las monnocapas internas y externas, tienen distinta composición, distribución fosfolipidos y colesterol., además que sobre la parte externa, tendremo el Glucocalix",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4072aca8-b201-8058-9f1d-cb8b5a3c9f15",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es el glucocalix?",
+      "answer": "cubierta externa compuesta de glucolipidos y glucoproteinas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4072aca8-b201-8063-8e14-f4a6fee8fb86",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que función desempeña el glucocalix?",
+      "answer": "dar protección a la celula de daños quimicos y mecanicos\ndar carga negativa a la superficie celular\n\nfacilitar el movimiento y la división celular\nalclar y orientar proteinas de la matriz",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
