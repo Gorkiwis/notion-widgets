@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-28T18:15:37Z",
-  "total": 346,
+  "updated_at": "2026-10-28T18:26:34Z",
+  "total": 347,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4169,6 +4169,18 @@
       "answer": "Intercambio de moleculas lipidicas desde una monocapa a la otra. (requiere mucha energía)",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4072aca8-b201-80c1-8e71-e3823ee6cbd9",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿por que consideramos que la membrana plasmatica es asimetrica?",
+      "answer": "las monnocapas internas y externas, tienen distinta composición, distribución fosfolipidos y colesterol.",
+      "status": "To Learn",
+      "plantilla": "Estándar",
       "image": "",
       "image_filename": ""
     }
