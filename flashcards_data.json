@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-28T17:59:22Z",
-  "total": 340,
+  "updated_at": "2026-10-28T18:04:34Z",
+  "total": 343,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4095,6 +4095,42 @@
       "origen": "Manual",
       "question": "¿que son las proteinas integrales/transmembrana?",
       "answer": "proteinas que debido a tener regiones hidrofobas e hidrofilas , se pueden asociar tanto con el interior, como con el exterior.",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4072aca8-b201-8021-96a1-fa417d44a533",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son las proteinas perifericas?",
+      "answer": "proteinas que no contienen partes hidrofobas, y se situan en la ccara interna de la membrana",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4072aca8-b201-80e8-8d1b-efd4f11452a0",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que funciones desempeñan las proteinas de membrana?",
+      "answer": "• actuan como poros o canales de paso \n  • actuan como receptores\n  • marcan identidad celular\n  • catalizan reacciones (proteinas enzimaticas)\n  • transportan sustancias a traves de la membrana",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4072aca8-b201-804a-ac49-f29bf04ffba7",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es la difusión lateral?",
+      "answer": "movimiento en el que los fosfolipido",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
