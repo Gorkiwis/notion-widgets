@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-28T18:37:38Z",
-  "total": 350,
+  "updated_at": "2026-10-28T18:49:37Z",
+  "total": 351,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4215,6 +4215,18 @@
       "origen": "Manual",
       "question": "¿que funciones desempeña la membrana plasmatica?",
       "answer": "• separa el citoplasma del medio externo\n  • regular el transpore y el intercambio de sustancias del interior al exterior\n  • produce/controla gradientes electroquimicos \n  • detectar y  transmitir señales de y hacia el medio externo\n  • PARTICIPA en el control de la división celular \n  • facilita la adhsesión intercelular",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4072aca8-b201-802c-a086-c30422395ab7",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es la matriz extracelular?",
+      "answer": "medio compuesto por sustancia fundamental — 95% GAG y 5% proteinas \n                                    proteinas fibrosas (colageno, elastina, fibfo\nes el medio en el cual se encuentran inmersas las celulas",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
