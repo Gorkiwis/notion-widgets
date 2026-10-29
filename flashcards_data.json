@@ -1,13 +1,14 @@
 {
-  "updated_at": "2026-10-28T18:49:37Z",
-  "total": 351,
+  "updated_at": "2026-10-29T13:53:48Z",
+  "total": 352,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
       "Procesamiento citológico y tisular": "Anki_Procesamiento_citologico_y_tisular.apkg",
       "Fisiopatología General": "Anki_Fisiopatologia_General.apkg",
       "Necropsias": "Anki_Necropsias.apkg",
-      "Citología General": "Anki_Citologia_General.apkg"
+      "Citología General": "Anki_Citologia_General.apkg",
+      "Digitalización": "Anki_Digitalizacion.apkg"
     },
     "units": {
       "Procesamiento citológico y tisular::UD1": "Anki_Procesamiento_citologico_y_tisular_UD1.apkg",
@@ -16,7 +17,8 @@
       "Necropsias::UD1": "Anki_Necropsias_UD1.apkg",
       "Necropsias::UD2": "Anki_Necropsias_UD2.apkg",
       "Citología General::UD1": "Anki_Citologia_General_UD1.apkg",
-      "Citología General::UD2": "Anki_Citologia_General_UD2.apkg"
+      "Citología General::UD2": "Anki_Citologia_General_UD2.apkg",
+      "Digitalización::UD2": "Anki_Digitalizacion_UD2.apkg"
     }
   },
   "cards": [
@@ -4229,6 +4231,18 @@
       "answer": "medio compuesto por sustancia fundamental — 95% GAG y 5% proteinas \n                                    proteinas fibrosas (colageno, elastina, fibfo\nes el medio en el cual se encuentran inmersas las celulas",
       "status": "To Learn",
       "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4082aca8-b201-80ad-8df7-cfebac7a746e",
+      "course": "Digitalización",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que es la producción JIT?",
+      "answer": "generamos los productos",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     }
