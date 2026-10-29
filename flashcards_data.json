@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29T13:53:48Z",
-  "total": 352,
+  "updated_at": "2026-10-29T13:59:48Z",
+  "total": 353,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4240,7 +4240,19 @@
       "tema": "UD2",
       "origen": "Manual",
       "question": "¿que es la producción JIT?",
-      "answer": "generamos los productos",
+      "answer": "generamos los productos y servicios justo cuando son necesario, para no tener que estar almacenando cosas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4082aca8-b201-80a8-8cbf-d9e7cf9b881f",
+      "course": "Digitalización",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "simbiosis industrial",
+      "answer": "las empresas  intercambiaan cosas materia prima, ejemplo una empresa de madera, usa los residuos para venderselos a otra empresa y hacer palillos",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
