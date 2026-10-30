@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-30T18:48:03Z",
-  "total": 363,
+  "updated_at": "2026-10-30T18:54:03Z",
+  "total": 364,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4372,7 +4372,19 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿Que es la región intermedia del aparato de golgi?",
-      "answer": "es una zona de transición, donde se producen modificaciones de las proteinas y se pre",
+      "answer": "es una zona de transición, donde se producen modificaciones de las proteinas y se preparan para el transporte",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4092aca8-b201-8023-9d84-f904f9f5cb14",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que funciones tiene la cara trans  del aparato de golgi?",
+      "answer": "es la cara mas proxima a la membrana plasmatica",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
