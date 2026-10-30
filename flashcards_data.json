@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-30T18:42:07Z",
-  "total": 359,
+  "updated_at": "2026-10-30T18:48:03Z",
+  "total": 363,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4325,6 +4325,54 @@
       "origen": "Manual",
       "question": "¿que funciones tiene el REL?",
       "answer": "sintesis y transporte de lipidos, glucogenolisis y almacenamiento de calcio",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4092aca8-b201-80e9-80cf-ef1f802ea189",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es el aparaoto de golgi?",
+      "answer": "es un sistema de membranas que comunica ccon el Reticulo endoplasmatico, está formado por conjunto de dictiosomas de la celula",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4092aca8-b201-8060-8c84-e5a87400f429",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿en que partes dividimos el aparato de golgi?",
+      "answer": "dividimos en cara cis, región intermedia y cara trans",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4092aca8-b201-80af-83b6-c1b440236792",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es la cara trans del aparato de golgi?",
+      "answer": "es la cara mas proxima, recibe las proteinas sintetizadas en los ribosomas, mediante fusión con las vesiculas procedentes del RER",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4092aca8-b201-80ec-aa2a-d9899094bcff",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿Que es la región intermedia del aparato de golgi?",
+      "answer": "es una zona de transición, donde se producen modificaciones de las proteinas y se pre",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
