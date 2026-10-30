@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29T13:59:48Z",
-  "total": 353,
+  "updated_at": "2026-10-30T18:07:03Z",
+  "total": 357,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4253,6 +4253,54 @@
       "origen": "Manual",
       "question": "simbiosis industrial",
       "answer": "las empresas  intercambiaan cosas materia prima, ejemplo una empresa de madera, usa los residuos para venderselos a otra empresa y hacer palillos",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4092aca8-b201-802b-9557-fb75e6c18e79",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que  es el citoplasma?",
+      "answer": "es el material contenidoo entre las membranas plasmaticas y la membrana nuclear, formado por la matriz citoplasmatica, los  organulos y el citoesqueleto",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4092aca8-b201-80fc-86ab-cf9656a9fa19",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son los ribosomas y donde están localizados?",
+      "answer": "son complejos macromolecualares formados por proteinas y ARN,  se localizan libres en el citoplasma, o unidos al reticulo endoplasmatico rugoso o en la cara externa de la membrana nuclear",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4092aca8-b201-8064-9161-fd99123bc2e4",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que función tienen los ribosomas?",
+      "answer": "su función el la sintesis de proteinas, partiendo de una molecula de arnM",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4092aca8-b201-8005-ad9a-ed755cd70278",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿Que es el sistema de endomembranas?",
+      "answer": "organulos formados por membranas, que funcionan de forma coordinada, en la sistesis, almacenamiento y transporte de proteina",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
