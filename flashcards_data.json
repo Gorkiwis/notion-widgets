@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-30T18:25:03Z",
-  "total": 358,
+  "updated_at": "2026-10-30T18:31:05Z",
+  "total": 359,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4313,6 +4313,18 @@
       "origen": "Manual",
       "question": "¿Que es el RER y que función desempeña?",
       "answer": "reticulo endoplasmatico rugoso, tiene  ribosomas unidos por medio de una proteinas llamada riboforina, tiene ccomo funciones la sintesis y la glucosilación de proteinas.  (se almacenan o son incorporadas a lisosomas)",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4092aca8-b201-8090-a314-ef47b1415ed9",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que funciones tiene el REL?",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
