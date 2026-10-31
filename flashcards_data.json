@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T14:58:11Z",
-  "total": 388,
+  "updated_at": "2026-10-31T15:04:08Z",
+  "total": 389,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4673,6 +4673,18 @@
       "origen": "Manual",
       "question": "¿que es el nucleo plasma?",
       "answer": "es la región delimitada por la membran nucleos, conteniendo la cromatina, el nucleolo y los enzimas implicados en el procesamiento del ADN y del ARN",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80ca-9f86-e9fce58455b4",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es la cromatina=",
+      "answer": "es ADN asociado ocn histonas y no histonas, son estructuras dinamicas que adaptan su estado de compactaciñon para optimizar los procesos  de replicaciñon",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
