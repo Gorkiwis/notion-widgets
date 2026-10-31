@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T18:18:16Z",
-  "total": 236,
+  "updated_at": "2026-10-31T18:24:14Z",
+  "total": 239,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -17,7 +17,8 @@
       "Necropsias::UD1": "Anki_Necropsias_UD1.apkg",
       "Necropsias::UD2": "Anki_Necropsias_UD2.apkg",
       "Citología General::UD1": "Anki_Citologia_General_UD1.apkg",
-      "Digitalización::UD2": "Anki_Digitalizacion_UD2.apkg"
+      "Digitalización::UD2": "Anki_Digitalizacion_UD2.apkg",
+      "Citología General::UD2": "Anki_Citologia_General_UD2.apkg"
     }
   },
   "cards": [
@@ -2848,6 +2849,42 @@
       "origen": "Manual",
       "question": "¿que funciones tiene el nucleolo?",
       "answer": "el nucleolo tienen lugar proceesos relacionados con LA GENERACIÓN DE RIBOSOMAS. (sintesis y maduración del arnR y ensambleje de las subnuidades ribosimicas)",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80e5-82f3-ed6eb70fb016",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "que caracteristicas tiene la membrana nuclear en celulas sanas",
+      "answer": "tiene una morfologia lisa y continua",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80ae-a041-e1275a0d3417",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que es la hiperplasia  y en que celulas se presentan?",
+      "answer": "consiste en el aumento de ltamaño de las celulas, que sucede en celulas con baja capacidad de división",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80cb-994a-d07722561649",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿con que finalidad se realiza la hiperplasia y que tipos hay?",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
