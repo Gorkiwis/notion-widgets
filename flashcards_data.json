@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T15:15:10Z",
-  "total": 389,
+  "updated_at": "2026-10-31T15:31:10Z",
+  "total": 392,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4685,6 +4685,42 @@
       "origen": "Manual",
       "question": "¿que es la cromatina?",
       "answer": "es ADN asociado ocn histonas y no histonas, son estructuras dinamicas que adaptan su estado de compactaciñon para optimizar los procesos  de replicación,",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80a1-8172-d8faaad82ba3",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿Cual es la unidad estructura de la cromatina?",
+      "answer": "es el nucleosoma",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80eb-87a5-e4ce1d113790",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que tipos de cromatinas tenemos?",
+      "answer": "tenemos la \nEucromatina: que se tranacribe entodas las ceelulas y supone solo un 10% del total \nHeterocromatina: tiene un alto grado de compactación, de ella el 80%-90% corresponde a genes que se inactivan de forma especifica segun el tipo de celulas.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-807e-acfa-c475384c5e51",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es el nucleolo?",
+      "answer": "es un corpusculo e",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
