@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T14:36:48Z",
-  "total": 374,
+  "updated_at": "2026-10-31T14:42:07Z",
+  "total": 378,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4504,7 +4504,55 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿que función desempeñan los peroxisomas?",
-      "answer": "organos implicados en el cat",
+      "answer": "organos implicados en el catabolismo de purinas, catabolismo de lipidos de cadena larga, y detoxificación celular. oxidando sustratos usando oxigeno y generando peroxido de hidrogeno",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-804c-8336-e79e0271ed30",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son las inclusiones citoplasmaticas?",
+      "answer": "son acúmulos de distintas sustancias en el citoplasma delimitadas o no por membranas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-8067-8a36-d11842342b3f",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que inclusiones podemos encontrar?",
+      "answer": "• GRANULOS DE GLUCOGENO\n  • inclusiones lipidicas\n  • inclusiones cristalinas\n  • pigmentos (endogenos y exogenos(",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80ca-94b7-d629f9ce0ac7",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es el citoesqueleto?",
+      "answer": "es una red de tuvos y filamentos, que determina la forma de la celula, la posición y el desplazamiento intracelular de lor organulos, el movimiento y la división celular",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80c5-94d8-f31ff010a0cd",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son los micofrilamentos?",
+      "answer": "parte del ciitoesqueleto formada por actina, participa en la contracción muscular, la formación del esqueleto citoplasmatico y la adhesión y migración celular",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
