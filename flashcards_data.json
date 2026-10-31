@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T12:29:44Z",
-  "total": 368,
+  "updated_at": "2026-10-31T13:17:59Z",
+  "total": 369,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4431,8 +4431,20 @@
       "course": "Fisiopatología General",
       "tema": "UD1",
       "origen": "Manual",
-      "question": "¿que es un lisosoma primario=",
+      "question": "¿que es un lisosoma primario?",
       "answer": "es un lisosoma, que sol contiene los enzimas digestivos, pero aún no ha intervenido en ningún proceso digestivo, pueden participar en la digestion celular o ser expulsadoa fuera",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-809e-943a-ca4053d8c571",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es un lisosoma secundario?",
+      "answer": "co",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
