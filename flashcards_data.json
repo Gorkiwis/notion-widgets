@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T18:30:18Z",
+  "updated_at": "2026-10-31T18:35:20Z",
   "total": 240,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
@@ -2895,7 +2895,7 @@
       "course": "Citología General",
       "tema": "UD2",
       "origen": "Manual",
-      "question": "¿Que es la h",
+      "question": "¿Que es la hiperplasia y cuando se produce?",
       "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
