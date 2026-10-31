@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T14:53:10Z",
-  "total": 384,
+  "updated_at": "2026-10-31T14:58:11Z",
+  "total": 388,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4625,6 +4625,54 @@
       "origen": "Manual",
       "question": "¿que es el nucleo? y que función cumple",
       "answer": "es una estructura diferenciada delimitada por un a doble membrana que contiene el material genetico, al contenido le llamamos nucleo plasma,  que contiene la cromatina y el nucleolo",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-803c-bfd7-c5ab98e97d3e",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "que es la membrana nuclear externa?",
+      "answer": "membrana unida al Reticulo endoplasmarico, con ribosomas adosados en su cara citoplasmatica",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-8096-b237-f72831068553",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es la membrana nuclear interna?",
+      "answer": "membrana con filamentos intermedios, que cumple con funciones de anclaje de la cromatina y de crecimiento de la envoltura nuclear",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80b9-b472-ca5f1fd8f915",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que función cumplen los poros de la Membrana nuclear?",
+      "answer": "son estructuras complejas, compuestas por el complejo del poro, que regulan  la entrada y salida de elementos hacia el nucleo, mediante unas proteinas llamadas importinas y exportinas. el paso de moleculas requiere un gasto energetico. estos orificios pueden desaparecer según el estado funcional de la celula",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-804e-857b-d3dc95a60081",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es el nucleo plasma?",
+      "answer": "es la región delimitada por la membran nucleos, conteniendo la cromatina, el nucleolo y los enzimas implicados en el procesamiento del ADN y del ARN",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
