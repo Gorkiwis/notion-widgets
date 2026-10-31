@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T13:40:10Z",
-  "total": 373,
+  "updated_at": "2026-10-31T14:36:48Z",
+  "total": 374,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4493,6 +4493,18 @@
       "origen": "Manual",
       "question": "¿que funciones llevan a cabo las mitocondrias?",
       "answer": "respiración celular \nsintesis de lipidos junto con el rel \nsintesis del grupo hemo",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80fa-ad76-eda88ff4ede4",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que función desempeñan los peroxisomas?",
+      "answer": "organos implicados en el cat",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
