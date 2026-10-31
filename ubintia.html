@@ -1072,36 +1072,40 @@
       try {
         let loaded = false;
         try {
-          const rawRes = await fetch(`https://raw.githubusercontent.com/Gorkiwis/notion-widgets/main/ubintia_data.json?t=${Date.now()}`, { cache: "no-store" });
-          if (rawRes.ok) {
-            const rawJson = await rawRes.json();
-            if (rawJson && Array.isArray(rawJson.slots)) {
-              rawData = rawJson;
+          const res = await fetch(`ubintia_data.json?t=${Date.now()}`, { cache: "no-store" });
+          if (res.ok) {
+            const json = await res.json();
+            if (json && Array.isArray(json.slots)) {
+              rawData = json;
               loaded = true;
             }
           }
         } catch (e) {}
 
         if (!loaded) {
-          const res = await fetch(`ubintia_data.json?t=${Date.now()}`, { cache: "no-store" });
-          if (res.ok) {
-            const json = await res.json();
-            if (json && Array.isArray(json.slots)) {
-              rawData = json;
+          try {
+            const rawRes = await fetch(`https://raw.githubusercontent.com/Gorkiwis/notion-widgets/main/ubintia_data.json?t=${Date.now()}`, { cache: "no-store" });
+            if (rawRes.ok) {
+              const rawJson = await rawRes.json();
+              if (rawJson && Array.isArray(rawJson.slots)) {
+                rawData = rawJson;
+              }
             }
-          }
+          } catch (_) {}
         }
 
         // Cargar slots secundarios / extras (cuentas adicionales que Apps Script no ve)
         try {
           let extraJson = null;
           try {
-            const extraRes = await fetch(`https://raw.githubusercontent.com/Gorkiwis/notion-widgets/main/ubintia_extra.json?t=${Date.now()}`, { cache: "no-store" });
-            if (extraRes.ok) extraJson = await extraRes.json();
-          } catch (_) {}
-          if (!extraJson) {
             const extraResLocal = await fetch(`ubintia_extra.json?t=${Date.now()}`, { cache: "no-store" });
             if (extraResLocal.ok) extraJson = await extraResLocal.json();
+          } catch (_) {}
+          if (!extraJson) {
+            try {
+              const extraRes = await fetch(`https://raw.githubusercontent.com/Gorkiwis/notion-widgets/main/ubintia_extra.json?t=${Date.now()}`, { cache: "no-store" });
+              if (extraRes.ok) extraJson = await extraRes.json();
+            } catch (_) {}
           }
           if (extraJson && Array.isArray(extraJson.slots)) {
             if (!Array.isArray(rawData.slots)) rawData.slots = [];
