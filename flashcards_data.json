@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T13:17:59Z",
-  "total": 369,
+  "updated_at": "2026-10-31T13:23:00Z",
+  "total": 370,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4444,7 +4444,19 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿que es un lisosoma secundario?",
-      "answer": "co",
+      "answer": "son los lisosomas que contienen los materiales resultantes del proceso de digestión, enzimas, sustratos y productos de la hidrolisis , es la fusión entre un lisosoma primario y una vesicula con materia fagocitada o a digerir",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80c9-b941-dc24a558142e",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son los orgánulos energeticos?",
+      "answer": "estos organulos son las mitocondrias y los peroxisomas, que tienen funciones relacionadas con la obtención de la energía necesaria para el fu",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
