@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T17:50:11Z",
+  "updated_at": "2026-10-31T18:18:16Z",
   "total": 236,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
@@ -221,7 +221,7 @@
       "question": "Identifica el pictograma",
       "answer": "PROVIENEN DE PERSONAS U ANIMALES AFECTADOS POR ENFERMEDADES",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "anki_media/notion_3fc2aca8-b201-8009-9368-da3f8435b143.png",
       "image_filename": "notion_3fc2aca8-b201-8009-9368-da3f8435b143.png"
     },
@@ -305,7 +305,7 @@
       "question": "¿que incompatibilidades tienen los acidos fuertes?",
       "answer": "los acidos fuertes son incompatibles con el amoniaco NH3 y con el hidroxido sodico NaOH",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -317,7 +317,7 @@
       "question": "¿podemos trasvaasar residuos peligrosos de un envase a otro?",
       "answer": "NUNCA SE DEBEN trasvasar residuos peligrosos de un envase a otro",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -329,7 +329,7 @@
       "question": "¿como podemos tratar los residuos biologicos?",
       "answer": "podemos esterilizarlos para eliminarlos como urbanos o incinerarlos",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -341,7 +341,7 @@
       "question": "¿hasta donde se llenan los recipientes?",
       "answer": "nunca  compleot, hasta la linea marcada por el fabricante",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -377,7 +377,7 @@
       "question": "las tapas de los reactivos abiertos deben colocarse boca abajo",
       "answer": "FALSO, BOCARRIBA Y CERRANDOLOS INMEDIATAMENTE A SU USO",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -389,7 +389,7 @@
       "question": "¿debemos añadir el agua sobre el acido?",
       "answer": "no, el acido sobre la base (falso) el sobre ella",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -689,7 +689,7 @@
       "question": "¿en que consiste el material volumetrico?",
       "answer": "materiales que tienen",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -1997,7 +1997,7 @@
       "question": "¿que caracteristicas evidenciamos en los fondos inflamatorios agudos?",
       "answer": "en los fondos inflamatorios agudos, evidenciamos  la presencia de neutrofilos polimorfonucleares, junto a macrofagos.",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2009,7 +2009,7 @@
       "question": "¿que evidenciamos en los fondos inflamatorios crónicos?",
       "answer": "evidenciareos la presenncia de macrofagos y linficitos",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2021,7 +2021,7 @@
       "question": "estructuras y hallazgos evidenciables en fondos mucinosos",
       "answer": "en citologías donde eviidenciamos un fondo mucinoso, podremos observar la presencia de “mucina”, hallazgo que se presentará en frotis procedentes del aparato respiratorio, mama, salivares. veremos estructuras  filamentosas con aspecto algodonoso,",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2033,7 +2033,7 @@
       "question": "hallazgos en fondos coloides",
       "answer": "aparece en muestras de origen tiroidem con apariencia azulada y como aceitosa",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2045,7 +2045,7 @@
       "question": "¿que morfologia tiene una morula?",
       "answer": "son agrupaciones de un numero reducido de celulas, las celulas, son de aspecto cubico, se agrupan en forma de mora",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2057,7 +2057,7 @@
       "question": "¿Que morfologia tiene una agrupación tipo acino? y en que tipos celulares están presentes",
       "answer": "observaremos celulas con nucleo bien definidos, dispuestas rodeando a una luz central, muy tipico en elementos glandulares",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2069,7 +2069,7 @@
       "question": "¿Que caracteristicas tienen las agrupaciones en Lamina, y a que origen celular están asociados?",
       "answer": "provienen de epitelios de revestimiento, teniendo 3 tipos\nsabana: laminas muy grandes\npanal: lasminas con dispoción celular regular y bordes definidos?",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2081,7 +2081,7 @@
       "question": "¿en una citología, como podemos discernir la morfologia cilindrica de las celulas, si están agrupadas?",
       "answer": "veremos como las celulas adquieren una forma empalizada, con los cuerpos celulares dispuestos",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2093,7 +2093,7 @@
       "question": "dentro de las estructuras tridimensionales: ¿que son las papilas’",
       "answer": "percibiremos que están duspuestas sobre un eje , donde veremos celulas, amontonadas, junto a solapamiento nuclkear",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2105,7 +2105,7 @@
       "question": "Granulomas",
       "answer": "agrupaciones de Histiocitos (macrofagos), asociado a procesos inflamatorios o procesos necroticos",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2117,7 +2117,7 @@
       "question": "¿en que consiste el amoldamiento nuclear, en las agrupaciones celulares?",
       "answer": "los nucleos se comprimen uno sobre otro, como consecuencia de una perdida o debilidad del citoplasma",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2129,7 +2129,7 @@
       "question": "¿que caracteristicas observamos en solapamientos nucleares en agrupaciones?",
       "answer": "observaremos nucleos superopuestos, lo cual es indicativo de perdida de cohesión",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2141,7 +2141,7 @@
       "question": "¿que factores afectan a la morfología nuclear=",
       "answer": "• la estirpe celular\n  • el estado funcional de la misma \n  • la presencia de alteraciones patológica",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2153,7 +2153,7 @@
       "question": "¿que es el cromatismo nuclear?",
       "answer": "es el Grado de coloración del nucleo, va asociado l tipo celular\n→ Hipercromatismos: como los linfocitos\n—> hipocromaticos: celulas hepaticas.",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2165,7 +2165,7 @@
       "question": "¿que caracteristicas tiene el nucleolo?",
       "answer": "• muy visible en ciertas estirpes celulares\n  • en algunas celulas aumenta de tamaño con la actividad celular\n  • el aspecto irregular, del mismo es signo de malignidad",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2189,7 +2189,7 @@
       "question": "¿que factores afectan a la fluidez de la membrana plasmaticaa?",
       "answer": "la fluidez de la membrana plasmatica se ve afectada por \nla temperatura (Directamente proporcional)\ntamaño de los lipidos:  (inversamente proporcional)\ninsaturación acidos grasos:  directamente proporcional\ncolesterol: inversamente proporcional",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2213,7 +2213,7 @@
       "question": "¿que son las proteinas integrales/transmembrana?",
       "answer": "proteinas que debido a tener regiones hidrofobas e hidrofilas , se pueden asociar tanto con el interior, como con el exterior.",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2237,7 +2237,7 @@
       "question": "¿que funciones desempeñan las proteinas de membrana?",
       "answer": "• actuan como poros o canales de paso \n  • actuan como receptores\n  • marcan identidad celular\n  • catalizan reacciones (proteinas enzimaticas)\n  • transportan sustancias a traves de la membrana",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2249,7 +2249,7 @@
       "question": "¿que es la difusión lateral?",
       "answer": "movimiento en el que los fosfolipidos se mueven lateralmente,  cuanto mas difusión lateral, mas fluida será lla membrana",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2273,7 +2273,7 @@
       "question": "que es el movimient ode flexión en los acidos grasos de la bicapa",
       "answer": "la cadena de acidos grasos, se flexiona",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2297,7 +2297,7 @@
       "question": "¿por que consideramos que la membrana plasmatica es asimetrica?",
       "answer": "las monnocapas internas y externas, tienen distinta composición, distribución fosfolipidos y colesterol., además que sobre la parte externa, tendremo el Glucocalix",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2321,7 +2321,7 @@
       "question": "¿que función desempeña el glucocalix?",
       "answer": "dar protección a la celula de daños quimicos y mecanicos\ndar carga negativa a la superficie celular\n\nfacilitar el movimiento y la división celular\nalclar y orientar proteinas de la matriz\npermitir el reconocimiento celularr y el emplazamiento de enzimas ,  puesto que algunas actuan como marcadores",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2333,7 +2333,7 @@
       "question": "¿que funciones desempeña la membrana plasmatica?",
       "answer": "• separa el citoplasma del medio externo\n  • regular el transpore y el intercambio de sustancias del interior al exterior\n  • produce/controla gradientes electroquimicos \n  • detectar y  transmitir señales de y hacia el medio externo\n  • PARTICIPA en el control de la división celular \n  • facilita la adhsesión intercelular",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -2345,7 +2345,7 @@
       "question": "¿que es la matriz extracelular?",
       "answer": "medio compuesto por sustancia fundamental — 95% GAG y 5% proteinas \n                                    proteinas fibrosas (colageno, elastina, fibfo\nes el medio en el cual se encuentran inmersas las celulas",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
