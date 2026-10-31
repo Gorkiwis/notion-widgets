@@ -1105,13 +1105,17 @@
           }
           if (extraJson && Array.isArray(extraJson.slots)) {
             if (!Array.isArray(rawData.slots)) rawData.slots = [];
-            const existingKeys = new Set(rawData.slots.map(s => `${s.date || s.iso_date}_${s.start}_${s.end}_${s.seat}`));
             for (const es of extraJson.slots) {
-              const k = `${es.date || es.iso_date}_${es.start}_${es.end}_${es.seat}`;
-              if (!existingKeys.has(k)) {
-                rawData.slots.push(es);
-                existingKeys.add(k);
-              }
+              const eIso = es.iso_date || parseIsoDate(es.date);
+              // Si un slot secundario toma el relevo, purgar el slot solapado de la cuenta principal
+              rawData.slots = rawData.slots.filter(s => {
+                const sIso = s.iso_date || parseIsoDate(s.date);
+                if (sIso === eIso && s.start === es.start) {
+                  return false;
+                }
+                return true;
+              });
+              rawData.slots.push(es);
             }
           }
         } catch (_) {}
