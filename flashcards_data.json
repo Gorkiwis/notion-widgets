@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T15:04:08Z",
+  "updated_at": "2026-10-31T15:09:09Z",
   "total": 389,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
@@ -4683,8 +4683,8 @@
       "course": "Fisiopatología General",
       "tema": "UD1",
       "origen": "Manual",
-      "question": "¿que es la cromatina=",
-      "answer": "es ADN asociado ocn histonas y no histonas, son estructuras dinamicas que adaptan su estado de compactaciñon para optimizar los procesos  de replicaciñon",
+      "question": "¿que es la cromatina?",
+      "answer": "es ADN asociado ocn histonas y no histonas, son estructuras dinamicas que adaptan su estado de compactaciñon para optimizar los procesos  de replicación,",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
