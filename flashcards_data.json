@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T14:42:07Z",
-  "total": 378,
+  "updated_at": "2026-10-31T14:47:08Z",
+  "total": 380,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4552,7 +4552,31 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿que son los micofrilamentos?",
-      "answer": "parte del ciitoesqueleto formada por actina, participa en la contracción muscular, la formación del esqueleto citoplasmatico y la adhesión y migración celular",
+      "answer": "parte del ciitoesqueleto formada por actina, participa en la contracción muscular, la formación del esqueleto citoplasmatico y la adhesión y migración celular, endocitosis  y forman las microvellosidades y los estereocilios",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80f0-a5da-de3d33fd6bbe",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son los filamentos intermedios?",
+      "answer": "fibras muy resistentes, que forman una red desde el nucleo hasta la periferia celula, están formados por proteinas fibrosas y son muy abundantes en celulas epiteliales, musculares y nerviosas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-806d-98dd-ee42cefd076b",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que función llevan a cabo los filamentos intermedios?",
+      "answer": "permiten que las celulas soporten tensiones",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
