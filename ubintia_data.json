@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T17:30:00+01:00",
+  "updated_at": "2026-10-31T16:33:30.048Z",
   "location": "Mediateka BBK — Azkuna Zentroa (Ubintia)",
   "account": "gorkaobiangolaso@gmail.com",
   "sender_filter": "no-reply@amiprojects.com",
@@ -567,52 +567,15 @@
       "email_timestamp": "2026-10-30T07:18:54.000Z"
     },
     {
-      "seat": 26,
-      "seat_label": "26.Ikaspostua",
+      "seat": 29,
+      "seat_label": "29.Ikaspostua",
       "date": "31-10-2026",
       "iso_date": "2026-10-31",
       "start": "17:00",
       "end": "18:00",
       "status": "active",
-      "source_subject": "Reserva directa Ubintia",
-      "holder": "Aitor Goikoetxea",
-      "qr_url": "https://internet.ubintia.com/storage/azkunazentroa/qr_codes/9fe778ec-892d-4e81-971f-80082254b57f.jpg"
-    },
-    {
-      "seat": 26,
-      "seat_label": "26.Ikaspostua",
-      "date": "31-10-2026",
-      "iso_date": "2026-10-31",
-      "start": "18:00",
-      "end": "19:00",
-      "status": "active",
-      "source_subject": "Reserva directa Ubintia",
-      "holder": "Aitor Goikoetxea",
-      "qr_url": "https://internet.ubintia.com/storage/azkunazentroa/qr_codes/9fe778ec-892d-4e81-971f-80082254b57f.jpg"
-    },
-    {
-      "seat": 26,
-      "seat_label": "26.Ikaspostua",
-      "date": "31-10-2026",
-      "iso_date": "2026-10-31",
-      "start": "19:00",
-      "end": "20:00",
-      "status": "active",
-      "source_subject": "Reserva directa Ubintia",
-      "holder": "Aitor Goikoetxea",
-      "qr_url": "https://internet.ubintia.com/storage/azkunazentroa/qr_codes/9fe778ec-892d-4e81-971f-80082254b57f.jpg"
-    },
-    {
-      "seat": 26,
-      "seat_label": "26.Ikaspostua",
-      "date": "31-10-2026",
-      "iso_date": "2026-10-31",
-      "start": "20:00",
-      "end": "21:00",
-      "status": "active",
-      "source_subject": "Reserva directa Ubintia",
-      "holder": "Aitor Goikoetxea",
-      "qr_url": "https://internet.ubintia.com/storage/azkunazentroa/qr_codes/9fe778ec-892d-4e81-971f-80082254b57f.jpg"
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-30T07:18:55.000Z"
     },
     {
       "seat": 27,
