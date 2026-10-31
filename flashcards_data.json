@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T18:24:14Z",
-  "total": 239,
+  "updated_at": "2026-10-31T18:30:18Z",
+  "total": 240,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -2884,6 +2884,18 @@
       "tema": "UD2",
       "origen": "Manual",
       "question": "¿con que finalidad se realiza la hiperplasia y que tipos hay?",
+      "answer": "esto tiene como finalidad el aumento de la capacidad funcional.\ntenemos la hiperplasia fisiologica  o la patologica",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-8013-9b23-f0dbb33f7047",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿Que es la h",
       "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
