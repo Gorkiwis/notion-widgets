@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T14:47:08Z",
-  "total": 380,
+  "updated_at": "2026-10-31T14:53:10Z",
+  "total": 384,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4576,7 +4576,55 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿que función llevan a cabo los filamentos intermedios?",
-      "answer": "permiten que las celulas soporten tensiones",
+      "answer": "permiten que las celulas soporten tensiones mecanicas, aportan d sopporte al nucleo, a los axones e intervienen en la comunicación celular",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-809b-9321-eafad7bf5453",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son los microtubulos?",
+      "answer": "tubos huecos compuestos de tubulina alfa tubulina y beta tubulina.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80d9-9a97-dc85693d03ce",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que función desempeñan los microtubulos?",
+      "answer": "tienen capacidad de organizarse en centriolos (tripletes de microtubulos)\npueden organizarse para formar estructuras como los axones, cilios, y flagelos.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-802d-ad66-c9b1515a022c",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son las proteinas accesorias?",
+      "answer": "proteinas que están vinculadas a distintos filamentos y tubulos, ya sea para regular, ligar (pegar) o para dar función motora",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-800f-84e7-f7fd5ab68ec9",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es el nucleo? y que función cumple",
+      "answer": "es una estructura diferenciada delimitada por un a doble membrana que contiene el material genetico, al contenido le llamamos nucleo plasma,  que contiene la cromatina y el nucleolo",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
