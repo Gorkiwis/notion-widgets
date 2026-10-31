@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T13:28:59Z",
-  "total": 371,
+  "updated_at": "2026-10-31T13:34:59Z",
+  "total": 372,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4468,7 +4468,19 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿que es la membrana mitocondrial y de que está formada?",
-      "answer": "organulo",
+      "answer": "está formada por una membrana externa, con alto contenido de porinas, lo cual lea hace muy permeable y de una membrana interna, la cual contiene muchos pliegues.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80e7-acdd-f8b07193934d",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que composición tiene la membrana interna?",
+      "answer": "está compuesto por un 75% de proteinas y un 25% de lipidos",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
