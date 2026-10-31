@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T15:31:10Z",
-  "total": 392,
+  "updated_at": "2026-10-31T15:37:07Z",
+  "total": 393,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4720,7 +4720,19 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿que es el nucleolo?",
-      "answer": "es un corpusculo e",
+      "answer": "es un corpusculo esferico que se localiza en el interior dlel nucleo, no está delimitado por ningun amembrana, las celulas de los mamiferos tienen de 1 a 5 nucleolos",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-8084-995c-cff205b2f28d",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que funciones tiene el nucleolo?",
+      "answer": "el nucleolo tienen lugar proceesos relacionados con LA GENERACIÓN DE RIBOSOMAS. (sintesis y maduración del arnR y ensambleje de las subnuidades ribosimicas)",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
