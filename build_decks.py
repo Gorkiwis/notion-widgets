@@ -19,6 +19,10 @@ for p in results:
     title = ''.join([t.get('plain_text', '') for t in name_prop.get('title', [])]).strip()
     if not title:
         continue
+    
+    # FILTRO FORENSE: Purgar radicalmente tarjetas generadas por IA
+    if '[ia]' in title.lower() or '[ia]' in str(props).lower():
+        continue
         
     c_sel = (props.get('Course') or {}).get('select') or {}
     course = c_sel.get('name', 'General')
