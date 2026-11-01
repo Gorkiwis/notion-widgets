@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01T13:09:09Z",
-  "total": 243,
+  "updated_at": "2026-11-01T13:14:25Z",
+  "total": 247,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -2933,6 +2933,54 @@
       "origen": "Manual",
       "question": "¿que es la metaplasia?",
       "answer": "conssitee en la sustitución de una celula adulta, por una celula diferente, con la finalidad de adaptarse a un estimulo externo++",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40b2aca8-b201-803d-8261-e53d12665afe",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿en que consiste la reparación tisular?",
+      "answer": "es el proceso biologico mediante el que se restablece un tejido lesionado, ya sea por regeneración o por cicatrización",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40b2aca8-b201-8073-bc21-f5510ae04935",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "dentro de los mecanismos de reparaciñon celular, ¿en que consiste la regeneración?",
+      "answer": "en este tipo de reparación celular, un tejido dañado se reemplaza por tejido identico",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40b2aca8-b201-8036-a6f8-c59ea5003467",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "en los mecanismos de reparación tisular, en que consiste la cincatrización",
+      "answer": "en la formaciñon de tejido nuevo, pero que no es identico al anterior, por tanto no termina derestaurar la función completa",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40b2aca8-b201-80c9-9fcb-f794bc911b23",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "en que consiste la reparaciño",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
