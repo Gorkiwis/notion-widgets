@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01T13:19:24Z",
-  "total": 248,
+  "updated_at": "2026-11-01T13:24:25Z",
+  "total": 249,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -2992,6 +2992,18 @@
       "tema": "UD2",
       "origen": "Manual",
       "question": "¿en que consiste la reparación celular compensadora?",
+      "answer": "es la qque sucede cuando hay una perdida parcial de un organo de forma accidental o terapeutica, cuandio las celulas mantienen la integridad es posible la regeneración completa",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40b2aca8-b201-80d6-93e3-ff4a958c9e93",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿en que consiste la reparación celular patologica?",
       "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
