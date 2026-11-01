@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01T13:36:21Z",
-  "total": 250,
+  "updated_at": "2026-11-01T13:41:29Z",
+  "total": 251,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3017,6 +3017,18 @@
       "origen": "Manual",
       "question": "¿en que consiste la degeneración hidropica?  y que nos indica",
       "answer": "consiste en la entrada de agua al interior de la celula, provocando un aumento de su tamaño (duplicar o triplicar) es el primer indicativo de daño celular",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40b2aca8-b201-8062-a1c4-ce45bc6a48cf",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que tipos de degeneración hidropica, podemos observar?",
+      "answer": "tenemos, la reversible:",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
