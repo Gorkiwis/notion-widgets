@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T13:41:29Z",
+  "updated_at": "2026-11-01T13:53:18Z",
   "total": 251,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
@@ -2104,7 +2104,7 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "Granulomas",
-      "answer": "agrupaciones de Histiocitos (macrofagos), asociado a procesos inflamatorios o procesos necroticos",
+      "answer": "agrupaciones de Histiocitos (macrofagos), asociado a procesos inflamatorios o procesos necroticos (rollo veremos una masa celular con un montón de nucleos)",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
@@ -3028,7 +3028,7 @@
       "tema": "UD2",
       "origen": "Manual",
       "question": "¿que tipos de degeneración hidropica, podemos observar?",
-      "answer": "tenemos, la reversible:",
+      "answer": "tenemos, la reversible y la irreversible",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
