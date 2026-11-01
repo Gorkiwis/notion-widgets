@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01T13:30:20Z",
-  "total": 249,
+  "updated_at": "2026-11-01T13:36:21Z",
+  "total": 250,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3005,6 +3005,18 @@
       "origen": "Manual",
       "question": "¿en que consiste la reparación celular patologica?",
       "answer": "derivada del daño celular",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40b2aca8-b201-8015-8130-dd0d33867977",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿en que consiste la degeneración hidropica?  y que nos indica",
+      "answer": "consiste en la entrada de agua al interior de la celula, provocando un aumento de su tamaño (duplicar o triplicar) es el primer indicativo de daño celular",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
