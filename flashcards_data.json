@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01T13:14:25Z",
-  "total": 247,
+  "updated_at": "2026-11-01T13:19:24Z",
+  "total": 248,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -2979,7 +2979,19 @@
       "course": "Citología General",
       "tema": "UD2",
       "origen": "Manual",
-      "question": "en que consiste la reparaciño",
+      "question": "¿en que consiste la reparación celular fisiologica?",
+      "answer": "ocurre para compensar la perdida de elementos que han finalizado su ciclo vital , se desarrolla en tejidos en los que hay una renovaciṕpn continua",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40b2aca8-b201-80b5-8b53-ef33d4990ef5",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿en que consiste la reparación celular compensadora?",
       "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
