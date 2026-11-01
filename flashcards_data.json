@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01T13:53:18Z",
-  "total": 251,
+  "updated_at": "2026-11-01T13:59:15Z",
+  "total": 252,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3028,7 +3028,19 @@
       "tema": "UD2",
       "origen": "Manual",
       "question": "¿que tipos de degeneración hidropica, podemos observar?",
-      "answer": "tenemos, la reversible y la irreversible",
+      "answer": "Reversible: Citoplasma aumentado , borroso, microvacuolado.\nIrreversible: Degeneración hidrópica vacuolar (macro-vacuolización severa que conduce a la autolisis/muerte).",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40b2aca8-b201-8098-a575-c219b5350117",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que es la eusinofilia?",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
