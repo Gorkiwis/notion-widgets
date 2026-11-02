@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T17:09:55Z",
-  "total": 266,
+  "updated_at": "2026-11-02T17:15:57Z",
+  "total": 267,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3209,6 +3209,18 @@
       "origen": "Manual",
       "question": "¿que es la exocitosis?",
       "answer": "es el proceso inverso a la endocitosis, mediante el cual la celula expulsa sustancias al medio exterior utilizando vesículas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-802a-b4f6-e80565f1ad09",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son las union",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
