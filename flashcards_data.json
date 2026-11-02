@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T17:27:59Z",
-  "total": 270,
+  "updated_at": "2026-11-02T17:33:55Z",
+  "total": 272,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3255,8 +3255,32 @@
       "course": "Fisiopatología General",
       "tema": "UD1",
       "origen": "Manual",
-      "question": "¿que son los uniones de anclaje",
-      "answer": "",
+      "question": "¿que son los uniones de anclaje o adherentes?",
+      "answer": "estas uniones, sujetan mecanicamente, las celulas y sus citoesqueletos con las celulas vecinas, pero manteniendo las membranas separadas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-804e-9c43-e5e215cad5e4",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son los desmosomas?",
+      "answer": "una unión hecha mediante placas de fijación, cadherinas y filamentos de queratina.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-802f-a4b5-e94a73509a32",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "q¿ue son las uniones adherentes?",
+      "answer": "es un tipo de unióm",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
