@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T17:04:55Z",
-  "total": 265,
+  "updated_at": "2026-11-02T17:09:55Z",
+  "total": 266,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3195,8 +3195,20 @@
       "course": "Fisiopatología General",
       "tema": "UD1",
       "origen": "Manual",
-      "question": "¿que es la endo",
-      "answer": "",
+      "question": "¿que es la endocitosis facilitada por receptor?",
+      "answer": "la celula captura macromoleculas concretas, que se fijan a receptores especificos para ellas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-8044-9768-f2c9e60430e5",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es la exocitosis?",
+      "answer": "es el proceso inverso a la endocitosis, mediante el cual la celula expulsa sustancias al medio exterior utilizando vesículas",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
