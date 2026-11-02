@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T17:39:54Z",
+  "updated_at": "2026-11-02T18:34:53Z",
   "total": 274,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
@@ -2103,7 +2103,7 @@
       "course": "Citología General",
       "tema": "UD1",
       "origen": "Manual",
-      "question": "Granulomas",
+      "question": "¿que son los Granulomas?",
       "answer": "agrupaciones de Histiocitos (macrofagos), asociado a procesos inflamatorios o procesos necroticos (rollo veremos una masa celular con un montón de nucleos)",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
