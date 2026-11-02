@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T16:58:57Z",
-  "total": 263,
+  "updated_at": "2026-11-02T17:04:55Z",
+  "total": 265,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3172,6 +3172,30 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿que es la pinocitosis?",
+      "answer": "paso de liquidos o de cosas disueltas en los mismos por medio de vesiculas, pueden hacerlo casi todas las celulas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-80a8-a17f-d77e7d77113a",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es la fagocitosis?",
+      "answer": "se forma una vesicula de gran tamaño, con pseudopodos, para posteriormente ser introducida dentro de la  celula y digerida",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-80f0-8ded-df226b04526d",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es la endo",
       "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
