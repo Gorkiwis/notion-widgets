@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T11:33:21Z",
+  "updated_at": "2026-11-02T11:38:22Z",
   "total": 257,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
@@ -3099,7 +3099,7 @@
       "course": "Fisiopatología General",
       "tema": "UD1",
       "origen": "Manual",
-      "question": "dentro de las protei",
+      "question": "dentro de las proteinas transportadoras ¿que son las permeasas?",
       "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
