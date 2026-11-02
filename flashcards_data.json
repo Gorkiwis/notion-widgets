@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T18:58:47Z",
-  "total": 281,
+  "updated_at": "2026-11-02T19:03:52Z",
+  "total": 282,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3389,6 +3389,18 @@
       "origen": "Manual",
       "question": "¿como es la heterocromatina en condicones patológicas?",
       "answer": "se forman grumos irregulares, en zonas marginales y dispersas, con aparente engrosamiento de la membrana nuclear",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-800d-a699-c48eebe0ba12",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que caracteriza la caripicnosis?",
+      "answer": "en la caripicnosis celular, vemos una contracción  del nucleo, encoge de tamaño, por  tanto la cromatina se condensa por la desnaturalización de las proteinas  y se vuelve hipercromatica",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
