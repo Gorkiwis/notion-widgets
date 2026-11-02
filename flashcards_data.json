@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T16:35:57Z",
-  "total": 259,
+  "updated_at": "2026-11-02T16:41:54Z",
+  "total": 261,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3123,8 +3123,32 @@
       "course": "Fisiopatología General",
       "tema": "UD1",
       "origen": "Manual",
-      "question": "¿en que consiste el transporte activo primario?",
-      "answer": "energía prcedente de la hidról",
+      "question": "¿en que consiste el transporte activo primario? ¿y que proteinas transportadoras están implicadas?",
+      "answer": "energía prcedente de la hidrólisis  del ATP,  las proteinas implicadas son las ABC  y las bombas de iones",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-808c-a261-d014259c6e02",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son los transportadores ABC?",
+      "answer": "son proteinas especializadas, que están ancladas a la membrana",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-807d-9661-cbf41e73a1cb",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son olos t",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
