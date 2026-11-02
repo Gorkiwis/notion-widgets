@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T16:41:54Z",
-  "total": 261,
+  "updated_at": "2026-11-02T16:47:54Z",
+  "total": 262,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3147,7 +3147,19 @@
       "course": "Fisiopatología General",
       "tema": "UD1",
       "origen": "Manual",
-      "question": "¿que son olos t",
+      "question": "¿que son las bombas de iones?",
+      "answer": "sistema el cual facilita la entrada de sustancias en contra de gradiente, aplicable a iones, sodio, potasio",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-80cd-9548-f7c9960b8a97",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿en que consiste el transporte por endocitosis?",
       "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
