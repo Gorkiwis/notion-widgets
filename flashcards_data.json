@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T16:47:54Z",
+  "updated_at": "2026-11-02T16:53:55Z",
   "total": 262,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
@@ -3160,7 +3160,7 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿en que consiste el transporte por endocitosis?",
-      "answer": "",
+      "answer": "proceso por el cual la celula  lleva a su interior moleculas grandes o particulas, las cuales se encuentran",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
