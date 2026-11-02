@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T17:33:55Z",
-  "total": 272,
+  "updated_at": "2026-11-02T17:39:54Z",
+  "total": 274,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3280,7 +3280,31 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "q¿ue son las uniones adherentes?",
-      "answer": "es un tipo de unióm",
+      "answer": "es un tipo de unióm en el que ontervienen las cadherinas, pero forman una banda continua de unión alrededor de las celulas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-80ea-ad6f-cfc69f4102f0",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son las uniones comunicantes?",
+      "answer": "mantienen unidas las celulas, pero además generan poros, que permite el intercambio de sustancias entre ellas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-804c-8f64-f0a8afd22298",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿cuales son las uniones comunicantes mas comunes?",
+      "answer": "las uniones GAP, que están formadas por conexinas agrupadas, que forman una estructura hexagonar llamada conexon",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
