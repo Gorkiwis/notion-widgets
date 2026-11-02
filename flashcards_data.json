@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T11:22:43Z",
-  "total": 254,
+  "updated_at": "2026-11-02T11:33:21Z",
+  "total": 257,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3065,6 +3065,42 @@
       "origen": "Manual",
       "question": "¿que es la difusión simple?",
       "answer": "moleculas de bajo peso y tamaño, atraviesan directamente la membrana plasmatica. (oxigeno, agua, co2",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-8002-986a-d9497d334594",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "difusión facilitada",
+      "answer": "es el movimiento que viene mediado por  protiinas transportadoras",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-80b4-b9bb-d23d6e489301",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "dentro de las proteinas transportadoras, ¿que son las porinas?",
+      "answer": "forman poros que permiten la difusión libre, de moleculas con diametro inferior al del poro",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-8098-922b-f8702f1bb489",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "dentro de las protei",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
