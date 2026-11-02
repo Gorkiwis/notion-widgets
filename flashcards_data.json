@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T12:58:00Z",
-  "total": 258,
+  "updated_at": "2026-11-02T16:35:57Z",
+  "total": 259,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3113,6 +3113,18 @@
       "origen": "Manual",
       "question": "¿que es el transporte activo?",
       "answer": "son mecanismos especificos para que un sustrato, realice el transporte en contra de gradiente, consumiendo energía , afectando principalmente a iones y a aminoacidos",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-804f-8248-d5858139edf2",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿en que consiste el transporte activo primario?",
+      "answer": "energía prcedente de la hidról",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
