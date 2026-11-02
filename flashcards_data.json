@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T11:38:22Z",
+  "updated_at": "2026-11-02T12:52:24Z",
   "total": 257,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
@@ -3100,7 +3100,7 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "dentro de las proteinas transportadoras ¿que son las permeasas?",
-      "answer": "",
+      "answer": "son proteinas integrales de membrana , que son especificas para cada sustrato en concreto, es decir, solo dejan pasar a unas en concreto (como si fuesen una llave)ejemplo: glucosa",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
