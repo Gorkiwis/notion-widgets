@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T18:40:52Z",
-  "total": 277,
+  "updated_at": "2026-11-02T18:46:57Z",
+  "total": 280,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3340,7 +3340,43 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿como es la heterocromatina en condiciones normales?",
-      "answer": "la heterrocromatina, en condiciones normales, hace que evidenciamos areas mas oscruas de aspec",
+      "answer": "la heterrocromatina, en condiciones normales, hace que evidenciamos areas mas oscruas de aspecto granular, con disposición homogenea en la periferia del nucleo",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-807c-b0fa-efdfb796038c",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es la eucromatina?",
+      "answer": "es el fragmento de la cromatina, que se encuentra en activo",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-809d-b5d4-dbf20a3f44b7",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es la heterocromatina?",
+      "answer": "es el fragmento de la cromatina, que se encuentra en estado inactivo",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-80be-b594-f8985a987075",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "?como se ve",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
