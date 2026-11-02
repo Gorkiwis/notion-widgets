@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T19:03:52Z",
-  "total": 282,
+  "updated_at": "2026-11-02T19:32:11Z",
+  "total": 283,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3402,7 +3402,19 @@
       "question": "¿que caracteriza la caripicnosis?",
       "answer": "en la caripicnosis celular, vemos una contracción  del nucleo, encoge de tamaño, por  tanto la cromatina se condensa por la desnaturalización de las proteinas  y se vuelve hipercromatica",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-8097-b5d6-ed343f2ec809",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que factores caracterizan la cariopicnosis?",
+      "answer": "",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     }
