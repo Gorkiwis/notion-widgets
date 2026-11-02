@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T18:34:53Z",
-  "total": 274,
+  "updated_at": "2026-11-02T18:40:52Z",
+  "total": 277,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3307,6 +3307,42 @@
       "answer": "las uniones GAP, que están formadas por conexinas agrupadas, que forman una estructura hexagonar llamada conexon",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-80e8-9734-d21142412be8",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es el solapamiento nuclear y que nos indica?",
+      "answer": "son nucleos superpuestos, sucede en celulas aisladas o agrupaciones laminares, su presencia son indicativo de perdida de cohesión.",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-806f-8066-da48a7708133",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es el amoldamiento nuclear? y ¿que nos indica?",
+      "answer": "sucede cuando un nucleo se comprimer sobre otro nos indica una debilidad en el citoplasma",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-801f-aa48-c9d1ffd57aa9",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿como es la heterocromatina en condiciones normales?",
+      "answer": "la heterrocromatina, en condiciones normales, hace que evidenciamos areas mas oscruas de aspec",
+      "status": "To Learn",
+      "plantilla": "Estándar",
       "image": "",
       "image_filename": ""
     }
