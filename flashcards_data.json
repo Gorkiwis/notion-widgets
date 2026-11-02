@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T11:12:21Z",
-  "total": 252,
+  "updated_at": "2026-11-02T11:17:23Z",
+  "total": 254,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3041,6 +3041,30 @@
       "origen": "Manual",
       "question": "¿que es la eusinofilia?",
       "answer": "",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-80d8-9844-d45773ce2dfe",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿en que consiste el transporte pasivo?",
+      "answer": "es el transporte de sustancias a favor de gradiente, el cual, no requiere gasto energetico",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-8032-ba29-ef67e96d8e41",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es la difusión simple?",
+      "answer": "moleculas de bajo peso y tamaño, atraviesan directamente",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
