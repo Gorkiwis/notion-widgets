@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T17:15:57Z",
-  "total": 267,
+  "updated_at": "2026-11-02T17:27:59Z",
+  "total": 270,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3219,7 +3219,43 @@
       "course": "Fisiopatología General",
       "tema": "UD1",
       "origen": "Manual",
-      "question": "¿que son las union",
+      "question": "¿que son las uniones ocluyentes?",
+      "answer": "membranas plasmaticas de las celulas están totalmente unidas entre sí, lo cual impide el paso de sustancias entre ellas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-8029-9a7b-d61b40ec6f55",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "dentro de las uniones ocluyentes, que donde estámn  las uniones puntuales/maculares?",
+      "answer": "las veremos en las celulas endotaliales de los capilares",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-8022-8ce0-f0cae777ef5f",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "donde vemos las uniones ocluyentes en banda?",
+      "answer": "las tenemos presentas en toda la circunferencia de la celula, este tipo de unión se encuentra en los epitelios",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-80c0-965f-e7cc24cf3d83",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que son los uniones de anclaje",
       "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
