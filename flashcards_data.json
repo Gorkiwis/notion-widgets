@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T12:52:24Z",
-  "total": 257,
+  "updated_at": "2026-11-02T12:58:00Z",
+  "total": 258,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3101,6 +3101,18 @@
       "origen": "Manual",
       "question": "dentro de las proteinas transportadoras ¿que son las permeasas?",
       "answer": "son proteinas integrales de membrana , que son especificas para cada sustrato en concreto, es decir, solo dejan pasar a unas en concreto (como si fuesen una llave)ejemplo: glucosa",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40c2aca8-b201-804d-a5d2-dc9f5764111b",
+      "course": "Fisiopatología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es el transporte activo?",
+      "answer": "son mecanismos especificos para que un sustrato, realice el transporte en contra de gradiente, consumiendo energía , afectando principalmente a iones y a aminoacidos",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
