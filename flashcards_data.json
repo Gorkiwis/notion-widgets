@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03T19:20:02Z",
-  "total": 292,
+  "updated_at": "2026-11-03T19:36:05Z",
+  "total": 293,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -2861,6 +2861,18 @@
       "origen": "Manual",
       "question": "que caracteristicas tiene la membrana nuclear en celulas sanas",
       "answer": "tiene una morfologia lisa y continua",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40a2aca8-b201-80c6-9499-da4091ec7b37",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿por que sucede la degeneración hidrópica?",
+      "answer": "provoc",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
