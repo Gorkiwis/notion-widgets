@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03T17:17:44Z",
-  "total": 285,
+  "updated_at": "2026-11-03T17:22:46Z",
+  "total": 283,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3335,60 +3335,12 @@
       "image_filename": ""
     },
     {
-      "id": "40c2aca8-b201-801f-aa48-c9d1ffd57aa9",
-      "course": "Citología General",
-      "tema": "UD1",
-      "origen": "Manual",
-      "question": "¿como es la heterocromatina en condiciones normales?",
-      "answer": "la heterrocromatina, en condiciones normales, hace que evidenciamos areas mas oscruas de aspecto granular, con disposición homogenea en la periferia del nucleo",
-      "status": "To Learn",
-      "plantilla": "Estándar",
-      "image": "",
-      "image_filename": ""
-    },
-    {
-      "id": "40c2aca8-b201-807c-b0fa-efdfb796038c",
-      "course": "Citología General",
-      "tema": "UD1",
-      "origen": "Manual",
-      "question": "¿que es la eucromatina?",
-      "answer": "es el fragmento de la cromatina, que se encuentra en activo , en condiciones normales la veremos dispersa por el interior del nucleo",
-      "status": "To Learn",
-      "plantilla": "Estándar",
-      "image": "",
-      "image_filename": ""
-    },
-    {
       "id": "40c2aca8-b201-809d-b5d4-dbf20a3f44b7",
       "course": "Citología General",
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿que es la heterocromatina?",
-      "answer": "es el fragmento de la cromatina, que se encuentra en estado inactivo, en condiciones normales la veremos dispersa por el exterior del nucleo",
-      "status": "To Learn",
-      "plantilla": "Estándar",
-      "image": "",
-      "image_filename": ""
-    },
-    {
-      "id": "40c2aca8-b201-80be-b594-f8985a987075",
-      "course": "Citología General",
-      "tema": "UD1",
-      "origen": "Manual",
-      "question": "¿como es la eucromatina en condiciones patologicas?",
-      "answer": "veremos un aclaramento ocn aspecto vesiculoso",
-      "status": "To Learn",
-      "plantilla": "Estándar",
-      "image": "",
-      "image_filename": ""
-    },
-    {
-      "id": "40c2aca8-b201-80b7-a453-c423dfe8adbf",
-      "course": "Citología General",
-      "tema": "UD1",
-      "origen": "Manual",
-      "question": "¿como es la heterocromatina en condicones patológicas?",
-      "answer": "se forman grumos irregulares, en zonas marginales y dispersas, con aparente engrosamiento de la membrana nuclear",
+      "answer": "es el fragmento de la cromatina, que se encuentra en estado inactivo, en condiciones normales la veremos dispersa por el exterior del nucleo , estará adosada a la lamina basal de forma homogenea",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
@@ -3437,6 +3389,30 @@
       "origen": "Manual",
       "question": "¿que es una citología exfoliativa abrasiva?",
       "answer": "se provoca el desprendimiento de las celulas mediante un raspado o cepillado",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40d2aca8-b201-8075-8b3e-e9734edb87bc",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es la eucromatina y en que condiciones la encontramos cuando está transcripcionalmente activa?",
+      "answer": "veremos una cromatina distribuida por el centro del nucleo sin ver acumulaciones densas, si no totalmente homogeneo.",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40d2aca8-b201-80e9-8d67-d3f8edcec933",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿en que condiciones veremos la heterocromatina en estados patológicos?",
+      "answer": "veremos como la cromatina se encuentra condensada en grumos, asimetricos e irrregulares, generando como la sensación de que la membrana nuclear se ha engrosado",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
