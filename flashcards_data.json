@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T19:32:11Z",
-  "total": 283,
+  "updated_at": "2026-11-03T17:17:44Z",
+  "total": 285,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3415,6 +3415,30 @@
       "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40d2aca8-b201-8002-a907-cd414244cd69",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es una citologia exfolativa espontanea?",
+      "answer": "es aplicable cuando ocurre una descamación tisular dada por el paso de fluidos biologicos",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40d2aca8-b201-8032-a85a-ead0a7fada1d",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es una citología exfoliativa abrasiva?",
+      "answer": "se provoca el desprendimiento de las celulas mediante un raspado o cepillado",
+      "status": "To Learn",
+      "plantilla": "Estándar",
       "image": "",
       "image_filename": ""
     }
