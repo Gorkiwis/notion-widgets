@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T19:41:11Z",
+  "updated_at": "2026-11-03T19:46:12Z",
   "total": 293,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
@@ -3421,7 +3421,7 @@
     {
       "id": "40d2aca8-b201-80e9-8d67-d3f8edcec933",
       "course": "Citología General",
-      "tema": "UD1",
+      "tema": "UD2",
       "origen": "Manual",
       "question": "¿en que condiciones veremos la heterocromatina en estados patológicos?",
       "answer": "veremos como la cromatina se encuentra condensada en grumos, asimetricos e irrregulares, generando como la sensación de que la membrana nuclear se ha engrosado",
@@ -3433,7 +3433,7 @@
     {
       "id": "40d2aca8-b201-8027-83e2-e68369d4f81b",
       "course": "Citología General",
-      "tema": "UD1",
+      "tema": "UD2",
       "origen": "Manual",
       "question": "¿como observamos la eucromatina en estados patologicos?",
       "answer": "se ve un aclaramento del nucleo, que adquire aspecto vesiculoso, como si fuese un fondo coloide",
@@ -3445,7 +3445,7 @@
     {
       "id": "40d2aca8-b201-80f8-9448-c05986d34897",
       "course": "Citología General",
-      "tema": "UD1",
+      "tema": "UD2",
       "origen": "Manual",
       "question": "¿que evidenciamos durante la cariopicnosis y que fase del deterioro carioplasmatico es?",
       "answer": "es la primera fase del punto de no retorno, observamos una condensación extrema del nucleo, con el nucleo hipecromatico y retraido",
@@ -3457,7 +3457,7 @@
     {
       "id": "40d2aca8-b201-80cb-bfab-de6e2fe3ede0",
       "course": "Citología General",
-      "tema": "UD1",
+      "tema": "UD2",
       "origen": "Manual",
       "question": "¿que evidenciamos durante la cariorrexis y que fase del deterioro cariplmastico es?",
       "answer": "es la segunda fase de la parte irreversible de la muerte celular, observamos como el nucleo, se ROMPE, pierde forma de esfera y se rompe en grumos",
@@ -3469,7 +3469,7 @@
     {
       "id": "40d2aca8-b201-8040-bc75-d2f77a6a40d5",
       "course": "Citología General",
-      "tema": "UD1",
+      "tema": "UD2",
       "origen": "Manual",
       "question": "¿que es la cariolisis y que fase de la muerte celular irrevesible es?",
       "answer": "es la tercera y ultima fase, el nucleo se empieza a disolver por acción encimatica de las DNasas, la estructura nuclear comienza a disolverse hasta desaparecer",
@@ -3481,7 +3481,7 @@
     {
       "id": "40d2aca8-b201-80b2-a077-e8ee33978af4",
       "course": "Citología General",
-      "tema": "UD1",
+      "tema": "UD2",
       "origen": "Manual",
       "question": "que tipo de proceso es la necrosis? ¿cuando sucede? y que consecuencias tiene?",
       "answer": "es un proceso que siempre es patologico e incotrolado, sucede por una lesión severa, afectando a grupos celulares extensos, teniendo como consecuencia, la generación de inflamación",
@@ -3493,7 +3493,7 @@
     {
       "id": "40d2aca8-b201-800b-b747-ea397bf8a231",
       "course": "Citología General",
-      "tema": "UD1",
+      "tema": "UD2",
       "origen": "Manual",
       "question": "¿que tipo de proceso es la apoptosis? ¿cuando sucede? ¿y que consecuencias tiene?",
       "answer": "es un proceso fisiologico o patologico, causado por señales interna o receptores de muerte, afectando a celulas individuales o aisladas,  no genera reacción inflamatoria",
@@ -3505,7 +3505,7 @@
     {
       "id": "40d2aca8-b201-800f-a2de-f93cf5f2cf59",
       "course": "Citología General",
-      "tema": "UD1",
+      "tema": "UD2",
       "origen": "Manual",
       "question": "¿que es una celula reactiva?",
       "answer": "celuola que ha sufrido una lesión celular reversible, y se encuentra desarrollando un proceso de reparación celular",
@@ -3529,7 +3529,7 @@
     {
       "id": "40d2aca8-b201-80fa-ae5b-e0974253fefe",
       "course": "Citología General",
-      "tema": "UD1",
+      "tema": "UD2",
       "origen": "Manual",
       "question": "¿que elementos componen la diatesis tumoral?",
       "answer": "la presencia de restos necroticos (detritos amorfos), celulas fantasmas descamadas, hematies libres o degradados, e infiltrado inflamatorio agudo/mixto",
