@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03T18:52:02Z",
-  "total": 286,
+  "updated_at": "2026-11-03T18:57:59Z",
+  "total": 287,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3448,7 +3448,19 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿que evidenciamos durante la cariorrexis y que fase del deterioro cariplmastico es?",
-      "answer": "es la segunda fase de la parte irreversible de la muerte celular, observamos como el nucleo, se ROMPE, pierde forma de esfera y se rompe en gru",
+      "answer": "es la segunda fase de la parte irreversible de la muerte celular, observamos como el nucleo, se ROMPE, pierde forma de esfera y se rompe en grumos",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40d2aca8-b201-8040-bc75-d2f77a6a40d5",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es la cariolisis y que fase de la muerte celular irrevesible es?",
+      "answer": "es la tercera y ultima fase, el nucleo se empieza a disolver por acción encimatica de las DNasas, la estructura nuclear comienza a disolverse hasta desaparecer",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
