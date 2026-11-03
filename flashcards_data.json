@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03T18:57:59Z",
-  "total": 287,
+  "updated_at": "2026-11-03T19:08:59Z",
+  "total": 288,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3461,6 +3461,18 @@
       "origen": "Manual",
       "question": "¿que es la cariolisis y que fase de la muerte celular irrevesible es?",
       "answer": "es la tercera y ultima fase, el nucleo se empieza a disolver por acción encimatica de las DNasas, la estructura nuclear comienza a disolverse hasta desaparecer",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40d2aca8-b201-80b2-a077-e8ee33978af4",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "que tipo de proceso es la necrosis? ¿cuando sucede? y que consecuencias tiene?",
+      "answer": "es un proceso que siempre es patologico e incotrolado, sucede por una lesión severa",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
