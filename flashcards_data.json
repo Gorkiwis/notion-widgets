@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03T17:22:46Z",
-  "total": 283,
+  "updated_at": "2026-11-03T17:28:41Z",
+  "total": 284,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3413,6 +3413,18 @@
       "origen": "Manual",
       "question": "¿en que condiciones veremos la heterocromatina en estados patológicos?",
       "answer": "veremos como la cromatina se encuentra condensada en grumos, asimetricos e irrregulares, generando como la sensación de que la membrana nuclear se ha engrosado",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40d2aca8-b201-8027-83e2-e68369d4f81b",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿como observamos la eucromatina en estados patologicos?",
+      "answer": "se ve un aclaramento del nucleo, que adquire aspecto vesiculoso, como si fuese un fondo coloide",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
