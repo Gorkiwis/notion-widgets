@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03T19:08:59Z",
-  "total": 288,
+  "updated_at": "2026-11-03T19:14:04Z",
+  "total": 290,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3472,7 +3472,31 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "que tipo de proceso es la necrosis? ¿cuando sucede? y que consecuencias tiene?",
-      "answer": "es un proceso que siempre es patologico e incotrolado, sucede por una lesión severa",
+      "answer": "es un proceso que siempre es patologico e incotrolado, sucede por una lesión severa, afectando a grupos celulares extensos, teniendo como consecuencia, la generación de inflamación",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40d2aca8-b201-800b-b747-ea397bf8a231",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que tipo de proceso es la apoptosis? ¿cuando sucede? ¿y que consecuencias tiene?",
+      "answer": "es un proceso fisiologico o patologico, causado por señales interna o receptores de muerte, afectando a celulas individuales o aisladas,  no genera reacción inflamatoria",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40d2aca8-b201-800f-a2de-f93cf5f2cf59",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿qi",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
