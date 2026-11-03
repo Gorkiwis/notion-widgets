@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03T17:55:46Z",
-  "total": 285,
+  "updated_at": "2026-11-03T18:52:02Z",
+  "total": 286,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3436,7 +3436,19 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "¿que evidenciamos durante la cariopicnosis y que fase del deterioro carioplasmatico es?",
-      "answer": "",
+      "answer": "es la primera fase del punto de no retorno, observamos una condensación extrema del nucleo, con el nucleo hipecromatico y retraido",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40d2aca8-b201-80cb-bfab-de6e2fe3ede0",
+      "course": "Citología General",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que evidenciamos durante la cariorrexis y que fase del deterioro cariplmastico es?",
+      "answer": "es la segunda fase de la parte irreversible de la muerte celular, observamos como el nucleo, se ROMPE, pierde forma de esfera y se rompe en gru",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
