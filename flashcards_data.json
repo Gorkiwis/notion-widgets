@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T18:42:16Z",
-  "total": 300,
+  "updated_at": "2026-11-04T18:47:18Z",
+  "total": 301,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3616,7 +3616,19 @@
       "tema": "UD2",
       "origen": "Manual",
       "question": "¿que cambios en la agrupación celular encuadran dentro de los criterios de malignidad?",
-      "answer": "• desorganización tisular\n  • presencia de grupos tridimensionales (solapamientos) y de celul",
+      "answer": "• desorganización tisular\n  • presencia de grupos tridimensionales (solapamientos) y de celulas aisladas \n  • los nucleos pierden polaridad, ya no siguen un eje común",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40e2aca8-b201-8016-9482-e2bb12578704",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que observaremos en el fondo de las preparaciones, que nos pueda indicar que estamos frente u",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
