@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T18:47:18Z",
-  "total": 301,
+  "updated_at": "2026-11-04T18:52:37Z",
+  "total": 302,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3627,8 +3627,20 @@
       "course": "Citología General",
       "tema": "UD2",
       "origen": "Manual",
-      "question": "¿que observaremos en el fondo de las preparaciones, que nos pueda indicar que estamos frente u",
-      "answer": "",
+      "question": "¿que criterios del fondo celular nos pueden indicar malignidad?",
+      "answer": "presencia dee diatesis tumoral 8JNecrosis, sangre, inflamación o restos celulares).\nfondo sucio = sugerente de malignidad",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40e2aca8-b201-80a0-af2d-dbd4ed9494be",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que hallazgos mitoticos pueden sugerir malignidad?",
+      "answer": "aumento de la actividad mitotica por tanto, veremos mas figuras mitoticas, además de mitosis atipicas, tripolares, o multipolares, (celulas dividiendose de forma anormal)",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
