@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T18:52:37Z",
-  "total": 302,
+  "updated_at": "2026-11-04T19:04:16Z",
+  "total": 304,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3641,6 +3641,30 @@
       "origen": "Manual",
       "question": "¿que hallazgos mitoticos pueden sugerir malignidad?",
       "answer": "aumento de la actividad mitotica por tanto, veremos mas figuras mitoticas, además de mitosis atipicas, tripolares, o multipolares, (celulas dividiendose de forma anormal)",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40e2aca8-b201-808d-8d00-e98ba694cd35",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que caracteristicas citoplasmaticas encuadran dentro de los criterios de malignifad?",
+      "answer": "citoplasma escaso, con boordes mal definidos.\nbasofilia y  aspecto muy vacuolado\nperdida de diferenciación respecto al tejido de origen \nvariaciones del tamaño celular",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40e2aca8-b201-807e-bf90-fe69b6f5fa2d",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que caracteristicas del nucleo nos indican que podemos estar frente a celulas malignas?",
+      "answer": "nucleo excesivamente grande, con formas y tamaños extrañosm, muy hipercromaticos, con cromatina muy densa, y gruesa.\npresencia de nucleolos grandes y multiples , con membrana nuclear irregular",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
