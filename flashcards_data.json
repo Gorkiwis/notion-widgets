@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T19:09:19Z",
-  "total": 305,
+  "updated_at": "2026-11-04T19:37:18Z",
+  "total": 308,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3677,6 +3677,42 @@
       "origen": "Manual",
       "question": "¿que es la hiperqueratosis?",
       "answer": "acumulación de queratina en CELULAS ESCAMOSAS",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40e2aca8-b201-800d-a1b3-fcf21ec885a5",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que es la autolisis celular? ¿y que observamos, en que celulas se da?",
+      "answer": "fragmentación del citoplasma, por liberación de enzimas autoliticas, veremos, restos citoplasmaticos y nucleos desnudos",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40e2aca8-b201-8095-90fd-c46707acfcb1",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que es la multinucleación? y a que se asocia",
+      "answer": "presencia de dos o más nucleos en una sola celula , suele asociarse a neoplasias",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40e2aca8-b201-8051-bbff-d3244e6bcb45",
+      "course": "Citología General",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "aumento de tamaño celular",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
