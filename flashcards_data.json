@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T19:37:18Z",
+  "updated_at": "2026-11-04T19:48:19Z",
   "total": 308,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
@@ -3711,8 +3711,8 @@
       "course": "Citología General",
       "tema": "UD2",
       "origen": "Manual",
-      "question": "aumento de tamaño celular",
-      "answer": "",
+      "question": "¿que es la cromatina granular?",
+      "answer": "aglomeración de la cromatina en grumos, pueden ser regulares o irregulares (signo de malignidad)",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
