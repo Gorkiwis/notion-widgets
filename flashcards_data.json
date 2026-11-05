@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T18:07:52Z",
-  "total": 320,
+  "updated_at": "2026-11-05T18:12:56Z",
+  "total": 323,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3857,7 +3857,43 @@
       "tema": "UD2",
       "origen": "Manual",
       "question": "¿en que se basa la congelación tisular?",
-      "answer": "consiste en congelar rapidamente u",
+      "answer": "consiste en congelar rapidamente un tejido, para provocar su estabilización, haciendo uso de nitrogeno liquido o hielo seco.",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-80bd-b231-d29a73a742f4",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que agentes crioprotectores es recomendable utilizar tras una  criopreservación?",
+      "answer": "> DMSO dimetisufoxido\n> glicerol\n>sacarosa",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-8029-ae14-f6c494fd4e22",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿para que tipo de estudios utilizamos la criopreservación?",
+      "answer": "para estudios morfologicos y funcionales (caracteristicas de antigenos y enzimas se conservan)",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-803d-bc90-d4624a3d239d",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que es la criodesecación?",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
