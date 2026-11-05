@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T18:23:55Z",
-  "total": 325,
+  "updated_at": "2026-11-05T18:29:55Z",
+  "total": 327,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3916,8 +3916,32 @@
       "course": "Procesamiento citológico y tisular",
       "tema": "UD2",
       "origen": "Manual",
-      "question": "¿en que consiste la fijación por inmersión?",
-      "answer": "se sumerge el tejido en la solución fijadora.",
+      "question": "¿en que consiste la fijación por inmersión? dependencias y recomendaciones",
+      "answer": "se sumerge el tejido en la solución fijadora.\n> tiempo depende del tamaño de la muestra\n> elvolumen del fijador debe ser por lo menos 20 veces mayor al tamaño de la muestra",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-8092-bff6-f4d495926a60",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿fijación por perfusión?",
+      "answer": "se introduce por el sistema circulatorio una  sustancia de lavado para quitar la sangre, seguido del fijador, para que llegue a todo el tejido",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-8015-a809-ea65c2ec23d9",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "que tipos de fijadores quimicos tenemos",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
