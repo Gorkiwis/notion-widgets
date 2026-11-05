@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T18:29:55Z",
-  "total": 327,
+  "updated_at": "2026-11-05T18:34:54Z",
+  "total": 328,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3941,7 +3941,19 @@
       "tema": "UD2",
       "origen": "Manual",
       "question": "que tipos de fijadores quimicos tenemos",
-      "answer": "",
+      "answer": "los  simples: compuestos por un unico tipo de agente \nlas mezclas: Usamos diferentes tipos de fijadores durante el proceso, ya sea mezclados o de forma sucesiva",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-8075-8d44-cdee4a17573c",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que caracteristicas del formaldehido debemos tener en cuenta?",
+      "answer": "se utiliza diluido en un 4% o 10% \ncompatibilidad con la mayoria de tecnicas y tinciones\npreservación de lipidos y no reacciona con carbohidratos\n\n  • endurece p",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
