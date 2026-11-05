@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T18:12:56Z",
-  "total": 323,
+  "updated_at": "2026-11-05T18:23:55Z",
+  "total": 325,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3892,8 +3892,32 @@
       "course": "Procesamiento citológico y tisular",
       "tema": "UD2",
       "origen": "Manual",
-      "question": "¿que es la criodesecación?",
-      "answer": "",
+      "question": "¿que es la criodesecación? y que fases tiene",
+      "answer": "proceso en el que producimos una congelación rapida del tejido, com la finalidad de eliminar el agua\n→ fijación meidante nitrogeno liquido \n→ desecación mediante sublimación por hielo seco",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-80b8-995b-fc39220977a8",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que es la criosustitución?",
+      "answer": "partimos el tejido congelado, y se inicia un proceso de sustituciñon lenta del agua congelada del tejido, por un fijador",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-803f-b205-e43ca949b650",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿en que consiste la fijación por inmersión?",
+      "answer": "se sumerge el tejido en la solución fijadora.",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
