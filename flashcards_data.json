@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T19:48:19Z",
-  "total": 308,
+  "updated_at": "2026-11-05T17:56:52Z",
+  "total": 311,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -18,7 +18,8 @@
       "Necropsias::UD2": "Anki_Necropsias_UD2.apkg",
       "Citología General::UD1": "Anki_Citologia_General_UD1.apkg",
       "Digitalización::UD2": "Anki_Digitalizacion_UD2.apkg",
-      "Citología General::UD2": "Anki_Citologia_General_UD2.apkg"
+      "Citología General::UD2": "Anki_Citologia_General_UD2.apkg",
+      "Procesamiento citológico y tisular::UD2": "Anki_Procesamiento_citologico_y_tisular_UD2.apkg"
     }
   },
   "cards": [
@@ -3713,6 +3714,42 @@
       "origen": "Manual",
       "question": "¿que es la cromatina granular?",
       "answer": "aglomeración de la cromatina en grumos, pueden ser regulares o irregulares (signo de malignidad)",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-80a7-b5dc-c4c2b5c5d067",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que es la fijación tisular?",
+      "answer": "proceso mediante el cual preservamos celulas y tejidos, deteniendo las enzimas que causan su descomposición (autolisis y putrefacción)",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-80dc-9463-d745307ffe72",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿cuales son las funciones principales de un fijador tisular?",
+      "answer": "• impedir la degradación celular\n  • impedir acción bacteriana \n  • conservar la arquitectura tisular\n  • preparar e ltejido para el procesado \n  • endureccer el tejido para facilitar el corte \n  •",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-80f1-b623-ce0e5d132c1c",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿de que va a depender el fijador que usemos?",
+      "answer": "*",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
