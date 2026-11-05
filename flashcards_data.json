@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T17:56:52Z",
-  "total": 311,
+  "updated_at": "2026-11-05T18:01:53Z",
+  "total": 315,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3749,7 +3749,55 @@
       "tema": "UD2",
       "origen": "Manual",
       "question": "¿de que va a depender el fijador que usemos?",
-      "answer": "*",
+      "answer": "• de las caracteristicas fijadoras necesarias\n  • tipo de tejido \n  • tecnica posterior a la fijación que vayamos  a aplicar",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-8040-842f-f4b066d4a893",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "en Caracteristicas del fijador: Velocidad penetración",
+      "answer": "es un factor determinante, puesto que el proceso debe ser rapido, sin embargo, la velocidad dependerá principalmente del tamaño de la muestra.",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-80e7-b72e-fa43e254d092",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "de que depende la velocidad de fijación",
+      "answer": "dependerá de las propiedades del fijador",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-80e6-9db8-d88d0512aadc",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿de que depende el endurecimiento durante la fijación?",
+      "answer": "del fijador seleccionado y del tiempo que pase expuesto el tejido",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-803b-a78e-cc5cee8f9190",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "de que dependerá el factor osmotico y de ph",
+      "answer": "son aracteristicas que cambian según la diferencia de osmolaridad entre el tejido y el fijador",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
