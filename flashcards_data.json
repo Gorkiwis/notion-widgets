@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T18:01:53Z",
-  "total": 315,
+  "updated_at": "2026-11-05T18:07:52Z",
+  "total": 320,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3798,6 +3798,66 @@
       "origen": "Manual",
       "question": "de que dependerá el factor osmotico y de ph",
       "answer": "son aracteristicas que cambian según la diferencia de osmolaridad entre el tejido y el fijador",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-80c8-8311-d3b2230a9e18",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿por que es importante tener en cuenta las actividades enzimaticas del fijador?",
+      "answer": "puesto que pueden intervenir con las enzimas que queramos estudiar, por tanto sacrificaremos, la morfología tisular, para conservar esas enzimas",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-8033-9f36-eccf10e37487",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que moleculas no son conservadas por la mayoria de fijadores?",
+      "answer": "las moleculas afectadas serán los lipidos y los carbohidratos",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-80f1-b917-db6b3aac30aa",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿por que los carbohidratos no se ven preservados por los fijadores?",
+      "answer": "permanecen unidos al tejido por proteinas,  como son dificiles de teñir, el fijador, deberá modificar su estructur",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-8034-be48-e5045823b505",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que metodos fisicos de fijación tisula tenemos?",
+      "answer": "> congelación\n> criodesecación\n> criosustitución",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-804c-88cb-e1923fa51ae5",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿en que se basa la congelación tisular?",
+      "answer": "consiste en congelar rapidamente u",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
