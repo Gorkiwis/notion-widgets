@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T18:45:56Z",
-  "total": 330,
+  "updated_at": "2026-11-05T18:57:45Z",
+  "total": 331,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3727,7 +3727,7 @@
       "question": "¿que es la fijación tisular?",
       "answer": "proceso mediante el cual preservamos celulas y tejidos, deteniendo las enzimas que causan su descomposición (autolisis y putrefacción)",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3739,7 +3739,7 @@
       "question": "¿cuales son las funciones principales de un fijador tisular?",
       "answer": "• impedir la degradación celular\n  • impedir acción bacteriana \n  • conservar la arquitectura tisular\n  • preparar e ltejido para el procesado \n  • endureccer el tejido para facilitar el corte \n  •",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3751,7 +3751,7 @@
       "question": "¿de que va a depender el fijador que usemos?",
       "answer": "• de las caracteristicas fijadoras necesarias\n  • tipo de tejido \n  • tecnica posterior a la fijación que vayamos  a aplicar",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3763,7 +3763,7 @@
       "question": "en Caracteristicas del fijador: Velocidad penetración",
       "answer": "es un factor determinante, puesto que el proceso debe ser rapido, sin embargo, la velocidad dependerá principalmente del tamaño de la muestra.",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3775,7 +3775,7 @@
       "question": "de que depende la velocidad de fijación",
       "answer": "dependerá de las propiedades del fijador",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3787,7 +3787,7 @@
       "question": "¿de que depende el endurecimiento durante la fijación?",
       "answer": "del fijador seleccionado y del tiempo que pase expuesto el tejido",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3799,7 +3799,7 @@
       "question": "de que dependerá el factor osmotico y de ph",
       "answer": "son aracteristicas que cambian según la diferencia de osmolaridad entre el tejido y el fijador",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3811,7 +3811,7 @@
       "question": "¿por que es importante tener en cuenta las actividades enzimaticas del fijador?",
       "answer": "puesto que pueden intervenir con las enzimas que queramos estudiar, por tanto sacrificaremos, la morfología tisular, para conservar esas enzimas",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3823,7 +3823,7 @@
       "question": "¿que moleculas no son conservadas por la mayoria de fijadores?",
       "answer": "las moleculas afectadas serán los lipidos y los carbohidratos",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3835,7 +3835,7 @@
       "question": "¿por que los carbohidratos no se ven preservados por los fijadores?",
       "answer": "permanecen unidos al tejido por proteinas,  como son dificiles de teñir, el fijador, deberá modificar su estructur",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3847,7 +3847,7 @@
       "question": "¿que metodos fisicos de fijación tisula tenemos?",
       "answer": "> congelación\n> criodesecación\n> criosustitución",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3859,7 +3859,7 @@
       "question": "¿en que se basa la congelación tisular?",
       "answer": "consiste en congelar rapidamente un tejido, para provocar su estabilización, haciendo uso de nitrogeno liquido o hielo seco.",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3871,7 +3871,7 @@
       "question": "¿que agentes crioprotectores es recomendable utilizar tras una  criopreservación?",
       "answer": "> DMSO dimetisufoxido\n> glicerol\n>sacarosa",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3883,7 +3883,7 @@
       "question": "¿para que tipo de estudios utilizamos la criopreservación?",
       "answer": "para estudios morfologicos y funcionales (caracteristicas de antigenos y enzimas se conservan)",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3895,7 +3895,7 @@
       "question": "¿que es la criodesecación? y que fases tiene",
       "answer": "proceso en el que producimos una congelación rapida del tejido, com la finalidad de eliminar el agua\n→ fijación meidante nitrogeno liquido \n→ desecación mediante sublimación por hielo seco",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3907,7 +3907,7 @@
       "question": "¿que es la criosustitución?",
       "answer": "partimos el tejido congelado, y se inicia un proceso de sustituciñon lenta del agua congelada del tejido, por un fijador",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3919,7 +3919,7 @@
       "question": "¿en que consiste la fijación por inmersión? dependencias y recomendaciones",
       "answer": "se sumerge el tejido en la solución fijadora.\n> tiempo depende del tamaño de la muestra\n> elvolumen del fijador debe ser por lo menos 20 veces mayor al tamaño de la muestra",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3931,7 +3931,7 @@
       "question": "¿fijación por perfusión?",
       "answer": "se introduce por el sistema circulatorio una  sustancia de lavado para quitar la sangre, seguido del fijador, para que llegue a todo el tejido",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3943,7 +3943,7 @@
       "question": "que tipos de fijadores quimicos tenemos",
       "answer": "los  simples: compuestos por un unico tipo de agente \nlas mezclas: Usamos diferentes tipos de fijadores durante el proceso, ya sea mezclados o de forma sucesiva",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3955,7 +3955,7 @@
       "question": "¿que caracteristicas del formaldehido debemos tener en cuenta?",
       "answer": "se utiliza diluido en un 4% o 10% \ncompatibilidad con la mayoria de tecnicas y tinciones\npreservación de lipidos y no reacciona con carbohidratos\n\n  • endurece pero no encoge \n  • velocidad de penetración intermedia\n  •",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3967,7 +3967,7 @@
       "question": "¿que debemos tener en cuenta del etanol de cara a la fijación de tejidos?",
       "answer": "→ deshidrata los tejidos \n→ preserva enzimas, antigenos, glucogeno y pigmentos",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     },
@@ -3979,7 +3979,19 @@
       "question": "¿Que ventajas/desventajas tiene el etanol como fijador tisular?",
       "answer": "la fijación se produce al mismo tiempo que la deshidratación \ncarece de efecto mordiente (por tanto mantiene los citoplasmas limpios)\n\npero encoge y endurece los tejidos con los que entra en contacto",
       "status": "To Learn",
-      "plantilla": "Estándar",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-8056-8377-db8f1404648a",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que ventajas y desventajas tiene el uso de acido acetico como fijador? ¿Como se utiliza?",
+      "answer": "no fija directamente las proteinas \ndestruye las mitoncondrias, no fija bien ni las membranas ni los citoplasmas \n\npero es buen fijador de acidos nucleicos y de nucleoproteinas \nse utiliza combinado con otros fijadores en mezclas en concentración del 1 al 5%)",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
       "image_filename": ""
     }
