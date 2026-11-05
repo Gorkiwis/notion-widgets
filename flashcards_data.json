@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T18:34:54Z",
-  "total": 328,
+  "updated_at": "2026-11-05T18:40:52Z",
+  "total": 330,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -3953,7 +3953,31 @@
       "tema": "UD2",
       "origen": "Manual",
       "question": "¿que caracteristicas del formaldehido debemos tener en cuenta?",
-      "answer": "se utiliza diluido en un 4% o 10% \ncompatibilidad con la mayoria de tecnicas y tinciones\npreservación de lipidos y no reacciona con carbohidratos\n\n  • endurece p",
+      "answer": "se utiliza diluido en un 4% o 10% \ncompatibilidad con la mayoria de tecnicas y tinciones\npreservación de lipidos y no reacciona con carbohidratos\n\n  • endurece pero no encoge \n  • velocidad de penetración intermedia\n  •",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-804d-bbe6-c067dda14cac",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿que debemos tener en cuenta del etanol de cara a la fijación de tejidos?",
+      "answer": "→ deshidrata los tejidos \n→ preserva enzimas, antigenos, glucogeno y pigmentos",
+      "status": "To Learn",
+      "plantilla": "Estándar",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "40f2aca8-b201-8086-81f2-ccb2beeb5802",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "Manual",
+      "question": "¿Que ventajas/desventajas tiene el etanol como fijador tisular?",
+      "answer": "la fijación se produce al mismo tiempo que la deshidratación \ncarece de efecto mordiente",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
