@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T18:40:52Z",
+  "updated_at": "2026-11-05T18:45:56Z",
   "total": 330,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
@@ -3977,7 +3977,7 @@
       "tema": "UD2",
       "origen": "Manual",
       "question": "¿Que ventajas/desventajas tiene el etanol como fijador tisular?",
-      "answer": "la fijación se produce al mismo tiempo que la deshidratación \ncarece de efecto mordiente",
+      "answer": "la fijación se produce al mismo tiempo que la deshidratación \ncarece de efecto mordiente (por tanto mantiene los citoplasmas limpios)\n\npero encoge y endurece los tejidos con los que entra en contacto",
       "status": "To Learn",
       "plantilla": "Estándar",
       "image": "",
