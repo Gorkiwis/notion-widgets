@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T17:52:47Z",
-  "total": 331,
+  "updated_at": "2026-11-06T19:39:07Z",
+  "total": 332,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -8,7 +8,8 @@
       "Fisiopatología General": "Anki_Fisiopatologia_General.apkg",
       "Necropsias": "Anki_Necropsias.apkg",
       "Citología General": "Anki_Citologia_General.apkg",
-      "Digitalización": "Anki_Digitalizacion.apkg"
+      "Digitalización": "Anki_Digitalizacion.apkg",
+      "Gestión de Muestras Biológicas": "Anki_Gestion_de_Muestras_Biologicas.apkg"
     },
     "units": {
       "Procesamiento citológico y tisular::UD1": "Anki_Procesamiento_citologico_y_tisular_UD1.apkg",
@@ -19,7 +20,8 @@
       "Citología General::UD1": "Anki_Citologia_General_UD1.apkg",
       "Digitalización::UD2": "Anki_Digitalizacion_UD2.apkg",
       "Citología General::UD2": "Anki_Citologia_General_UD2.apkg",
-      "Procesamiento citológico y tisular::UD2": "Anki_Procesamiento_citologico_y_tisular_UD2.apkg"
+      "Procesamiento citológico y tisular::UD2": "Anki_Procesamiento_citologico_y_tisular_UD2.apkg",
+      "Gestión de Muestras Biológicas::UD1": "Anki_Gestion_de_Muestras_Biologicas_UD1.apkg"
     }
   },
   "cards": [
@@ -3990,6 +3992,18 @@
       "origen": "Manual",
       "question": "¿que ventajas y desventajas tiene el uso de acido acetico como fijador? ¿Como se utiliza?",
       "answer": "no fija directamente las proteinas \ndestruye las mitoncondrias, no fija bien ni las membranas ni los citoplasmas \n\npero es buen fijador de acidos nucleicos y de nucleoproteinas \nse utiliza combinado con otros fijadores en mezclas en concentración del 1 al 5%)",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4102aca8-b201-8058-bec1-d8a04a6ec5c6",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿que es un sistema sanitario?",
+      "answer": "todas las organizaciones, instituciones, y recursos, cuyo unico objetivo es la mejora de la salud de las personas",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
