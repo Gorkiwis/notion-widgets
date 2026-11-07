@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T15:11:57Z",
-  "total": 356,
+  "updated_at": "2026-11-07T15:17:36Z",
+  "total": 357,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4290,7 +4290,19 @@
       "course": "Gestión de Muestras Biológicas",
       "tema": "UD1",
       "origen": "Manual",
-      "question": "Acceso al servicio de salu",
+      "question": "Acceso al servicio de salud en españa",
+      "answer": "mediante la TIS \ncomún 100% financiado o complementario",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-806c-b0e4-f4e1845700ca",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "nivel",
       "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
