@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T14:44:36Z",
-  "total": 351,
+  "updated_at": "2026-11-07T15:01:38Z",
+  "total": 352,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4232,6 +4232,18 @@
       "origen": "Manual",
       "question": "ventejas y desventajas sistema bismark",
       "answer": "cobertura amplia, pero alto coste  administrativo",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-809e-9fca-ca83a98731af",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "donde viene de",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
