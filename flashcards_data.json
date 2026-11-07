@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T14:06:36Z",
-  "total": 334,
+  "updated_at": "2026-11-07T14:11:34Z",
+  "total": 338,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4027,7 +4027,55 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "caracteristicas principales sistema sanitairo liberal",
-      "answer": "Ley",
+      "answer": "Ley oferta y demanda —> se paga por los servicios a los que se acude→ acceso depende de la capacidad economica",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-807f-8c34-da5b5e580628",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "financiación sistema sanitario liberal",
+      "answer": "Ptivada —> pagos directos o por seguro",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-80e0-b32d-f9563193d9df",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "papel estado sistema sanitario liberal",
+      "answer": "solo regula leyes basicas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-8035-99be-e2cb3d98728b",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "gestión y contratación sistema sanitario liberal",
+      "answer": "empresas privadas sanitarias",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-8038-a0c4-fffeed0e855c",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "caracteristicas principales sistema sanitario socialista",
+      "answer": "gestión estatal, centralizada de propiedad publica",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
