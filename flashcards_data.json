@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T15:01:38Z",
-  "total": 352,
+  "updated_at": "2026-11-07T15:06:37Z",
+  "total": 353,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4242,8 +4242,20 @@
       "course": "Gestión de Muestras Biológicas",
       "tema": "UD1",
       "origen": "Manual",
-      "question": "donde viene de",
-      "answer": "",
+      "question": "donde viene definida la estructura del SNS",
+      "answer": "en constitución española",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-80ee-a6d8-dc100cb5a4af",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "¿quien gestiona la sanidad española?",
+      "answer": "descentralizada, en las CCA, organziado en areas de salud",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
