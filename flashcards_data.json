@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T14:11:34Z",
-  "total": 338,
+  "updated_at": "2026-11-07T14:17:37Z",
+  "total": 342,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4076,6 +4076,54 @@
       "origen": "Manual",
       "question": "caracteristicas principales sistema sanitario socialista",
       "answer": "gestión estatal, centralizada de propiedad publica",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-80db-a4c5-e0cc8c033066",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "financiación - sistema sanitario socialista",
+      "answer": "IMPUESTOS GENERALES",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-8086-b8c7-c647348cd9fc",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "gestión recursos, contratación personal sistema sanitario socialista",
+      "answer": "dependiente del estado",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-8054-ab02-d15ac78ccdba",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "ventajas - desventajas sistema sanitario socialista",
+      "answer": "Acceso igualitario, cobertura universal pero mas listas de espera, menos eficientes",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-807a-a291-d7e70456f0e0",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "car",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
