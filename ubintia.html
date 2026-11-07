@@ -1107,47 +1107,38 @@
       if (manual) btn.classList.add("spinning");
 
       try {
-        let loaded = false;
+        // Consultar prioritariamente raw.githubusercontent.com para bypass total de Fastly CDN
         try {
-          const res = await fetch(`ubintia_data.json?t=${Date.now()}`, { cache: "no-store" });
-          if (res.ok) {
-            const json = await res.json();
-            if (json && Array.isArray(json.slots)) {
-              rawData = mergeReservationData(rawData, json);
-              loaded = true;
+          const rawExtra = await fetch(`https://raw.githubusercontent.com/Gorkiwis/notion-widgets/main/ubintia_extra.json?t=${Date.now()}`, { cache: "no-store" });
+          if (rawExtra.ok) {
+            const extraJson = await rawExtra.json();
+            if (extraJson && Array.isArray(extraJson.slots)) {
+              rawData = mergeReservationData(rawData, extraJson);
             }
-          }
-        } catch (e) {}
-
-        if (!loaded) {
-          try {
-            const rawRes = await fetch(`https://raw.githubusercontent.com/Gorkiwis/notion-widgets/main/ubintia_data.json?t=${Date.now()}`, { cache: "no-store" });
-            if (rawRes.ok) {
-              const rawJson = await rawRes.json();
-              if (rawJson && Array.isArray(rawJson.slots)) {
-                rawData = mergeReservationData(rawData, rawJson);
-              }
-            }
-          } catch (_) {}
-        }
-
-        // Cargar slots secundarios / extras
-        try {
-          let extraJson = null;
-          try {
-            const extraResLocal = await fetch(`ubintia_extra.json?t=${Date.now()}`, { cache: "no-store" });
-            if (extraResLocal.ok) extraJson = await extraResLocal.json();
-          } catch (_) {}
-          if (!extraJson) {
-            try {
-              const extraRes = await fetch(`https://raw.githubusercontent.com/Gorkiwis/notion-widgets/main/ubintia_extra.json?t=${Date.now()}`, { cache: "no-store" });
-              if (extraRes.ok) extraJson = await extraRes.json();
-            } catch (_) {}
-          }
-          if (extraJson && Array.isArray(extraJson.slots)) {
-            rawData = mergeReservationData(rawData, extraJson);
           }
         } catch (_) {}
+
+        try {
+          const rawDataRes = await fetch(`https://raw.githubusercontent.com/Gorkiwis/notion-widgets/main/ubintia_data.json?t=${Date.now()}`, { cache: "no-store" });
+          if (rawDataRes.ok) {
+            const dataJson = await rawDataRes.json();
+            if (dataJson && Array.isArray(dataJson.slots)) {
+              rawData = mergeReservationData(rawData, dataJson);
+            }
+          }
+        } catch (_) {}
+
+        // Fallback local secundario
+        try {
+          const resLocal = await fetch(`ubintia_extra.json?t=${Date.now()}`, { cache: "no-store" });
+          if (resLocal.ok) {
+            const localJson = await resLocal.json();
+            if (localJson && Array.isArray(localJson.slots)) {
+              rawData = mergeReservationData(rawData, localJson);
+            }
+          }
+        } catch (_) {}
+
 
         // Consultar Apps Script solo si procede sin pisar reservas existentes
         const gasUrl = rawData.gas_endpoint || localStorage.getItem("ubintia_gas_url");
