@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T18:28:09+01:00",
+  "updated_at": "2026-11-07T18:31:38+01:00",
   "location": "Mediateka BBK — Azkuna Zentroa (Ubintia)",
   "account": "aitorgk_4116 (Aitor Goikoetxea)",
   "sender_filter": "no-reply@amiprojects.com",
@@ -660,14 +660,14 @@
       "qr_url": "https://internet.ubintia.com/storage/azkunazentroa/qr_codes/9fe778ec-892d-4e81-971f-80082254b57f.jpg"
     },
     {
-      "seat": 28,
-      "seat_label": "28.Ikaspostua",
+      "seat": 25,
+      "seat_label": "25.Ikaspostua",
       "date": "07-11-2026",
       "iso_date": "2026-11-07",
-      "start": "19:00",
-      "end": "20:00",
+      "start": "18:00",
+      "end": "19:00",
       "status": "active",
-      "source_subject": "Reserva directa Ubintia",
+      "source_subject": "Reserva directa email Puesto 25",
       "holder": "Aitor Goikoetxea",
       "qr_url": "https://internet.ubintia.com/storage/azkunazentroa/qr_codes/9fe778ec-892d-4e81-971f-80082254b57f.jpg"
     },
@@ -676,8 +676,8 @@
       "seat_label": "28.Ikaspostua",
       "date": "07-11-2026",
       "iso_date": "2026-11-07",
-      "start": "20:00",
-      "end": "21:00",
+      "start": "19:00",
+      "end": "20:00",
       "status": "active",
       "source_subject": "Reserva directa Ubintia",
       "holder": "Aitor Goikoetxea",
