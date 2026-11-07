@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T14:28:35Z",
-  "total": 345,
+  "updated_at": "2026-11-07T14:33:39Z",
+  "total": 347,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4158,8 +4158,32 @@
       "course": "Gestión de Muestras Biológicas",
       "tema": "UD1",
       "origen": "Manual",
-      "question": "ventajas",
-      "answer": "",
+      "question": "ventajas - desventajas sistema beregediguee",
+      "answer": "cobertura universal, pero posible saturación del sistema publico",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-800e-961f-eaa3aa511e80",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "sistema tipo bismark caracteristicas",
+      "answer": "servicios publico y privados mediante seguro obligatorio enlazado con contribuciones laborales",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-8053-bcfc-e9f0e044eea0",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "financiación sistema bismark",
+      "answer": "mediante contribuciones sociales empresa + empleados",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
