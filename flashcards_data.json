@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T15:06:37Z",
-  "total": 353,
+  "updated_at": "2026-11-07T15:11:57Z",
+  "total": 356,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4256,6 +4256,42 @@
       "origen": "Manual",
       "question": "¿quien gestiona la sanidad española?",
       "answer": "descentralizada, en las CCA, organziado en areas de salud",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-80cd-bdd0-f5f76f1a1286",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "competencias gobierno central sanidad españa",
+      "answer": "coordinación —> consejo interreritorial —> cartera común de servicios \nsanidad exterior + legislación farmacos",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-8053-a697-f865a888a80d",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "competencias comunidades autonomas sanidad",
+      "answer": "organización gastos, formación y contratación, cartelera complementatia",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-80af-9ae7-f34e1392ccc5",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "Acceso al servicio de salu",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
