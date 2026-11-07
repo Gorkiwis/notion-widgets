@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T19:39:07Z",
-  "total": 332,
+  "updated_at": "2026-11-07T14:06:36Z",
+  "total": 334,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4004,6 +4004,30 @@
       "origen": "Manual",
       "question": "¿que es un sistema sanitario?",
       "answer": "todas las organizaciones, instituciones, y recursos, cuyo unico objetivo es la mejora de la salud de las personas",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-8001-98d2-fbe5e2800f6b",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "caracteristicas - Sistemas Sanitarios",
+      "answer": "Universalidad, equidad, eficiencia, integralidad, Flexibilidad",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-80a6-b160-c4f8adcf309a",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "caracteristicas principales sistema sanitairo liberal",
+      "answer": "Ley",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
