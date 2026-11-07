@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T14:22:38Z",
-  "total": 344,
+  "updated_at": "2026-11-07T14:28:35Z",
+  "total": 345,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4148,6 +4148,18 @@
       "origen": "Manual",
       "question": "contratación  y gestión personal sistema beveridge",
       "answer": "publica —> regulado por el estado\nprivada: —> la empresa, pero con control estatal",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-8021-9df4-ca2962fc2ad2",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "ventajas",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
