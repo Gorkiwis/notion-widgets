@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T14:33:39Z",
-  "total": 347,
+  "updated_at": "2026-11-07T14:39:36Z",
+  "total": 351,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4183,7 +4183,55 @@
       "tema": "UD1",
       "origen": "Manual",
       "question": "financiación sistema bismark",
-      "answer": "mediante contribuciones sociales empresa + empleados",
+      "answer": "mediante contribuciones sociales empresa + empleados (seguro cubre a la familia)",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-8006-8583-c9090d93ea94",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "gestión recursos  sistema bismark",
+      "answer": "entidades sin animo de lucro (mutuas)",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-806c-ba70-ee3934bd2de3",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "papel estatal bismakrk",
+      "answer": "regular y supervisar funcionamiento",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-807a-8c67-f705601ea578",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "contratación personal bismark",
+      "answer": "privada + concertada",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-808b-b05e-f5273d7830b5",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "ventejas y desventaja",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
