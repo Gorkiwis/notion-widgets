@@ -1065,6 +1065,35 @@
       }
     });
 
+    function mergeReservationData(base, incoming) {
+      if (!incoming || !Array.isArray(incoming.slots) || incoming.slots.length === 0) return base;
+      if (!base || !Array.isArray(base.slots) || base.slots.length === 0) return incoming;
+
+      const baseTime = base.updated_at ? new Date(base.updated_at).getTime() : 0;
+      const inTime = incoming.updated_at ? new Date(incoming.updated_at).getTime() : 0;
+
+      // Si incoming es estrictamente más antiguo que base, descartarlo
+      if (inTime > 0 && baseTime > 0 && inTime < baseTime) {
+        console.warn("Descartando datos remotos obsoletos:", incoming.updated_at, "frente a", base.updated_at);
+        return base;
+      }
+
+      const slotMap = new Map();
+      for (const s of (base.slots || [])) {
+        const k = (s.iso_date || parseIsoDate(s.date)) + "_" + s.start + "_" + s.seat;
+        slotMap.set(k, s);
+      }
+      for (const s of (incoming.slots || [])) {
+        const k = (s.iso_date || parseIsoDate(s.date)) + "_" + s.start + "_" + s.seat;
+        slotMap.set(k, s);
+      }
+      return {
+        ...base,
+        ...incoming,
+        slots: Array.from(slotMap.values())
+      };
+    }
+
     async function loadReservationData(manual = false) {
       const btn = document.getElementById("btnRefresh");
       if (manual) btn.classList.add("spinning");
@@ -1076,7 +1105,7 @@
           if (res.ok) {
             const json = await res.json();
             if (json && Array.isArray(json.slots)) {
-              rawData = json;
+              rawData = mergeReservationData(rawData, json);
               loaded = true;
             }
           }
@@ -1088,13 +1117,13 @@
             if (rawRes.ok) {
               const rawJson = await rawRes.json();
               if (rawJson && Array.isArray(rawJson.slots)) {
-                rawData = rawJson;
+                rawData = mergeReservationData(rawData, rawJson);
               }
             }
           } catch (_) {}
         }
 
-        // Cargar slots secundarios / extras (cuentas adicionales que Apps Script no ve)
+        // Cargar slots secundarios / extras
         try {
           let extraJson = null;
           try {
@@ -1108,23 +1137,11 @@
             } catch (_) {}
           }
           if (extraJson && Array.isArray(extraJson.slots)) {
-            if (!Array.isArray(rawData.slots)) rawData.slots = [];
-            for (const es of extraJson.slots) {
-              const eIso = es.iso_date || parseIsoDate(es.date);
-              // Si un slot secundario toma el relevo, purgar el slot solapado de la cuenta principal
-              rawData.slots = rawData.slots.filter(s => {
-                const sIso = s.iso_date || parseIsoDate(s.date);
-                if (sIso === eIso && s.start === es.start) {
-                  return false;
-                }
-                return true;
-              });
-              rawData.slots.push(es);
-            }
+            rawData = mergeReservationData(rawData, extraJson);
           }
         } catch (_) {}
 
-        // Si hay un endpoint de Google Apps Script configurado, consultarlo en paralelo
+        // Consultar Apps Script solo si procede sin pisar reservas existentes
         const gasUrl = rawData.gas_endpoint || localStorage.getItem("ubintia_gas_url");
         if (gasUrl && gasUrl.startsWith("https://")) {
           try {
@@ -1132,16 +1149,13 @@
             if (gasRes.ok) {
               const gasJson = await gasRes.json();
               if (gasJson && Array.isArray(gasJson.slots) && gasJson.slots.length > 0) {
-                // Solo mezclar o actualizar si no destruye las reservas existentes de Ubintia
-                if (!rawData || !rawData.slots || rawData.slots.length === 0) {
-                  rawData = gasJson;
-                }
+                rawData = mergeReservationData(rawData, gasJson);
               }
             }
           } catch (_) {}
         }
       } catch (e) {
-        console.warn("Usando datos en caché local:", e);
+        console.warn("Usando datos en cache local:", e);
       } finally {
         mergedBlocks = buildMergedBlocks(rawData.slots || []);
         const now = new Date();
