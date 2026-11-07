@@ -1086,15 +1086,6 @@
       if (!incoming || !Array.isArray(incoming.slots) || incoming.slots.length === 0) return base;
       if (!base || !Array.isArray(base.slots) || base.slots.length === 0) return incoming;
 
-      const baseTime = base.updated_at ? new Date(base.updated_at).getTime() : 0;
-      const inTime = incoming.updated_at ? new Date(incoming.updated_at).getTime() : 0;
-
-      // Si incoming es estrictamente más antiguo que base, descartarlo
-      if (inTime > 0 && baseTime > 0 && inTime < baseTime) {
-        console.warn("Descartando datos remotos obsoletos:", incoming.updated_at, "frente a", base.updated_at);
-        return base;
-      }
-
       const slotMap = new Map();
       for (const s of (base.slots || [])) {
         const k = (s.iso_date || parseIsoDate(s.date)) + "_" + s.start + "_" + s.seat;
