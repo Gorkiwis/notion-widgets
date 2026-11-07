@@ -593,16 +593,16 @@
       </div>
     </div>
 
-    <!-- BOTÓN DE ACCESO AL JUSTIFICANTE OFICIAL CON QR -->
-    <a href="reserva_puesto_26.html" target="_blank" style="display: flex; align-items: center; justify-content: space-between; background: linear-gradient(135deg, #1e3a8a, #1d4ed8); color: #ffffff; text-decoration: none; padding: 10px 12px; border-radius: 9px; font-weight: 700; font-size: 12px; border: 1.5px solid #3b82f6; box-shadow: 0 4px 12px rgba(37,99,235,0.25);">
+    <!-- BOTÓN DE ACCESO AL JUSTIFICANTE OFICIAL CON QR DINÁMICO -->
+    <a href="https://internet.ubintia.com/storage/azkunazentroa/qr_codes/9fe778ec-892d-4e81-971f-80082254b57f.jpg" id="btnJustificante" target="_blank" style="display: flex; align-items: center; justify-content: space-between; background: linear-gradient(135deg, #1e3a8a, #1d4ed8); color: #ffffff; text-decoration: none; padding: 10px 12px; border-radius: 9px; font-weight: 700; font-size: 12px; border: 1.5px solid #3b82f6; box-shadow: 0 4px 12px rgba(37,99,235,0.25);">
       <div style="display: flex; align-items: center; gap: 8px;">
         <span style="font-size: 16px;">🎟️</span>
         <div>
-          <span style="display: block; letter-spacing: 0.3px;">JUSTIFICANTE OFICIAL PUESTO 26 (17:00 - 21:00)</span>
-          <span style="font-size: 10px; font-weight: 400; color: #93c5fd;">Toca aquí para enseñar el correo + QR al personal</span>
+          <span id="justificanteTitle" style="display: block; letter-spacing: 0.3px;">JUSTIFICANTE QR · PUESTO 28 (19:00 - 21:00)</span>
+          <span id="justificanteSub" style="font-size: 10px; font-weight: 400; color: #93c5fd;">Toca aquí para ver tu código QR oficial de acceso</span>
         </div>
       </div>
-      <span style="background: rgba(255,255,255,0.2); padding: 3px 8px; border-radius: 6px; font-size: 11px;">VER ➔</span>
+      <span style="background: rgba(255,255,255,0.2); padding: 3px 8px; border-radius: 6px; font-size: 11px;">VER QR ➔</span>
     </a>
 
     <!-- CRITICAL QR CHECK-IN ALERT (FIRST 30 MIN OR UPCOMING) -->
@@ -983,6 +983,23 @@
         progressFill.style.width = "0%";
         progressLeftText.textContent = "--";
         progressRightText.textContent = "--";
+      }
+
+      // 0. ACTUALIZACIÓN REACTIVA DEL BOTÓN DE JUSTIFICANTE
+      const btnJustificante = document.getElementById("btnJustificante");
+      const justificanteTitle = document.getElementById("justificanteTitle");
+      const justificanteSub = document.getElementById("justificanteSub");
+      const targetBlock = activeBlock || nextBlock;
+      if (btnJustificante && justificanteTitle && justificanteSub) {
+        if (targetBlock) {
+          const qrLink = (targetBlock.slots[0] && targetBlock.slots[0].qr_url) || "https://internet.ubintia.com/storage/azkunazentroa/qr_codes/9fe778ec-892d-4e81-971f-80082254b57f.jpg";
+          btnJustificante.href = qrLink;
+          justificanteTitle.textContent = `JUSTIFICANTE QR · PUESTO ${targetBlock.seat} (${targetBlock.start} - ${targetBlock.end})`;
+          justificanteSub.textContent = `Toca aquí para ver tu código QR oficial (Aitor Goikoetxea)`;
+        } else {
+          justificanteTitle.textContent = `QR OFICIAL DE ACCESO (AITOR GOIKOETXEA)`;
+          justificanteSub.textContent = `Código QR oficial para Azkuna Zentroa`;
+        }
       }
 
       // 1. GESTIÓN DE ALERTA CRÍTICA QR (Primeros 30 min de bloque o 15 min previos a cambio/inicio)
