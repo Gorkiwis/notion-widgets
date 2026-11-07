@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T14:17:37Z",
-  "total": 342,
+  "updated_at": "2026-11-07T14:22:38Z",
+  "total": 344,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4122,8 +4122,32 @@
       "course": "Gestión de Muestras Biológicas",
       "tema": "UD1",
       "origen": "Manual",
-      "question": "car",
-      "answer": "",
+      "question": "caracteristicas : sistema beregide",
+      "answer": "se ofrecen servicios publicos y privados",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-8042-8521-c5236ff1940a",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "financiación sistema beveridge",
+      "answer": "publica (por impuestos) y privada: pago de seguros/pago completo",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-8005-a7ff-dc17fc9af7a8",
+      "course": "Gestión de Muestras Biológicas",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "contratación  y gestión personal sistema beveridge",
+      "answer": "publica —> regulado por el estado\nprivada: —> la empresa, pero con control estatal",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
