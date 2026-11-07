@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T15:17:36Z",
-  "total": 357,
+  "updated_at": "2026-11-07T15:50:35Z",
+  "total": 359,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4304,6 +4304,30 @@
       "origen": "Manual",
       "question": "nivel",
       "answer": "",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-81a2-9af9-d13b3142668e",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "IA",
+      "question": "¿Qué consecuencia tiene una orientación errónea de la muestra en el cassette durante el tallado?",
+      "answer": "Si se orienta incorrectamente, la muestra quedará mal posicionada en el bloque de parafina y el micrótomo cortará en un plano histológico aberrante, induciendo al patólogo a emitir un diagnóstico clínico erróneo.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4112aca8-b201-819e-acd8-d5b9c2f981b9",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD2",
+      "origen": "IA",
+      "question": "¿Qué es el efecto mordiente y cuál es su finalidad técnica en histotecnología?",
+      "answer": "Es el tratamiento previo de estructuras celulares refractarias con reactivos químicos (como el ácido pícrico) para aumentar su afinidad y apetencia tintorial hacia colorantes que de otro modo no teñirían.",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
