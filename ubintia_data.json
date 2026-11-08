@@ -1,10 +1,21 @@
 {
-  "updated_at": "2026-11-07T17:33:33.703Z",
+  "updated_at": "2026-11-08T09:53:29.317Z",
   "location": "Mediateka BBK — Azkuna Zentroa (Ubintia)",
   "account": "gorkaobiangolaso@gmail.com",
   "sender_filter": "no-reply@amiprojects.com",
   "cloud_verified": true,
   "slots": [
+    {
+      "seat": 35,
+      "seat_label": "35.Ikaspostua",
+      "date": "25-10-2026",
+      "iso_date": "2026-10-25",
+      "start": "11:00",
+      "end": "12:00",
+      "status": "active",
+      "source_subject": "Erreserba berria",
+      "email_timestamp": "2026-10-25T08:47:56.000Z"
+    },
     {
       "seat": 35,
       "seat_label": "35.Ikaspostua",
@@ -469,17 +480,6 @@
     }
   ],
   "cancelled_or_expired": [
-    {
-      "seat": 35,
-      "seat_label": "35.Ikaspostua",
-      "date": "25-10-2026",
-      "iso_date": "2026-10-25",
-      "start": "11:00",
-      "end": "12:00",
-      "status": "cancelled",
-      "source_subject": "Erreserba kendu da",
-      "email_timestamp": "2026-10-25T09:52:45.000Z"
-    },
     {
       "seat": 29,
       "seat_label": "29.Ikaspostua",
