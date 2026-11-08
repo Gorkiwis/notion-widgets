@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T18:02:57Z",
-  "total": 399,
+  "updated_at": "2026-11-08T18:42:49Z",
+  "total": 403,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -4808,6 +4808,54 @@
       "origen": "Manual",
       "question": "30. [Tabla de Reflejos Rápidos \"Si leo... escribo...\"] Dispara el Modelo Sostenible + THD principal ante estas 9 pistas de examen:\n1) Tarifa por muestra escaneada sin comprar equipo\n2) Reactivos que caducan -> pedido automático según demanda\n3) Réplica virtual previa para bajar 20% consumo\n4) Plataforma común de excedentes entre hospitales\n5) Equipo dado de baja -> piezas 3D + garantía oficial\n6) Plástico hospitalario -> cobots -> otra industria con registro inmutable\n7) Calor de servidores CPD -> calefacción de edificios\n8) Gafas con instrucciones para reparar sin cambiar equipo\n9) Red europea en la nube que reparte biopsias urgentes con IA",
       "answer": "🎯 **1)** **Producto como servicio (Servitización)** + *Cloud / IoT / IA*\n🎯 **2)** **Producción JIT (Just-In-Time)** + *Big Data e IA predictiva*\n🎯 **3)** **Ecodiseño** + *Gemelo Digital*\n🎯 **4)** **Economía Colaborativa (Mancomunación)** + *Cloud + Sensores IoT*\n🎯 **5)** **Remanufactura (Extensión de vida)** + *Impresión 3D*\n🎯 **6)** **Simbiosis Industrial (Reciclado y reconversión)** + *IA + Cobots + Blockchain*\n🎯 **7)** **Recuperación de Calor Residual (Reciclado y reconversión)** + *Sensores IoT*\n🎯 **8)** **Extensión de la vida del producto (Reparabilidad)** + *Realidad Aumentada (RA) + 5G*\n🎯 **9)** **Economía Colaborativa / Descarbonización** + *Cloud (SaaS) + IA*",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4122aca8-b201-81fb-8fa9-ec68ae84f6ed",
+      "course": "Necropsias",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "[Caso Clínico de Examen] Ramón (67 años) ingresa por pielonefritis aguda; empeora a las 18 h y fallece a las 20 h en UCI. ¿Es obligatoria una autopsia clínica por ley y qué técnica de evisceración elegirá el patólogo y por qué?",
+      "answer": "🎯 NO ES JURÍDICAMENTE OBLIGATORIA (Ley 29/1980 y RD 2230/1982) | TÉCNICA DE LETULLE (EN BLOQUE ÚNICO) o GHON (BLOQUES FUNCIONALES)\n🔑 Gatillo mental: Ramón / 67 años / Pielonefritis aguda / Éxitus < 24h / Diseminación séptica.\n⚙️ Justificación de examen: No es obligatoria por ley (requiere no oposición familiar), pero sí fuertemente recomendada por calidad asistencial. Se usa Letulle o Ghon para extraer el retroperitoneo y vísceras en bloque conservando intactas las relaciones vasculares y la vía séptica.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4122aca8-b201-818c-86e1-e68197407791",
+      "course": "Necropsias",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "[Pregunta Oficial de Examen] ¿Por qué en ningún caso se puede hacer una autopsia parcial de un cadáver cuya muerte no se haya debido a causas naturales? (Pág. 34 Ej. 4)",
+      "answer": "🎯 AUTOPSIA MÉDICO-LEGAL / JUDICIAL OBLIGATORIAMENTE TOTAL E INTEGRAL (LECRIM)\n🔑 Gatillo mental: Muerte no natural / Prohibido autopsia parcial / Apertura obligatoria de las 3 cavidades.\n⚙️ Justificación de examen: 1) Obligación procesal de abrir y examinar cráneo, tórax y abdomen para descartar concausas ocultas; 2) Validez pericial ante el Tribunal (una parcial genera nulidad/duda razonable); 3) Muestreo toxicológico y criminalístico completo sin contaminación.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4122aca8-b201-81c6-9478-c2213722f01c",
+      "course": "Necropsias",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "[Supuestos Prácticos de Examen - Pág. 35 Ej. 7] Indica el tipo de autopsia o actuación: a) Joven de 23 años hallado muerto al borde de escaleras con signos de haber rodado por ellas. b) Anciana de 89 años fallecida de madrugada tras 3 meses ingresada por fallos multiorgánicos conocidos.",
+      "answer": "🎯 CASO A: AUTOPSIA JUDICIAL / MÉDICO-LEGAL (TOTAL) | CASO B: NO SE REALIZA AUTOPSIA (CERTIFICADO MÉDICO ORDINARIO)\n🔑 Gatillo mental: Joven rodando por escaleras = Violenta/Sospechosa -> Judicial; Anciana 89a hospitalizada 3 meses = Natural/Esperada -> Certificado ordinario.\n⚙️ Justificación de examen: El joven es una muerte violenta/accidental en domicilio que exige esclarecer etiología forense e investigar si hubo traumatismo o intoxicación previa (LECrim). La anciana es una muerte natural hospitalaria completamente diagnosticada; el médico responsable firma el Certificado de Defunción.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4122aca8-b201-8180-a0c3-d885aa62e6e0",
+      "course": "Necropsias",
+      "tema": "UD1",
+      "origen": "Manual",
+      "question": "[Supuesto Práctico de Examen - Pág. 35 Ej. 7c] Adolescente de 16 años fallece en el hospital tras sufrir un fallo hepático agudo. Su familia es muy religiosa y se opone formalmente a la realización de la autopsia. ¿Qué actuación procede y qué alternativa existe?",
+      "answer": "🎯 AUTOPSIA CLÍNICA VETADA (NO SE REALIZA AUTOPSIA INVASIVA) / ALTERNATIVA NO INVASIVA: VIRTOPSIA (TAC/RM) o ECOPSIA PERCUTÁNEA\n🔑 Gatillo mental: Adolescente 16 años / Fallo hepático en hospital / Familia religiosa se opone.\n⚙️ Justificación de examen: Al tratarse de muerte natural, la autopsia es clínica y la ley española (RD 2230/1982) otorga derecho de veto expreso a la familia. Queda terminantemente prohibido abrir el cadáver; únicamente cabría plantear una Virtopsia o ecopsia si los familiares consienten ese abordaje no invasivo.",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
