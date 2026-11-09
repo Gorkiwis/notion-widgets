@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-09T10:03:00Z",
-  "total": 399,
+  "updated_at": "2026-11-09T17:31:27Z",
+  "total": 413,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -21,7 +21,8 @@
       "Citología General::UD2": "Anki_Citologia_General_UD2.apkg",
       "Procesamiento citológico y tisular::UD2": "Anki_Procesamiento_citologico_y_tisular_UD2.apkg",
       "Gestión de Muestras Biológicas::UD1": "Anki_Gestion_de_Muestras_Biologicas_UD1.apkg",
-      "Digitalización::UD2": "Anki_Digitalizacion_UD2.apkg"
+      "Digitalización::UD2": "Anki_Digitalizacion_UD2.apkg",
+      "Necropsias::UD3": "Anki_Necropsias_UD3.apkg"
     }
   },
   "cards": [
@@ -4808,6 +4809,174 @@
       "origen": "Manual",
       "question": "30. [Reflejos] 1) Tarifa/muestra 2) Sin caducar stock 3) Réplica virtual 4) Red excedentes 5) Piezas 3D+garantía 6) Plástico a otra industria 7) Calor CPD 8) Gafas reparar.",
       "answer": "🎯 **1)** Servitización | **2)** JIT + IA | **3)** Ecodiseño + Gemelo Digital | **4)** Economía Colaborativa\n🎯 **5)** Remanufactura + 3D | **6)** Simbiosis + Blockchain | **7)** Reconversión calor | **8)** Extensión vida + RA.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-8146-a496-e0cbc3b18212",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Tijeras con dos puntas redondeadas para disecar sin perforar la pared de las arterias del cuello. ¿Qué herramienta es?",
+      "answer": "🎯 **TIJERAS DE DOS PUNTAS ROMAS**\n🔑 **Gatillo Mental**: Extremos redondeados / Arterias del cuello.\n⚙️ **Uso**: Disección vascular cervical evitando perforaciones o desgarros accidentales.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-81d7-92c5-cd0daa3f0748",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Tijeras con ambos filos acabados en punta afilada para la disección general de parénquimas y órganos macizos. ¿Qué herramienta es?",
+      "answer": "🎯 **TIJERAS DE DOS PUNTAS AGUDAS**\n🔑 **Gatillo Mental**: Filos puntiagudos / Disección de órganos.\n⚙️ **Uso**: Disección y corte preciso del parénquima de órganos macizos.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-8159-87b2-f92afbe05d2d",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Tijeras con un filo acabado en punta redondeada y el otro punzante para cortar arterias coronarias y vías biliares. ¿Qué herramienta es?",
+      "answer": "🎯 **TIJERAS DE PUNTA MIXTA (UNA PUNTA ROMA Y OTRA AGUDA)**\n🔑 **Gatillo Mental**: Una roma, una aguda / Arterias coronarias y vías biliares.\n⚙️ **Uso**: Apertura de arterias pequeñas y conductos finos introduciendo la punta roma en la luz sin perforar el fondo.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-8124-a781-c922a909922f",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Tijeras con una extremidad redondeada o botón bulboso para abrir rápidamente el tubo digestivo longitudinalmente. ¿Qué herramienta es?",
+      "answer": "🎯 **ENTERÓTOMO**\n🔑 **Gatillo Mental**: Extremidades redondeadas / Tubo digestivo.\n⚙️ **Uso**: Apertura rápida y limpia de estómago e intestinos en toda su longitud sin perforar la pared opuesta.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-8119-afbe-c8efd4f0fbca",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Tijeras largas de mandíbulas duras curvadas hacia arriba para seccionar la médula cervical en la extracción del encéfalo. ¿Qué herramienta es?",
+      "answer": "🎯 **TIJERAS CURVAS**\n🔑 **Gatillo Mental**: Filos hacia arriba / Médula cervical y cortes profundos.\n⚙️ **Uso**: Separación de la médula espinal cervical en la extracción del encéfalo y cortes en tejidos profundos.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-81ff-a765-fc471b30bd75",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Tijeras con hojas en ángulo de 120 grados con las ramas y botón plano para cortar ropa y vendajes. ¿Qué herramienta es?",
+      "answer": "🎯 **TIJERAS ACODADAS / DE BOTÓN / DE LISTER**\n🔑 **Gatillo Mental**: Ángulo 120 grados / Ropa y vendajes.\n⚙️ **Uso**: Corte de ropa y apósitos en el examen externo preliminar evitando cortar la piel del cadáver.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-819e-95cc-fa011483b66c",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Tijeras con una hoja en forma de gancho u hoz y la otra roma para retirar puntos de sutura. ¿Qué herramienta es?",
+      "answer": "🎯 **TIJERAS DE LITTAUER**\n🔑 **Gatillo Mental**: Hoja en forma de hoz o gancho / Puntos de sutura.\n⚙️ **Uso**: Corte y retirada de puntos de sutura quirúrgicos.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-8112-81d0-d62d3ad83764",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Instrumento de corte fino utilizado para cortar nervios craneales, meninges y extraer la hipófisis al eviscerar el encéfalo. ¿Qué herramienta es?",
+      "answer": "🎯 **BISTURÍ (O ESCALPELO)**\n🔑 **Gatillo Mental**: Mango y hoja fina / Nervios craneales, meninges e hipófisis.\n⚙️ **Uso**: Corte de pares craneales y meninges al eviscerar el encéfalo, extracción de hipófisis y desarticulación esternoclavicular.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-8121-a44b-c35a5cbc4d29",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Instrumento de corte articulado semejante a una cizalla para cortar cartílagos costales y costillas al abrir el tórax. ¿Qué herramienta es?",
+      "answer": "🎯 **COSTÓTOMO**\n🔑 **Gatillo Mental**: Semejante a cizalla / Cartílagos costales y costillas.\n⚙️ **Uso**: Corte de cartílagos costales y costillas para retirar el peto esternal y abrir la cavidad torácica.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-81d7-ba95-c5f6271673bd",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Herramienta de apertura ósea recta o en T para separar la calota del cráneo tras el serrado. ¿Qué herramienta es?",
+      "answer": "🎯 **ESCOPLO**\n🔑 **Gatillo Mental**: Herramienta recta o en T / Separar la calota craneal.\n⚙️ **Uso**: Apalancamiento y fractura de la tabla ósea para separar la calota del cráneo tras el aserrado.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-81a6-b528-e5da1eee5ba0",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Martillo metálico en cuyo extremo posterior dispone de un gancho para hacer palanca y separar la bóveda craneal. ¿Qué herramienta es?",
+      "answer": "🎯 **MARTILLO CON GANCHO**\n🔑 **Gatillo Mental**: Acero con gancho / Separar bóveda del cráneo.\n⚙️ **Uso**: Introducir el gancho en la hendidura ósea para traccionar y desprender la bóveda craneal (calota).",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-81e8-b043-ff903710f808",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Instrumento de mango y filo curvado (o doble sierra paralela) para abrir el canal vertebral sin dañar la médula. ¿Qué herramienta es?",
+      "answer": "🎯 **RAQUÍTOMO**\n🔑 **Gatillo Mental**: Mango y filo curvado (o doble sierra) / Canal vertebral y médula.\n⚙️ **Uso**: Apertura del canal raquídeo (columna) y extracción íntegra de la médula espinal sin traumatizarla.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-81a0-80c6-d728e057b8ad",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Pinzas de disección con puntas afiladas intercaladas usadas para separar la cápsula del riñón o la duramadre. ¿Qué herramienta es?",
+      "answer": "🎯 **PINZAS CON DIENTES DE RATÓN**\n🔑 **Gatillo Mental**: Puntas afiladas intercaladas / Cápsula del riñón y duramadre.\n⚙️ **Uso**: Sujeción firme de tejidos resistentes y despegamiento de la cápsula renal o de la duramadre craneal.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4132aca8-b201-8138-9f34-c24d1e8dde77",
+      "course": "Necropsias",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "Pinzas hemostáticas de forcipresión con cremallera: ¿cuál es grande para vasos mayores y cuál es pequeña para vasos finos?",
+      "answer": "🎯 **PINZAS DE KOCHER (VASOS GRANDES) VS. PINZAS DE MOSQUITO (VASOS PEQUEÑOS)**\n🔑 **Gatillo Mental**: Forcipresión y cremallera / Calibre vascular.\n⚙️ **Uso**: Pinzas hemostáticas: Kocher (mayor tamaño con dientes de gancho) para vasos grandes; Mosquito (más pequeñas) para vasos de pequeño calibre.",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
