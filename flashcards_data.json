@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T15:28:21Z",
-  "total": 446,
+  "updated_at": "2026-11-10T15:33:24Z",
+  "total": 447,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -5373,7 +5373,19 @@
       "tema": "UD3",
       "origen": "Manual",
       "question": "mediante que dos  mecanismos causa lesiones la electricidad",
-      "answer": "mediante, electroporación y lesión ter",
+      "answer": "mediante, electroporación y lesión termica",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-80ba-bde0-d4853f838f55",
+      "course": "Fisiopatología General",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "¿que es la electroporación?",
+      "answer": "alteración del potencial de las membranasm que provoca edema celular, con daño irreversible",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
