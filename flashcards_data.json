@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-09T19:00:19Z",
-  "total": 435,
+  "updated_at": "2026-11-10T14:38:22Z",
+  "total": 434,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -1378,18 +1378,6 @@
       "origen": "Manual",
       "question": "¿QUE ES UN APARATO?",
       "answer": "CONJUNTO DE ORGANOS FORMADO POR DIFERENTES TEJIDOS QUE CUMPLEN DIFERENTES FUNCIONES",
-      "status": "To Learn",
-      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
-      "image": "",
-      "image_filename": ""
-    },
-    {
-      "id": "3fe2aca8-b201-802c-9af0-e7df043e209e",
-      "course": "Fisiopatología General",
-      "tema": "UD2",
-      "origen": "Manual",
-      "question": "6APARATOS",
-      "answer": "• aparato circulatorio \n  • aparato locomotor \n  • aparato digestivo \n  • aparato urinario \n  • aparato cardiovascula\n  • aparato digestivo",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
