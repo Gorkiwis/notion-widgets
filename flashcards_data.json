@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T15:06:24Z",
-  "total": 438,
+  "updated_at": "2026-11-10T15:11:24Z",
+  "total": 440,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -5278,6 +5278,30 @@
       "origen": "Manual",
       "question": "¿que causas pueden provocar la muerte celular por un fallo de los sistemas de protección",
       "answer": "daños en la memrbana",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-80c7-ab9b-c6f5320f4f3c",
+      "course": "Fisiopatología General",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "¿que es la necrosis licuefactiva?",
+      "answer": "tejido se degenera de forma rapida, la zona necrosada se vuelve liquida",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-80a5-9c97-e541d8adc9d4",
+      "course": "Fisiopatología General",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "¿que es la necrosis",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
