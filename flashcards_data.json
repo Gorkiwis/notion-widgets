@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T15:22:21Z",
-  "total": 443,
+  "updated_at": "2026-11-10T15:28:21Z",
+  "total": 446,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -5337,7 +5337,43 @@
       "tema": "UD3",
       "origen": "Manual",
       "question": "respecto a los agentes patogenos fisicos, que describimos de la temperatura",
-      "answer": "el organismo funciona entree los 31 y los 41 grados, fu",
+      "answer": "el organismo funciona entree los 31 y los 41 grados, fuera de ese intervalo se producen lesiones celulares",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-8001-883c-ee773985c957",
+      "course": "Fisiopatología General",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "rspecto a los agentes patogenos fisicos, que describimos sobre la Presión atmosferica",
+      "answer": "presiones fuera del marguen o variaciones brucas pueden provocar lesiones celulares",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-8070-9259-e1d7f0ddba57",
+      "course": "Fisiopatología General",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "respecto a los agentes patogenos, que describimos en la electtricidad",
+      "answer": "depende de intensidad, voltake  y duración de la exposición",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-80a7-b593-e326d417abc2",
+      "course": "Fisiopatología General",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "mediante que dos  mecanismos causa lesiones la electricidad",
+      "answer": "mediante, electroporación y lesión ter",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
