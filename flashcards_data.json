@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T16:45:02Z",
-  "total": 449,
+  "updated_at": "2026-11-10T17:30:06Z",
+  "total": 451,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -5301,7 +5301,7 @@
       "tema": "UD3",
       "origen": "Manual",
       "question": "¿que es la necrosis",
-      "answer": "",
+      "answer": "Proceso no fisiológico causado por la acción de un agente externo que conduce a la muerte celular, mediante dos mecanismos: 1) Desnaturalización de proteínas celulares y 2) Digestión enzimática (autólisis por sus propios lisosomas o heterólisis por enzimas de otras células).",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
@@ -5397,7 +5397,7 @@
       "tema": "UD3",
       "origen": "Manual",
       "question": "¿como mantienen las celulas la homeostasis?",
-      "answer": "",
+      "answer": "Mediante mecanismos de regulación (compensan pequeños cambios del medio externo) o mecanismos de adaptación (cuando el estímulo persiste, logrando un nuevo equilibrio para preservar su integridad).",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
@@ -5410,6 +5410,30 @@
       "origen": "Manual",
       "question": "respecto a la respuesta fisiologica agentes externos",
       "answer": "la celula usa los mecanismso de regulación/adaptación para compensar la acción",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-8135-92bd-f29ed00a5ed7",
+      "course": "Fisiopatología General",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "[MEDIDA TERAPÉUTICA — Molde Ej. 25a y Pág. 84] ¿Qué denominación usarías para calificar una medida terapéutica que tiene por objetivo controlar la enfermedad sin aplicar medidas agresivas, frente a otra que recurre a todos los medios disponibles para erradicarla?",
+      "answer": "🎯 CONSERVADORA (sin medidas agresivas) vs. RADICAL (todos los medios para erradicarla)\n🔑 Gatillo Mental: «controlar sin aplicar medidas agresivas» = Conservadora | «todos los medios para erradicar» = Radical\n⚙️ Justificación: Según la pág. 84, el par de oposición es Medidas conservadoras / radicales, dependiendo del estado del paciente y las consecuencias de aplicar medidas agresivas.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-818c-9bdf-dfb172f733fb",
+      "course": "Fisiopatología General",
+      "tema": "UD3",
+      "origen": "IA",
+      "question": "[MEDIDA TERAPÉUTICA — Molde Ej. 25c, 25e y Pág. 84] Discriminación de 2 Pares Confusos: 1) Medida que busca curar la enfermedad vs. aliviar sus efectos en pacientes terminales; 2) Medida que actúa directamente sobre la causa/mecanismo de acción vs. la que se limita a aliviar separadamente los síntomas (como en la gripe).",
+      "answer": "🎯 Par 1: CURATIVA vs. PALIATIVA (pacientes terminales) | Par 2: ESPECÍFICA (sobre la causa) vs. SINTOMÁTICA (sobre los síntomas)\n🔑 Gatillo Mental: «aliviar en enfermos terminales» = Paliativa | «actúa sobre los síntomas, no sobre la causa» = Sintomática | «actúa sobre la causa» = Específica\n⚙️ Justificación: ¡Ojo a la trampa! Si actúa sobre los síntomas sin tocar la causa (ej. gripe) es SINTOMÁTICA (opuesta a ESPECÍFICA); si alivia el sufrimiento en una enfermedad terminal sin curación posible es PALIATIVA (opuesta a CURATIVA).",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
