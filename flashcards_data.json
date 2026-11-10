@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T17:49:08Z",
-  "total": 474,
+  "updated_at": "2026-11-10T18:05:05Z",
+  "total": 480,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -5710,6 +5710,78 @@
       "origen": "IA",
       "question": "[CASOS PRÁCTICOS DEL LIBRO — Pág. 87 y Ej. 18: Clasificación Cruzada de Gripe y Anisakiasis] Si en el examen te piden aplicar TODOS los criterios de clasificación de las págs. 76–77 a la «Gripe» (Ej. 18) o analizar la «Anisakiasis» (pág. 87: ingestión de pescado crudo/poco cocinado con larvas de Anisakis), ¿cómo las clasificarías?",
       "answer": "🎯 GRIPE: Extrínseca, adquirida, unifactorial, de agente causal conocido (virus influenza), de efecto inmediato, directa, aguda (< 3 meses), sistémica (afecta a todo el organismo) y exógena infecciosa (con tratamiento sintomático)\n🎯 ANISAKIASIS (pág. 87): Etiología = agente biológico exógeno (endoparásito Anisakis en pescado poco cocinado); Patogenia = invasión de la pared gástrica/intestinal provocando reacción inflamatoria y/o alérgica (anafilaxia); Semiología = dolor abdominal agudo, náuseas, vómitos, diarrea, fiebre; Tratamiento = sintomático/específico (antialérgicos, fluidoterapia/sueroterapia, extracción por endoscopia o resección quirúrgica si hay obstrucción/perforación)\n🔑 Gatillo Mental: Gripe = «extrínseca + adquirida + aguda + sistémica + exógena infecciosa + tratamiento sintomático»\n⚙️ Justificación: Resuelve directamente el Ejercicio 18 y el Caso Práctico 2 de la pág. 87 del libro.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-81e8-ad7f-fc38ced5a117",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "origen": "IA",
+      "question": "[HISTOLOGÍA UD02 — Epitelios Simples 1/6: Difusión Pasiva y Deslizamiento Seroso] Una preparación revela una monocapa celular extraordinariamente delgada formada por células aplanadas con núcleos fusiformes abultados hacia la luz. Su función es permitir el transporte pasivo inmediato de gases o evitar el roce entre órganos en movimiento. ¿Qué epitelio exacto y qué cuatro localizaciones anatómicas diagnósticas evocas?",
+      "answer": "🎯 EPITELIO PLANO SIMPLE (ESCAMOSO O PAVIMENTOSO)\n🔑 Gatillo Mental: Difusión pasiva ultrarrápida, núcleos fusiformes sobresalientes, monocapa ultrafina, endotelio vs mesotelio.\n⚙️ Justificación de examen: Ofrece el grosor de barrera mínimo posible para facilitar el intercambio pasivo de gases y fluidos sin fricción. Localizaciones clave: Alveolos pulmonares (neumocitos I), endotelio vascular/linfático, mesotelio (pleura, pericardio, peritoneo) y hoja parietal de la cápsula de Bowman renal.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-816a-9161-f7b850fb86e6",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "origen": "IA",
+      "question": "[HISTOLOGÍA UD02 — Epitelios Simples 2/6: Transporte Activo y Secreción Endocrina] En un corte histológico se identifican unidades tubulares o esferoidales delimitadas por una sola hilera de células con dimensiones equivalentes en altura y anchura, dotadas de núcleos redondeados perfectamente centrados, cuya función es la resorción de solutos o la producción hormonal. ¿Qué arquitectura epitelial y qué localizaciones clínicas clave diagnosticas?",
+      "answer": "🎯 EPITELIO CÚBICO SIMPLE\n🔑 Gatillo Mental: Altura = anchura, núcleo esférico central, reabsorción tubular activa, síntesis folicular tiroidea.\n⚙️ Justificación de examen: El volumen cúbico proporciona el espacio citoplasmático necesario para albergar mitocondrias y maquinaria de transporte activo/secreción metabólica. Localizaciones clave: Túbulos renales (contorneados proximal y distal), folículos tiroideos (coloide T3/T4), epitelio germinal de la superficie ovárica y pequeños conductos excretores glandulares.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-817b-a466-e0af059437af",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "origen": "IA",
+      "question": "[HISTOLOGÍA UD02 — Epitelios Simples 3/6: Absorción Nutricional Masiva y Mucina] Una biopsia de mucosa visceral muestra células columnares de gran altura con núcleos alargados situados en el tercio basal. En su borde luminal destaca una banda densa refringente (chapa estriada) intercalada con células productoras de moco en copa. ¿Qué variedad epitelial exacta y qué recorrido anatómico representa?",
+      "answer": "🎯 EPITELIO CILÍNDRICO (PRISMÁTICO) SIMPLE NO CILIADO (CON MICROVELLOSIDADES)\n🔑 Gatillo Mental: Células altas, núcleos ovalados basales, ribete en cepillo (chapa estriada), células caliciformes mucosas, tubo digestivo.\n⚙️ Justificación de examen: Las microvellosidades inmóviles apicales multiplican exponencialmente la superficie de absorción de nutrientes, mientras las células caliciformes lubrican y protegen la mucosa frente al jugo digestivo. Localización clave: Todo el tracto gastrointestinal desde el cardias gástrico hasta el canal anal (estómago, intestino delgado, colon) y la vesícula biliar.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-81ec-bda6-cd9b03731caa",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "origen": "IA",
+      "question": "[HISTOLOGÍA UD02 — Epitelios Simples 4/6: Desplazamiento Celular por Batido Mecánico] Un órgano tubular reproductor presenta un epitelio monoestratificado donde todas las células prismáticas alcanzan la misma altura y exhiben en su dominio apical abundantes proyecciones móviles filiformes que baten rítmicamente en una dirección para transportar una célula libre. ¿Qué tejido específico es y cuál es su ubicación principal?",
+      "answer": "🎯 EPITELIO CILÍNDRICO SIMPLE CILIADO\n🔑 Gatillo Mental: Monocapa regular de células altas, cilios móviles apicales coordinados, arrastre de óvulo/líquido.\n⚙️ Justificación de examen: El batido de microtúbulos apicales desplaza físicamente células o fluidos a lo largo de un conducto estrecho. Localizaciones clave: Trompas de Falopio (oviductos/trompas uterinas: transporte del óvulo fecundado hacia el útero), bronquiolos terminales respiratorios y epéndimo (revestimiento de los ventrículos cerebrales y conducto central medular).",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-815a-96f0-de74b41b187a",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "origen": "IA",
+      "question": "[HISTOLOGÍA UD02 — Epitelios Simples 5/6: Falsa Estratificación y Aclaramiento Mucociliar] Se observa un tejido con aspecto óptico de varias capas celulares debido a que los núcleos se ubican a diferentes niveles tisulares; no obstante, el microscopio electrónico confirma que el 100% de las células descansan sobre la membrana basal. El polo apical posee cilios y abundantes células caliciformes. ¿Qué epitelio exacto es y en qué órganos respiratorios radica?",
+      "answer": "🎯 EPITELIO PSEUDOESTRATIFICADO CILÍNDRICO CILIADO (EPITELIO RESPIRATORIO)\n🔑 Gatillo Mental: Todos contactan la membrana basal, núcleos desalineados a distintas alturas, batido mucociliar, células caliciformes.\n⚙️ Justificación de examen: Aunque parece estratificado, es una monocapa de células de diferentes alturas; los cilios apicales y el moco atrapan y expulsan hacia la faringe los patógenos y partículas inhaladas. Localizaciones clave: Vías respiratorias superiores y medias (Tráquea, bronquios principales, fosas nasales). *Variedad no ciliada:* Conductos excretores de la glándula parótida.",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4142aca8-b201-81b5-9956-eb8339a426cc",
+      "course": "Fisiopatología General",
+      "tema": "UD2",
+      "origen": "IA",
+      "question": "[HISTOLOGÍA UD02 — Epitelios Simples 6/6: Discriminación Crítica de Pares Confusos (Minimal Pairs)] En el examen te ponen tres láminas con células prismáticas altas: Lámina A con prolongaciones apicales inmóviles de actina para chupar nutrientes; Lámina B con cilios móviles en células de igual altura para trasladar un cigoto; Lámina C con cilios sobre células de alturas dispares y núcleos en escalera. ¿Qué tres diagnósticos diferenciales exactos emites?",
+      "answer": "🎯 1. ABSORBER NUTRIENTES $\\rightarrow$ Cilíndrico simple con microvellosidades (intestino) | 2. MOVER EL ÓVULO $\\rightarrow$ Cilíndrico simple ciliado (trompas de Falopio) | 3. BARRER MOCO CON POLVO $\\rightarrow$ Pseudoestratificado cilíndrico ciliado (tráquea).\n🔑 Gatillo Mental: Microvellosidades = filamentos de actina inmóviles para absorción; Cilios = microtúbulos móviles con axonema 9+2 para transporte mecánico; Trompa = monocapa alineada; Tráquea = pseudoestratificada con núcleos escalonados.\n⚙️ Justificación de examen: Esta triada resuelve las preguntas trampa de discriminación morfológica apical y funcional en exámenes de histología y citodiagnóstico.",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
