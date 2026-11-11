@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T19:33:06Z",
-  "total": 519,
+  "updated_at": "2026-11-11T13:02:21Z",
+  "total": 520,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -23,7 +23,8 @@
       "Gestión de Muestras Biológicas::UD1": "Anki_Gestion_de_Muestras_Biologicas_UD1.apkg",
       "Digitalización::UD2": "Anki_Digitalizacion_UD2.apkg",
       "Necropsias::UD3": "Anki_Necropsias_UD3.apkg",
-      "Fisiopatología General::UD3": "Anki_Fisiopatologia_General_UD3.apkg"
+      "Fisiopatología General::UD3": "Anki_Fisiopatologia_General_UD3.apkg",
+      "Fisiopatología General::UD: Especial": "Anki_Fisiopatologia_General_UD_Especial.apkg"
     }
   },
   "cards": [
@@ -6250,6 +6251,18 @@
       "origen": "IA",
       "question": "¿En qué fase de la meiosis se produce la escisión centromérica y separación de cromátidas hermanas recombinadas?",
       "answer": "ANAFASE II (análoga a la anafase mitótica, pero operando sobre células ya haploides).",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4152aca8-b201-81f0-95ae-e5a4970413eb",
+      "course": "Fisiopatología General",
+      "tema": "UD: Especial",
+      "origen": "IA",
+      "question": "¿Qué proteína forma los microfilamentos y cuáles son sus 5 funciones (3M+2E)?",
+      "answer": "Actina.\n• Contracción muscular • Esqueleto citoplasmático • Adhesión/migración\n• Endocitosis, exocitosis y vesículas • Microvellosidades y estereocilios",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
