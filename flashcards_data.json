@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T13:07:20Z",
-  "total": 544,
+  "updated_at": "2026-11-11T13:24:20Z",
+  "total": 549,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -6551,6 +6551,66 @@
       "origen": "IA",
       "question": "¿Qué 2 mecanismos causan la necrosis y qué diferencia autólisis de heterólisis?",
       "answer": "Mecanismos: 1) Desnaturalización de proteínas celulares y 2) Digestión enzimática.\n• Autólisis: digestión por sus propias enzimas lisosomales\n• Heterólisis: digestión por enzimas de otras células",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4152aca8-b201-81c6-8a4e-d9355b8649f3",
+      "course": "Fisiopatología General",
+      "tema": "UD: Especial",
+      "origen": "IA",
+      "question": "Endocitosis y migración vs. movimiento de orgánulos y cilios: ¿actina o tubulina?",
+      "answer": "• Endocitosis, exocitosis, vesículas y migración: Microfilamentos (actina)\n• Movimiento de orgánulos, cilios y flagelos: Microtúbulos (tubulina)",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4152aca8-b201-812e-b554-f0dd8205e22a",
+      "course": "Fisiopatología General",
+      "tema": "UD: Especial",
+      "origen": "IA",
+      "question": "Diferencia estricta entre Prometafase y Anafase en mitosis",
+      "answer": "• Prometafase: se rompe la envoltura nuclear y los microtúbulos anclan en cinetocoros\n• Anafase: se escinden los centrómeros y las cromátidas hermanas migran a polos opuestos",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4152aca8-b201-817a-a12a-d182eb207a38",
+      "course": "Fisiopatología General",
+      "tema": "UD: Especial",
+      "origen": "IA",
+      "question": "En Profase I, ¿cruzan cromátidas hermanas o no hermanas y por qué?",
+      "answer": "Cromátidas NO hermanas de cromosomas homólogos (bivalentes).\nLas hermanas son copias idénticas de fase S; cruzarlas no daría variabilidad genética",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4152aca8-b201-811c-9c0e-d51c0c8fa5fa",
+      "course": "Fisiopatología General",
+      "tema": "UD: Especial",
+      "origen": "IA",
+      "question": "¿Qué delimita 1 sarcómero y qué filamentos forman las bandas I y A?",
+      "answer": "• Sarcómero: unidad funcional delimitada por 2 líneas Z\n• Banda I (clara, junto a Z): solo filamentos finos de actina\n• Banda A (oscura): filamentos gruesos de miosina + finos de actina",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4152aca8-b201-8173-a440-c4dea49c55d0",
+      "course": "Fisiopatología General",
+      "tema": "UD: Especial",
+      "origen": "IA",
+      "question": "Mecanismo de acción de un agente vs. cambios morfológicos en biopsia: ¿qué ramas son?",
+      "answer": "• Mecanismo de acción de toxina y respuesta celular/tisular: Patogenia\n• Cambios morfológicos visibles en biopsia/microscopio: Anatomía patológica",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
