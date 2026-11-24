@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-24T18:29:59Z",
-  "total": 551,
+  "updated_at": "2026-11-24T18:41:01Z",
+  "total": 552,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -6635,7 +6635,19 @@
       "tema": "UD3",
       "origen": "Manual",
       "question": "¿cuales son las sustancias mas utilizadas en inclusión y en que situaciones se utilizan?",
-      "answer": "",
+      "answer": "utilizaremos Parafina, para microscopía optica y Resina, para microscopía electronica",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4222aca8-b201-80a6-a4af-de9ca2daf83e",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "que grosor de corte y mediante que metodo, se cortan los tejidos fijados mediante congelación",
+      "answer": "hacemos uso de un criostato, con grosores de corte de 5 a 20 micrometros",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
