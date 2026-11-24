@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-24T18:23:59Z",
-  "total": 549,
+  "updated_at": "2026-11-24T18:29:59Z",
+  "total": 551,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -24,7 +24,8 @@
       "Digitalización::UD2": "Anki_Digitalizacion_UD2.apkg",
       "Necropsias::UD3": "Anki_Necropsias_UD3.apkg",
       "Fisiopatología General::UD3": "Anki_Fisiopatologia_General_UD3.apkg",
-      "Fisiopatología General::UD: Especial": "Anki_Fisiopatologia_General_UD_Especial.apkg"
+      "Fisiopatología General::UD: Especial": "Anki_Fisiopatologia_General_UD_Especial.apkg",
+      "Procesamiento citológico y tisular::UD3": "Anki_Procesamiento_citologico_y_tisular_UD3.apkg"
     }
   },
   "cards": [
@@ -6611,6 +6612,30 @@
       "origen": "IA",
       "question": "Mecanismo de acción de un agente vs. cambios morfológicos en biopsia: ¿qué ramas son?",
       "answer": "• Mecanismo de acción de toxina y respuesta celular/tisular: Patogenia\n• Cambios morfológicos visibles en biopsia/microscopio: Anatomía patológica",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4222aca8-b201-803c-bbf6-e5a802439e67",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "¿como se describe el proceso de inclusión?",
+      "answer": "proceso por el cual eliminamos el agua de una muestra, para sustituirlopor otro, que pueda mantener la estructura de la muestra, conservando consistencia rigida",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4222aca8-b201-80da-9fe8-e9ffbc9c4128",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "¿cuales son las sustancias mas utilizadas en inclusión y en que situaciones se utilizan?",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
