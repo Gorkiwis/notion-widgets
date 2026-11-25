@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25T18:01:16Z",
-  "total": 553,
+  "updated_at": "2026-11-25T18:07:19Z",
+  "total": 556,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -6659,7 +6659,43 @@
       "tema": "UD3",
       "origen": "Manual",
       "question": "que sustancias o metodos utiblizamos para evitar la formació de cristales de hielo al congelar tejidos?",
-      "answer": "",
+      "answer": "hacer uso de sustancias anticongelantes o de procesos de congelación rapidos",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4232aca8-b201-803d-8e9d-e884328d2a29",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "¿que son las sustancias criopotectoras?",
+      "answer": "sustancias HIDROSOLUBLES, que reducen la temperatura de fusión o solidificación del tejido",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4232aca8-b201-80a4-8c40-dca1055aadfc",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "3 ejemplos de sustancias crioprotectoras:",
+      "answer": "Glicerol, etilenglicol, dimetillsufoxido y sacarosa al 30%",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4232aca8-b201-80b9-8297-fc6e1f9e88c3",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "inconvenientes que puedan ocurrir durante la criopreservación",
+      "answer": "•concentración de anticongelante toxica, aumento de la toxicidad a temperatura ambiente , es necesario respetar un tiempo de exposición concreto",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
