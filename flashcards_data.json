@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25T18:37:13Z",
-  "total": 561,
+  "updated_at": "2026-11-25T18:43:16Z",
+  "total": 564,
   "apkg_map": {
     "ALL": "Anki_Flashcards_Completo.apkg",
     "courses": {
@@ -6756,6 +6756,42 @@
       "origen": "Manual",
       "question": "¿de que factores van a depender los factores aclarantes?",
       "answer": "• Rapidez con el agente aclarante elimine al agente deshidrante\n  • la preservación de las estructuras del tejido\n  • facilidad de eliminación\n  • toxicidad, peligrosidad tanto en el tejido como para el personal que lo maneja",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4232aca8-b201-80b0-a54d-eaf1ef2b0145",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "¿cual es el agente aclarante mas utilizado?",
+      "answer": "el agente aclarante utilizado es el Xileno",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4232aca8-b201-80d1-8a44-e4962db5631b",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "¿que ventajas tiene el xileno?",
+      "answer": "• Endurece poco los tejidos\n  • mecanismo de acción rapido\n  • es facil de eliminar",
+      "status": "To Learn",
+      "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
+      "image": "",
+      "image_filename": ""
+    },
+    {
+      "id": "4232aca8-b201-807b-9c8d-d6ef8c79d670",
+      "course": "Procesamiento citológico y tisular",
+      "tema": "UD3",
+      "origen": "Manual",
+      "question": "¿que desventajas tiene el xileno?",
+      "answer": "",
       "status": "To Learn",
       "plantilla": "✍️ Plantilla 1: Respuesta escrita (Contraste)",
       "image": "",
